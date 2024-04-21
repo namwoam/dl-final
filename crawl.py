@@ -12,7 +12,10 @@ def crawl(url: str):
         "content").split("&")[0]
     description = soup.find(
         "div", attrs={"class": "bd"}).get_text().replace("\n", "").replace("\xa0", "")
-    return {"bookname": bookname, "cover": cover, "description": description}
+    category = soup.find(
+        "meta", attrs={"content": "5", "property": "position"}).find_parent().find("meta", attrs={"property": "name"}).get("content")
+    print(category)
+    return {"bookname": bookname, "cover": cover, "description": description, "category": category}
 
 
 if __name__ == "__main__":
