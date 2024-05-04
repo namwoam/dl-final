@@ -10,10 +10,10 @@ def test_mllm():
     )
     tokenizer = AutoTokenizer.from_pretrained(model_id, revision=revision)
 
-    image = Image.open('ww2.jpeg')
+    image = Image.open('room.png')
     enc_image = model.encode_image(image)
     print(model.answer_question(
-        enc_image, "Answer the nationality of the troops in the image", tokenizer))
+        enc_image, "Explain the meaning of the image", tokenizer))
 
 
 if __name__ == "__main__":
