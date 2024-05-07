@@ -18,7 +18,7 @@ def main():
         model_kwargs={"torch_dtype": torch.bfloat16},
         device_map="auto",
     )
-    for question in tqdm(dataset):
+    for question in tqdm(dataset,desc="Inference"):
 
         messages = [
             {"role": "system",
@@ -26,8 +26,8 @@ def main():
             {"role": "user", "content": question["question"]},
         ]
 
-        print("### Question ###")
-        print(question["question"])
+        tqdm.write("### Question ###")
+        tqdm.write(question["question"])
 
         prompt = pipeline.tokenizer.apply_chat_template(
             messages,
@@ -42,17 +42,17 @@ def main():
 
         outputs = pipeline(
             prompt,
-            max_new_tokens=256,
+            max_new_tokens=512,
             eos_token_id=terminators,
             do_sample=True,
             temperature=0.6,
             top_p=0.9,
         )
-        print("### LLM response ###")
-        print(outputs[0]["generated_text"][len(prompt):])
+        tqdm.write("### LLM response ###")
+        tqdm.write(outputs[0]["generated_text"][len(prompt):])
 
-        print("### Ground Truth ###")
-        print(question["answer"])
+        tqdm.write("### Ground Truth ###")
+        tqdm.write(question["answer"])
 
 
 if __name__ == "__main__":
