@@ -1,8 +1,10 @@
+
 import transformers
 import torch
 from datasets import Dataset
 import pandas as pd
 import os
+import re
 from tqdm import tqdm
 
 model_id = "taide/Llama3-TAIDE-LX-8B-Chat-Alpha1"
@@ -16,36 +18,31 @@ def main():
         "text-generation",
         model=model_id,
         model_kwargs={"torch_dtype": torch.bfloat16},
-        device_map="auto",
+        device_map="auto"
     )
+    answers = []
+    scores = []
     for question in tqdm(dataset,desc="Inference"):
-
         messages = [
             {"role": "system",
-                "content": """你是一個用於解決臺灣高中生升學考試選擇題的 AI 助理，題目分為國文、英文、數學、自然、社會五個科目，題目可為單選題或多選題，若題目並未明文說明則皆視為單選題。請在第一行輸出英文字母的答案，並在下一行輸出題目的題解。
-			   ### 題目 ###
-                           新聞曾報導在地球南極大陸發現來自火星的隕石，科學家何以推測該隕石來自火星？
-                           (A)已經有載人太空船登陸火星，並曾攜回火星岩石
-                           (B)太陽系早期火星與地球曾發生碰撞，可判斷當時有大量火星岩石掉落到地球
-                           (C)經過化學分析，隕石中的元素同位素比例符合火星的元素同位素比例
-                           (D)該隕石含有大量氧化鐵，呈現暗紅色
-                           (E)該隕石外觀焦黑，有火燒的痕跡
-                           ### 答案 ###
-                           C
-                           ### 題解 ###
+                "content": """你是一個用於解決臺灣高中生升學考試選擇題的 AI 助理，請依據邏輯推理及高中程度的知識選出正確的答案。
+                           題目分為國文、英文、數學、自然、社會五個科目，題目可為單選題或多選題，若題目並未明文說明則皆視為單選題。請在第一行輸出英文字母的答案，並在下一行輸出題目的題解。
+                           以下為範例。
+
+                           水以固體、液體與氣體三相存在於地球系統中，相變時會伴隨著潛熱釋放或吸收。下列哪些現象會伴隨潛熱釋放？（應選三項）
+                           (A)清晨時水氣凝結形成露珠時 (B)在高緯度地區冰直接變成水氣時
+                           (C)地面積雪融化時 (D)水氣附著到凝結核上形成冰晶時
+                           (E)夏季午後常見到的對流雲形成時
+                           輸出：
+                           ADE
+                           ### 題目解析 ###
                            分析各選項：
-                           (A)目前仍未有載人太空船登陸火星，僅月球有人類登陸過
-                           (B)落到地球表面的岩石已經經過各種地質作用影響，無法代表它起源的原始性質
-                           (C)天體的同位素比例會和它的形成過程及材料有關
-                           (D)地球地表也有氧化鐵，非火星獨有特徵
-                           (E)隕石焦黑會發生在很多來源的隕石上，無法視作火星獨有的特性。
-                           因此選(C)
+                           依水的三相變化過程，凝結、凝華都是釋放潛熱的過程。因此選擇選項ADE
 			   """},
             {"role": "user", "content": question["question"]},
         ]
 
-        tqdm.write("### Question ###")
-        tqdm.write(question["question"])
+        tqdm.write("Question: "+question["info"])
 
         prompt = pipeline.tokenizer.apply_chat_template(
             messages,
@@ -63,15 +60,23 @@ def main():
             max_new_tokens=512,
             eos_token_id=terminators,
             do_sample=True,
-            temperature=0.6,
+            temperature=0.1,
             top_p=0.9,
         )
-        tqdm.write("### LLM response ###")
-        tqdm.write(outputs[0]["generated_text"][len(prompt):])
-
-        tqdm.write("### Ground Truth ###")
-        tqdm.write(question["answer"])
-
+        clean_answer = re.sub(r'[^A-Za-z0-9 ]+', '', outputs[0]["generated_text"][len(prompt):].split("\n")[0])
+        answers.append(clean_answer)
+        if len(question["answer"])==1:
+            score = 1 if clean_answer == question["answer"] else 0
+        else:
+            correct_answers = set([ch for ch in question["answer"]])
+            llm_answers = set([ch for ch in clean_answer])
+            mismatch_count = len(correct_answers.intersection(llm_answers))-len(correct_answers.union(llm_answers))
+            score = 1 - 0.4  * mismatch_count
+            score = score if score > 0 else 0
+        scores.append(score)
+    df["score"]=scores
+    df["generated_answer"]=answers
+    df.to_csv("./baseline-result.csv")
 
 if __name__ == "__main__":
     print(main())
