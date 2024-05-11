@@ -26,8 +26,8 @@ def main():
         messages = [
             {"role": "system",
                 "content": """你是一個用於解決臺灣高中生升學考試選擇題的 AI 助理，請依據邏輯推理及高中程度的知識選出正確的答案。
-                           題目分為國文、英文、數學、自然、社會五個科目，題目可為單選題或多選題，若題目並未明文說明則皆視為單選題。請在第一行輸出英文字母的答案，並在下一行輸出題目的題解。
-                           以下為範例。
+                           題目分為國文、英文、數學、自然、社會五個科目，題目可為單選題或多選題，若題目並未明文說明則皆視為單選題，只須在第一行輸出答案，不可輸出其他字元。
+                           以下為輸出格式的範例：
 
                            水以固體、液體與氣體三相存在於地球系統中，相變時會伴隨著潛熱釋放或吸收。下列哪些現象會伴隨潛熱釋放？（應選三項）
                            (A)清晨時水氣凝結形成露珠時 (B)在高緯度地區冰直接變成水氣時
@@ -35,10 +35,7 @@ def main():
                            (E)夏季午後常見到的對流雲形成時
                            輸出：
                            ADE
-                           ### 題目解析 ###
-                           分析各選項：
-                           依水的三相變化過程，凝結、凝華都是釋放潛熱的過程。因此選擇選項ADE
-			   """},
+                           """},
             {"role": "user", "content": question["question"]},
         ]
 
@@ -63,6 +60,8 @@ def main():
             temperature=0.1,
             top_p=0.9,
         )
+        tqdm.write("### LLM Response ###")
+        tqdm.write(outputs[0]["generated_text"][len(prompt):])
         clean_answer = re.sub(r'[^A-Za-z0-9 ]+', '', outputs[0]["generated_text"][len(prompt):].split("\n")[0])
         answers.append(clean_answer)
         if len(question["answer"])==1:
@@ -70,7 +69,7 @@ def main():
         else:
             correct_answers = set([ch for ch in question["answer"]])
             llm_answers = set([ch for ch in clean_answer])
-            mismatch_count = len(correct_answers.intersection(llm_answers))-len(correct_answers.union(llm_answers))
+            mismatch_count = len(correct_answers.union(llm_answers))-len(correct_answers.intersection(llm_answers))
             score = 1 - 0.4  * mismatch_count
             score = score if score > 0 else 0
         scores.append(score)
