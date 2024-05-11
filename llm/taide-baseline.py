@@ -36,7 +36,7 @@ def main():
                            (D)地震與斷層活動息息相關，此地震帶的地震多半是由平移斷層活動造成
                            (E)臺灣位在此地震帶上，表示臺灣島與太平洋板塊相接
                            輸出：
-                           Answer:{ADE}
+                           answer:{ADE}
                            解釋：
                            (A)環太平洋地震帶主要為聚合型板塊邊界，例如臺灣、馬里亞納海溝、日本。
                            (B)由於是聚合型板塊邊界，板塊有隱沒作用，地震震源應該由淺到深都有。
@@ -63,14 +63,12 @@ def main():
             prompt,
             max_new_tokens=512,
             eos_token_id=terminators,
-            do_sample=True,
-            temperature=0.1,
-            top_p=0.9,
+            do_sample=False
         )
         tqdm.write("### LLM Response ###")
         tqdm.write(outputs[0]["generated_text"][len(prompt):])
         clean_answer = re.sub(
-            r'[^A-Za-z0-9 ]+', '', outputs[0]["generated_text"][len(prompt):].split("\n")[0])
+            r'[^A-Z]+', '', outputs[0]["generated_text"][len(prompt):].split("\n")[0])
         answers.append(clean_answer)
         if len(question["answer"]) == 1:
             score = 1 if clean_answer == question["answer"] else 0
