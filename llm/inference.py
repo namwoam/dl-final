@@ -20,9 +20,8 @@ def main(model_id:str , dataset_paths:list[str] , destination_path:str , verbose
     pipeline = transformers.pipeline(
         "text-generation",
         model=model_id,
-        model_kwargs={"load_in_8bit": True},
         torch_dtype="auto",
-        device_map="auto"
+        device_map="auto",
     )
     raw_answers = []
     answers = []
@@ -91,9 +90,11 @@ def main(model_id:str , dataset_paths:list[str] , destination_path:str , verbose
             tqdm.write(outputs[0]["generated_text"][len(prompt):])
             tqdm.write("### Answer ###")
             tqdm.write(question["answer"])
-        detailed_answers.append(outputs[0]["generated_text"][len(prompt):].replace("\n",""))
+        generated_answer = outputs[0]["generated_text"][len(prompt):]
+        generated_answer = "\n".join(list(filter(lambda x: len(x.replace(" ",""))>0  , generated_answer.split("\n"))))
+        detailed_answers.append(generated_answer.replace("\n",""))
         clean_answer = re.sub(
-            r'[^A-Z]+', '', outputs[0]["generated_text"][len(prompt):].split("\n")[0])
+            r'[^A-Z]+', '', generated_answer.split("\n")[0])
         answers.append(clean_answer)
         if len(question["answer"]) == 1:
             score = 1 if clean_answer == question["answer"] else 0

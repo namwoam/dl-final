@@ -1,0 +1,6 @@
+model,short_name,result
+"ikala/bloom-zh-3b-chat","bloom-3b","112-ch-result-bloom3b.csv"
+"taide/Llama3-TAIDE-LX-8B-Chat-Alpha1","taide-8b","112-ch-result-taide8b.csv"
+"MediaTek-Research/Breeze-7B-32k-Instruct-v1_0","breeze-7b","112-ch-result-breeze7b.csv"
+"Qwen/Qwen1.5-7B-Chat","qwen-7b","112-ch-result-qwen7b.csv"
+"Qwen/Qwen1.5-MoE-A2.7B-Chat","qwen-2.7b","112-ch-result-qwen2.7b.csv"
