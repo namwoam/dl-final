@@ -21,6 +21,7 @@ def main(model_id:str , dataset_paths:list[str] , destination_path:str , verbose
         "text-generation",
         model=model_id,
         model_kwargs={"load_in_8bit": True},
+        torch_dtype="auto",
         device_map="auto"
     )
     raw_answers = []
@@ -73,8 +74,7 @@ def main(model_id:str , dataset_paths:list[str] , destination_path:str , verbose
         )
 
         terminators = [
-            pipeline.tokenizer.eos_token_id,
-            pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
+            pipeline.tokenizer.eos_token_id
         ]
 
         outputs = pipeline(
