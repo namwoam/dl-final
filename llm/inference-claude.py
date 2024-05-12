@@ -8,6 +8,15 @@ import re
 from tqdm import tqdm
 import argparse
 
+import time
+import anthropic
+from dotenv import load_dotenv
+
+load_dotenv()
+
+client = anthropic.Anthropic(
+        api_key=os.environ.get("ANTHROPIC_API_KEY"),
+)
 
 def main(model_id:str , dataset_paths:list[str] , destination_path:str , verbose:bool=False):
     df = None
@@ -17,19 +26,12 @@ def main(model_id:str , dataset_paths:list[str] , destination_path:str , verbose
         else:
             df = pd.concat([df, pd.read_csv(dataset_path)], axis=1)
     dataset = Dataset.from_pandas(df)
-    pipeline = transformers.pipeline(
-        "text-generation",
-        model=model_id,
-        torch_dtype="auto",
-        device_map="auto",
-    )
     answers = []
     scores = []
     detailed_answers = []
     for question in tqdm(dataset, desc="Inference"):
+        time.sleep(20) # prevent rate limit
         messages = [
-            {"role": "system",
-                "content": """你是一個用於解決臺灣高中生升學考試選擇題的 AI 助理，請依據邏輯推理及高中程度的知識選出正確的答案。                           """},
             {"role": "user", "content": """
                            請你幫我回答高中的學測題目，題目分為國文、英文、數學、自然、社會五個科目，題目可為單選題或多選題，若題目並未明文說明則皆視為單選題。
                            範例一：
@@ -65,31 +67,22 @@ def main(model_id:str , dataset_paths:list[str] , destination_path:str , verbose
                            """},
         ]
 
-        prompt = pipeline.tokenizer.apply_chat_template(
-            messages,
-            tokenize=False,
-            add_generation_prompt=True
-        )
-
-        terminators = [
-            pipeline.tokenizer.eos_token_id
-        ]
-
-        outputs = pipeline(
-            prompt,
-            max_new_tokens=512,
-            eos_token_id=terminators,
-            do_sample=False
+        outputs = client.messages.create(
+            model=model_id,
+            max_tokens=512,
+            temperature=0.0,
+            messages=messages,
+            system="你是一個用於解決臺灣高中生升學考試選擇題的 AI 助理，請依據邏輯推理及高中程度的知識選出正確的答案。"
         )
         if verbose:
             tqdm.write("Question: "+question["info"])
             tqdm.write("### Question ###")
             tqdm.write(question["question"])
             tqdm.write("### LLM Response ###")
-            tqdm.write(outputs[0]["generated_text"][len(prompt):])
+            tqdm.write(outputs.content[0].text)
             tqdm.write("### Answer ###")
             tqdm.write(question["answer"])
-        generated_answer = outputs[0]["generated_text"][len(prompt):]
+        generated_answer = outputs.content[0].text
         generated_answer = "\n".join(list(filter(lambda x: len(x.replace(" ",""))>0  , generated_answer.split("\n"))))
         detailed_answers.append(generated_answer.replace("\n",""))
         clean_answer = re.sub(
@@ -118,7 +111,7 @@ if __name__ == "__main__":
     parser.add_argument("-v","--verbose", help="increase output verbosity",default=False,
                     action="store_true")
     parser.add_argument('-m', '--model_id', 
-                    nargs='?', default="taide/Llama3-TAIDE-LX-8B-Chat-Alpha1",help="model_id from huggingface")
+                    nargs='?', default="claude-3-opus-20240229",help="model_id from anthropic")
     parser.add_argument('-d', '--destination_path', 
                     nargs='?', default=os.path.join(os.path.dirname(__file__),
                                   "baseline-result.csv"), help="path to store the .csv file result")
