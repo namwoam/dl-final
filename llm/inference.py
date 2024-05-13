@@ -57,7 +57,7 @@ def main(model_id:str , dataset_paths:list[str] , destination_path:str , verbose
                            
              """},
             {"role": "user", "content": f"""
-                           接下來請針對以下問題，選出正確的選項，此題為{"單選題" if len(question["answer"])==1 else "多選題"}。。請問"""+question["question"]+"？"+"""
+                           接下來請針對以下問題，選出正確的選項，此題為{"單選題" if len(question["answer"])==1 else "多選題"}。請問"""+question["question"]+"？"+"""
                            輸出格式：
                            正確的答案：[填入正確的選項]
                            解釋：

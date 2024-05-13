@@ -8,6 +8,6 @@ model,short_name,open,zh-tw
 "Qwen/Qwen1.5-MoE-A2.7B-Chat","qwen-2.7b-MoE",true,false
 "01-ai/Yi-1.5-6B-Chat","yi-6b",true,false
 "01-ai/Yi-1.5-9B-Chat","yi-9b",true,false
-"Anthropic/Claude3-Opus","opus",false,false
+"claude-3-opus-20240229","opus",false,false
 "claude-3-sonnet-20240229","sonnet",false,false
-"Anthropic/Claude3-Haiku","haiku",false,false
+"claude-3-haiku-20240307","haiku",false,false

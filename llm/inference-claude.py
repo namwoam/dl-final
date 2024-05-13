@@ -30,7 +30,7 @@ def main(model_id:str , dataset_paths:list[str] , destination_path:str , verbose
     scores = []
     detailed_answers = []
     for question in tqdm(dataset, desc="Inference"):
-        time.sleep(20) # prevent rate limit
+        time.sleep(5) # prevent rate limit
         messages = [
             {"role": "user", "content": """
                            請你幫我回答高中的學測題目，題目分為國文、英文、數學、自然、社會五個科目，題目可為單選題或多選題。
