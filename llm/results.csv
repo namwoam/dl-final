@@ -6,6 +6,8 @@ model,short_name,result,open,zh-tw
 "Qwen/Qwen1.5-4B-Chat","qwen-4b","112-ch-result-qwen4b.csv",true,false
 "Qwen/Qwen1.5-7B-Chat","qwen-7b","112-ch-result-qwen7b.csv",true,false
 "Qwen/Qwen1.5-MoE-A2.7B-Chat","qwen-2.7b-MoE","112-ch-result-qwen2.7b.csv",true,false
+"01-ai/Yi-1.5-6B-Chat","yi-6b","112-ch-result-yi6b.csv",true,false
+"01-ai/Yi-1.5-9B-Chat","yi-9b","112-ch-result-yi9b.csv",true,false
 "Anthropic/Claude3-Opus","opus","112-ch-result-opus.csv",false,false
 "Anthropic/Claude3-Sonnet","sonnet","112-ch-result-sonnet.csv",false,false
 "Anthropic/Claude3-Haiku","haiku","112-ch-result-haiku.csv",false,false
