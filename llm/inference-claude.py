@@ -33,10 +33,10 @@ def main(model_id:str , dataset_paths:list[str] , destination_path:str , verbose
         time.sleep(20) # prevent rate limit
         messages = [
             {"role": "user", "content": """
-                           請你幫我回答高中的學測題目，題目分為國文、英文、數學、自然、社會五個科目，題目可為單選題或多選題，若題目並未明文說明則皆視為單選題。
+                           請你幫我回答高中的學測題目，題目分為國文、英文、數學、自然、社會五個科目，題目可為單選題或多選題。
                            範例一：
 
-                           全球主要有三大地震帶，臺灣位於其中的「環太平洋地震帶」上。下列有關此地震帶的敘述何者正確？此題為多選題，
+                           全球主要有三大地震帶，臺灣位於其中的「環太平洋地震帶」上。下列有關此地震帶的敘述何者正確？此題為多選題。
                            (A)此地震帶的形成主要與張裂性板塊邊界有關
                            (B)地震主要發生在地殼中，所以此地震帶特徵多淺源地震
                            (C)此地震帶與環太平洋火山帶（火環）位置幾乎一致，有許多活火山
@@ -58,8 +58,8 @@ def main(model_id:str , dataset_paths:list[str] , destination_path:str , verbose
                            因此選(A)(D)(E)
                            
              """},
-            {"role": "user", "content": """
-                           接下來請針對以下問題，選出正確的選項。請問"""+question["question"]+"？"+"""
+            {"role": "user", "content": f"""
+                           接下來請針對以下問題，選出正確的選項，此題為{"單選題" if len(question["answer"])==1 else "多選題"}。請問"""+question["question"]+"？"+"""
                            輸出格式：
                            正確的答案：[填入正確的選項]
                            解釋：

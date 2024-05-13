@@ -31,7 +31,7 @@ def main(model_id:str , dataset_paths:list[str] , destination_path:str , verbose
             {"role": "system",
                 "content": """你是一個用於解決臺灣高中生升學考試選擇題的 AI 助理，請依據邏輯推理及高中程度的知識選出正確的答案。                           """},
             {"role": "user", "content": """
-                           請你幫我回答高中的學測題目，題目分為國文、英文、數學、自然、社會五個科目，題目可為單選題或多選題，若題目並未明文說明則皆視為單選題。
+                           請你幫我回答高中的學測題目，題目分為國文、英文、數學、自然、社會五個科目，題目可為單選題或多選題。
                            範例一：
 
                            全球主要有三大地震帶，臺灣位於其中的「環太平洋地震帶」上。下列有關此地震帶的敘述何者正確？此題為多選題，
@@ -56,8 +56,8 @@ def main(model_id:str , dataset_paths:list[str] , destination_path:str , verbose
                            因此選(A)(D)(E)
                            
              """},
-            {"role": "user", "content": """
-                           接下來請針對以下問題，選出正確的選項。請問"""+question["question"]+"？"+"""
+            {"role": "user", "content": f"""
+                           接下來請針對以下問題，選出正確的選項，此題為{"單選題" if len(question["answer"])==1 else "多選題"}。。請問"""+question["question"]+"？"+"""
                            輸出格式：
                            正確的答案：[填入正確的選項]
                            解釋：
