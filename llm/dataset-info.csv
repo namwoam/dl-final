@@ -1,2 +1,4 @@
 dataset_name,path,1_tile,2_tile,3_tile,4_tile,5_tile
-"113-ch","../dataset/gsat/113_chinese.csv",63.48,58.19,52.90,42.32,37.03
+"113-ns","../dataset/gsat/113_natural_sciences.csv",63.48,58.19,52.90,42.32,37.03
+"112-ns","../dataset/gsat/112_natural_sciences.csv",63.48,58.19,52.90,42.32,37.03
+"111-ns","../dataset/gsat/111_natural_sciences.csv",63.48,58.19,52.90,42.32,37.03

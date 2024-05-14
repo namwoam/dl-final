@@ -101,8 +101,7 @@ def main(model_id:str , dataset_paths:list[str] , destination_path:str , verbose
     result_df = df[["info","answer"]]
     result_df.loc[:,"score"] = scores
     result_df.loc[:,"generated_answer"] = answers
-    if verbose:
-        result_df.loc[:,"detailed_generated_answer"] = detailed_answers
+    result_df.loc[:,"detailed_generated_answer"] = detailed_answers
     result_df.to_csv(destination_path)
 
 
