@@ -11,4 +11,7 @@ model,short_name,open,zh-tw
 "claude-3-opus-20240229","opus",false,false
 "claude-3-sonnet-20240229","sonnet",false,false
 "claude-3-haiku-20240307","haiku",false,false
+<<<<<<< HEAD
 "gpt-4o","gpt-4o",false,false
+=======
+>>>>>>> aa33779 (fix: fix evaluation notebook)
