@@ -1,0 +1,10 @@
+dataset_name,path,1_tile,2_tile,3_tile,4_tile,5_tile
+"112-ch","../dataset/gsat/112_chinese.csv",62.63,57.41,52.19,41.75,36.54
+"111-ch","../dataset/gsat/111_chinese.csv",64.08,58.74,48.06,42.72,32.04
+"110-ch","../dataset/gsat/110_chinese.csv",64.57,59.19,53.81,43.05,37.67
+"109-ch","../dataset/gsat/109_chinese.csv",65.65,65.65,54.71,43.77,38.30
+"113-ns","../dataset/gsat/113_natural_sciences.csv",75.37,69.09,50.24,31.41,25.13
+"112-ns","../dataset/gsat/112_natural_sciences.csv",70.98,59.16,47.33,29.58,23.66
+"111-ns","../dataset/gsat/111_natural_sciences.csv",81.77,69.19,56.61,37.74,25.16
+"110-ns","../dataset/gsat/110_natural_sciences.csv",77.54,70.94,45.23,32.31,25.85
+"109-ns","../dataset/gsat/109_natural_sciences.csv",78.29,65.24,45.67,32.63,26.10

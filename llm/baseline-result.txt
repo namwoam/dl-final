@@ -1,0 +1,73 @@
+### Question ###
+若空氣中水氣含量不變，下列哪些方式最不可能發生水氣凝結現象？（應選2 項）(A)氣流受到地形抬升，沿著迎風坡爬升 (B)暖空氣吹過冷海面 (C)地表輻射冷卻導致空氣溫度改變 (D)空氣在地面高壓區的上空向下沉 (E)空氣塊過山後產生落山風
+### LLM response ###
+(E)
+(D)
+### 解釋 ###
+在描述水氣凝結的現象時，我們需要考慮空氣中的水氣含量、溫度、壓力等因素。選項(E)空氣塊過山後產生落山風，通常發生在山脈背風處，該區域的空氣下沉，溫度上升，濕度下降，不利於水氣凝結。
+選項(D)空氣在地面高壓區的上空向下沉，也會導致溫度上升，濕度下降，不利於水氣凝結。
+雖然這兩種情況都不利於水氣凝結，但它們並不是最不可能發生水氣凝結的現象。在地形抬升的情況下(A)，如果空氣中的水氣含量足夠多，氣流沿著迎風坡爬升後，溫度會降低，有利於水氣凝結。暖空氣吹過冷海面(B)，如果海面的溫度足夠低，空氣與海面接觸後會冷卻，水氣含量降低，從而發生水氣凝結。地表輻射冷卻(C)會導致地表溫度下降，如果空氣中的水氣含量足夠多，就有可能發生水氣凝結。
+因此，基於這些分析，最不可能發生水氣凝結的現象是(E)空氣塊過山後產生落山風和(D)空氣在地面高壓區的上空向下沉。
+### Ground Truth ###
+DE
+### Question ###
+日本治臺後，將女子教育納入學制系統，但受到傳統「女子無才便是德」的觀念限制，相較於臺灣男學生與日籍女學生，臺灣女童受教育的仍屬少數。初等女子教育規劃的課程內容，以日語、裁縫科及家政科等課程為主。女子中等學校雖早在1897年某都市就成立「國語學校第一附屬學校女子分校」，但直到1920年代後各地才陸續設立。女子就學率提升之後，開始有女醫師、看護婦、助產士、女教員等專門或半專門職業人士。不過，有學者指出，當時女性仍高度集中於家政和照顧類有關的職業，而非平均分布於各職業類別。請問： 根據題文，日治時期初等女子教育的課程設計理念應為何？(A)為求男女平權而提高女童就學率 (B)訓練醫師、教員等專門職業人才 (C)提供殖民統治所需要之基層人員 (D)培養具日本女性婦德的賢妻良母
+### LLM response ###
+(D)
+根據題文，日治時期初等女子教育的課程設計理念是為了培養具日本女性婦德的賢妻良母，因此課程內容以日語、裁縫科及家政科等課程為主。
+題文中提到：「初等女子教育規劃的課程內容，以日語、裁縫科及家政科等課程為主。」這說明瞭當時女子教育著重在傳統女性應具備的能力上，如日語能力、裁縫技巧及家政知識等，以符合當時社會對女性的期待與角色。
+因此，正確答案是(D)。
+### Ground Truth ###
+D
+### Question ###
+在同一平面上，相距 7 公里的,A B  兩砲台，A 在B 的正東方。某次演習時，A 向西偏北θ方向發射砲彈，B 則向東偏北θ方向發射砲彈，其中θ為銳角，觀測回報兩砲彈皆命中9公里外的同一目標P。接著A 改向西偏北θ/2方向發射砲彈，彈著點為9公里外的點Q。試問砲台B與彈著點Q的距離BQ為何？ (A)4公里 (B)4.5公里(C)5公里(D)5.5公里 (E)6公里
+### LLM response ###
+本題我們需要利用三角函數來解決，給定的資料有三邊，分別是AQ = 9公里、AB = 7公里、角θ，需要找到BC。
+首先，我們先找出θ/2的正切值，由於θ是銳角，所以θ/2小於90度，因此正切值會大於1。
+由於AQ = AB × cos(θ/2)，所以9 = 7 × cos(θ/2)，解此方程得cos(θ/2) = 1/7。
+接著，我們利用三角函數的畢氏定理推算出BC的長度：
+BC² = AB² - AQ² = 7² - 9² = 98 - 81 = 17
+BC = √17
+由於BC是QB的正切值，所以QB = BC × tan(θ/2) = √17 × tan(θ/2)。
+現在，我們需要找出BQ的長度：
+BQ² = BQ'² + QB² = (AB - BC)² + BC² = (7 - √17)² + √17 × tan(θ/2)²
+由於我們只需要BQ的值，而不需要實際的距離，所以我們可以將式子簡化為：
+BQ² = (7 - √17)² + (√17 × tan(θ/2))²
+由於這是一個二次方程，我們先將二次方程整理為標準式：
+BQ² = a × (x - b)² + c
+其中a = 1，b = 7 - √17，c = (√17 × tan(θ/2))²
+將b² - 4ac代入判別式：
+d = b² - 4ac = (7 - √17)² - 4 × 1 × (√17 × tan(θ/2))²
+設tan(θ/2)為x，則d可以寫成：
+d = (7 - √17)² - 4 × 1 × (√17 × x)²
+由於d必須大於或等於0，才能有實數的根，因此我們需要找出x使得：
+(7 - √17)² - 4 × 1 × (√17 × x)² ≥
+### Ground Truth ###
+C
+### Question ###
+In 2020, Petur Oddsson, a power station worker in Iceland, was struck by a 60,000-volt current. The electrical shock burned almost half of his body and melted layers of his skin off. Such deep and extensive burns can be fatal. But Oddsson’s life was saved by a creative invention: transplanting codfish skins onto human bodies. A  triumph  for  medical  technology, Oddsson’s fish skin transplantation  was actually part of the astonishing  achievement  of “100% Fish,” an ambitious task in promoting environmental efficiency. The Icelandic  project,  from  which  this  pioneering  procedure  emerged,  strives  for  making  a  fundamental change in the marine industry. It aims to encourage full utilization of each fish caught, and to strengthen innovation in seafood products. Reducing waste of fish catch has become a serious issue today, when many countries are faced with food crises. According to a 2003 study, about 60% of a codfish caught in Iceland was lost or wasted during the production process for human consumption. Under the guidance of 100% Fish, however, Icelanders are now using almost 95% of a cod. Cod skin, for example, is made into calcium supplement and energy drinks, and even as material for skin transplantation as in Oddsson’s case. Dried fish heads and spines are exported to  West  Africa,  where  they  are  used  as  the  base  of  a  protein-rich  soup.  Other  groundbreaking  products, including Omega-3 capsules, cold virus pretreatment sprays, and dog snacks are made from what was once cod catch detritus. The  Icelandic  success is  accomplished largely through cooperative efforts across various  industries. 100% Fish takes  the initiative to show seafood companies  the importance of collaboration, and facilitate valuable connections between fishing companies and other participants of the project, including academia, start-ups, and research and development teams. By sharing knowledge and information, the different sectors are able to come up with improved processing and handling, through which creation of various innovative products was made possible. The project not only helps Icelanders to get 30% more value from each cod than  most  developed  countries,  but  also  provides  an  effective  model  to  promote  resource  efficiency worldwide. What is the primary goal of 100% Fish? (A) To advance ocean technology. (B) To reduce food crises worldwide. (C) To enhance cross-industry cooperation. (D) To make the most of marine resources.
+### LLM response ###
+(D)
+###解釋 ###
+這個問題要求我們了解100% Fish計畫的主要目標，選項中提及的目標分別為：
+(A) 推動海洋科技：這是目標之一，但並非最主要的目標。
+(B) 減少全球糧食危機：這也是目標之一，但並非最主要的目標。
+(C) 強化跨產業合作：這是目標之一，且為最主要的目標之一，計畫透過合作讓不同產業能共享知識與資訊，進而開發出各式創新產品。
+(D) 發揮海洋資源的最大價值：這是目標之一，且為最主要的目標之一，計畫旨在讓漁獲物被充分利用，減少浪費，並創造出更多產品。
+由於選項中提及的目標中，有兩個是主要目標(C) 強化跨產業合作、(D) 發揮海洋資源的最大價值，兩者都與合作及利用海洋資源有關，但主要目標是強化跨產業合作，因此正確答案為(C)。
+### Ground Truth ###
+D
+### Question ###
+下列各組「」內的詞，意義前後相同的是（每題有5個選項，其中至少有2個是正確答案 複選題各題之選項獨立判定，全部答對者，得該題全部分數，答錯1 個選項者，得該題3/5的題分、答錯2個選項者，得該題1/5 題分。所有選項均未作答或 答錯多於2 個選項者，該題以零分計算）： (A)三五年內，即「當」太平／快意「當」前，適觀而已矣 (B)便扶「向」路，處處誌之／「向」時估帆所出入者，時已淤為沙灘 (C)爾其自戕「爾」手／蒙賜月明之照，乃「爾」寂飲，何不呼嫦娥來 (D)若亡鄭而有益於君，「敢」以煩執事／入咸陽，毫毛不「敢」有所近 (E)軒凡四遭火，「得」不焚，殆有神護者／「得」比勁節長垂，千人共仰
+### LLM response ###
+(A). 當
+(B). 向
+(C). 爾
+(D). 勒
+(E). 得
+### 解釋 ###
+這首詩是唐代詩人李商隱所作，原文為〈夜雨寄北〉。其中「三五年內即當太平」指的是在短時間內，國家將恢復平安穩定；「便扶向路，處處誌之」表示順著前進的路，到處都留下足跡；「爾其自戕爾手，蒙賜月明之照」則是說你自己用手傷害自己，卻受到月光的照耀；「乃爾寂飲，何不呼嫦娥來」是說你一個人喝酒，為什麼不叫嫦娥來一起喝；「若亡鄭而有益於君，敢以煩執事」表示如果滅亡鄭國對君主有利，我才敢去煩惱執事人員；「入咸陽，毫毛不敢有所近」指進入咸陽城，不敢越界；「軒凡四遭火，得不焚，殆有神護者」形容房子歷經四次大火，都沒有被燒毀，可能是有神明在保護；「得比勁節長垂，千人共仰」則是說比起別人，自己的節操更持久，受到千人的尊仰。
+其中，正確的答案是(A)、(B)、(C)、(D)、(E)。
+### Ground Truth ###
+BE
+None

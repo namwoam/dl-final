@@ -1,0 +1,6 @@
+MediaTek-Research/Breeze-7B-32k-Instruct-v1_0
+Qwen/Qwen1.5-MoE-A2.7B-Chat
+Qwen/Qwen1.5-7B-Chat
+taide/Llama3-TAIDE-LX-8B-Chat-Alpha1
+ikala/bloom-zh-3b-chat
+yentinglin/Taiwan-LLM-8x7B-DPO

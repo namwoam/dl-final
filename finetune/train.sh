@@ -1,0 +1,1 @@
+python ./continuous-pretrain.py -i "../dataset/textbook/ch" "../dataset/textbook/ss" "../dataset/textbook/ns" -m "MediaTek-Research/Breeze-7B-32k-Instruct-v1_0" -d "cp-all_textbook/" 
