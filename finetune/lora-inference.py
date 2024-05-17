@@ -137,7 +137,7 @@ if __name__ == "__main__":
     parser.add_argument('-i', '--dataset_paths', nargs='+', default=[os.path.join(os.path.dirname(__file__),
                                   "../llm/baseline-question.csv")] , help="path for the testing dataset(s)")
     parser.add_argument('-l', '--lora_path', nargs='?', default=os.path.join(os.path.dirname(__file__),
-                                  "cp-all_textbook/checkpoint-1700") , help="path for the lora file")
+                                  "cp-all_textbook/") , help="path for the lora file")
     args = parser.parse_args()
     main(model_id=args.model_id ,dataset_paths=args.dataset_paths,destination_path=args.destination_path,verbose=args.verbose , lora_path=args.lora_path)
     

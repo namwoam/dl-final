@@ -27,23 +27,23 @@ def main(model_id ,dataset_paths,destination_path,verbose=False):
     ## Prepare tokenized dataset ##
     all_files = []
     for data_dir in dataset_paths:
-        data_dir = "../dataset/textbook/ch"
         files = [f for f in listdir(data_dir) if isfile(join(data_dir, f))]
         files = [f for f in files if f.endswith(".txt")]
-        all_files.extend(files)
+        all_files.extend([join(data_dir, file) for file in files])
     
-    sentence_length = 200
+    sentence_length = 400
     tokenizer = AutoTokenizer.from_pretrained(model_id)
     tokenizer.pad_token = tokenizer.eos_token
     raw_dataset = []
     for file in all_files:
-        file_content = open(join(data_dir, file)  , "r").readlines()
+        print(f"Added {file} to the training data")
+        file_content = open(file  , "r").readlines()
         for line in file_content:
             for start in range(0 , len(line) , sentence_length):
                 raw_dataset.append({"text":line[start: min(start+sentence_length , len(line))]})
     
     dataset = Dataset.from_list(raw_dataset)
-    dataset = dataset.train_test_split(test_size=0.01)
+    dataset = dataset.train_test_split(test_size=0.01 , shuffle=True , seed=42)
 
 
     def preprocess_function(examples):
@@ -84,10 +84,7 @@ def main(model_id ,dataset_paths,destination_path,verbose=False):
     ## Prepare Model ##
     compute_dtype = getattr(torch, "float16")
     bnb_config = BitsAndBytesConfig(
-        load_in_4bit=True,
-        bnb_4bit_quant_type='nf4',
-        bnb_4bit_compute_dtype=compute_dtype,
-        bnb_4bit_use_double_quant=False,
+        load_in_8bit=True,
     )
     
     device_map = {"": 0}
