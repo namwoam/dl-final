@@ -1,2 +1,11 @@
 model,short_name,open,zh-tw
+"ikala/bloom-zh-3b-chat","bloom-3b",true,true
+"taide/Llama3-TAIDE-LX-8B-Chat-Alpha1","taide-8b",true,true
+"MediaTek-Research/Breeze-7B-32k-Instruct-v1_0","breeze-7b",true,true
+"Qwen/Qwen1.5-1.8B-Chat","qwen-1.8b",true,false
+"Qwen/Qwen1.5-4B-Chat","qwen-4b",true,false
+"Qwen/Qwen1.5-7B-Chat","qwen-7b",true,false
+"Qwen/Qwen1.5-MoE-A2.7B-Chat","qwen-2.7b-MoE",true,false
+"01-ai/Yi-1.5-6B-Chat","yi-6b",true,false
+"01-ai/Yi-1.5-9B-Chat","yi-9b",true,false
 "gpt-4o","gpt-4o",false,false
