@@ -22,6 +22,7 @@ def main(model_id:str , dataset_paths:list[str] , destination_path:str , verbose
         model=model_id,
         torch_dtype="auto",
         device_map="auto",
+        model_kwargs = {"load_in_8bit": True}
     )
     answers = []
     scores = []
@@ -79,6 +80,7 @@ def main(model_id:str , dataset_paths:list[str] , destination_path:str , verbose
             prompt,
             max_new_tokens=512,
             eos_token_id=terminators,
+            pad_token_id=pipeline.tokenizer.eos_token_id,
             do_sample=False
         )
         if verbose:

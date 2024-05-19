@@ -1,0 +1,1053 @@
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/43 [00:00<?, ?it/s]
+No chat template is defined for this tokenizer - using the default template for the BloomTokenizerFast class. If the default is not appropriate for your model, please set `tokenizer.chat_template` to an appropriate template. See https://huggingface.co/docs/transformers/main/chat_templating for more information.
+
+Inference:   2%|▏         | 1/43 [00:01<00:46,  1.11s/it]Inference:   5%|▍         | 2/43 [00:01<00:29,  1.38it/s]Inference:   7%|▋         | 3/43 [00:01<00:22,  1.79it/s]Inference:   9%|▉         | 4/43 [00:02<00:16,  2.43it/s]Inference:  12%|█▏        | 5/43 [00:02<00:14,  2.71it/s]Inference:  14%|█▍        | 6/43 [00:02<00:12,  3.04it/s]Inference:  16%|█▋        | 7/43 [00:03<00:14,  2.56it/s]Inference:  19%|█▊        | 8/43 [00:03<00:12,  2.90it/s]Inference:  21%|██        | 9/43 [00:04<00:17,  2.00it/s]Inference:  23%|██▎       | 10/43 [00:04<00:13,  2.48it/s]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  26%|██▌       | 11/43 [00:04<00:10,  2.93it/s]Inference:  28%|██▊       | 12/43 [00:04<00:08,  3.59it/s]Inference:  30%|███       | 13/43 [00:04<00:07,  4.01it/s]Inference:  33%|███▎      | 14/43 [00:05<00:08,  3.42it/s]Inference:  35%|███▍      | 15/43 [00:05<00:07,  3.85it/s]Inference:  37%|███▋      | 16/43 [00:05<00:06,  3.90it/s]Inference:  40%|███▉      | 17/43 [00:06<00:08,  3.14it/s]Inference:  42%|████▏     | 18/43 [00:06<00:08,  2.98it/s]Inference:  44%|████▍     | 19/43 [00:06<00:08,  2.95it/s]Inference:  47%|████▋     | 20/43 [00:08<00:17,  1.29it/s]Inference:  49%|████▉     | 21/43 [00:09<00:14,  1.49it/s]Inference:  51%|█████     | 22/43 [00:09<00:11,  1.81it/s]Inference:  53%|█████▎    | 23/43 [00:09<00:09,  2.16it/s]Inference:  56%|█████▌    | 24/43 [00:10<00:09,  1.97it/s]Inference:  58%|█████▊    | 25/43 [00:10<00:07,  2.36it/s]Inference:  60%|██████    | 26/43 [00:10<00:06,  2.83it/s]Inference:  63%|██████▎   | 27/43 [00:11<00:05,  2.74it/s]Inference:  65%|██████▌   | 28/43 [00:11<00:05,  2.75it/s]Inference:  67%|██████▋   | 29/43 [00:11<00:04,  2.84it/s]Inference:  70%|██████▉   | 30/43 [00:16<00:20,  1.59s/it]Inference:  72%|███████▏  | 31/43 [00:16<00:15,  1.28s/it]Inference:  74%|███████▍  | 32/43 [00:17<00:10,  1.00it/s]Inference:  77%|███████▋  | 33/43 [00:17<00:08,  1.21it/s]Inference:  79%|███████▉  | 34/43 [00:17<00:05,  1.57it/s]Inference:  81%|████████▏ | 35/43 [00:18<00:04,  1.77it/s]Inference:  84%|████████▎ | 36/43 [00:18<00:04,  1.73it/s]Inference:  86%|████████▌ | 37/43 [00:19<00:02,  2.17it/s]Inference:  88%|████████▊ | 38/43 [00:19<00:02,  1.67it/s]Inference:  91%|█████████ | 39/43 [00:20<00:02,  1.77it/s]Inference:  93%|█████████▎| 40/43 [00:20<00:01,  2.07it/s]Inference:  95%|█████████▌| 41/43 [00:23<00:02,  1.30s/it]Inference:  98%|█████████▊| 42/43 [00:24<00:01,  1.04s/it]Inference: 100%|██████████| 43/43 [00:24<00:00,  1.16it/s]Inference: 100%|██████████| 43/43 [00:24<00:00,  1.73it/s]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/41 [00:00<?, ?it/s]
+No chat template is defined for this tokenizer - using the default template for the BloomTokenizerFast class. If the default is not appropriate for your model, please set `tokenizer.chat_template` to an appropriate template. See https://huggingface.co/docs/transformers/main/chat_templating for more information.
+
+Inference:   2%|▏         | 1/41 [00:00<00:31,  1.26it/s]Inference:   5%|▍         | 2/41 [00:01<00:22,  1.73it/s]Inference:   7%|▋         | 3/41 [00:01<00:18,  2.10it/s]Inference:  10%|▉         | 4/41 [00:02<00:19,  1.94it/s]Inference:  12%|█▏        | 5/41 [00:02<00:14,  2.50it/s]Inference:  15%|█▍        | 6/41 [00:02<00:12,  2.78it/s]Inference:  17%|█▋        | 7/41 [00:02<00:11,  2.87it/s]Inference:  20%|█▉        | 8/41 [00:03<00:10,  3.15it/s]Inference:  22%|██▏       | 9/41 [00:03<00:08,  3.62it/s]Inference:  24%|██▍       | 10/41 [00:03<00:08,  3.55it/s]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  27%|██▋       | 11/41 [00:03<00:07,  3.98it/s]Inference:  29%|██▉       | 12/41 [00:04<00:08,  3.59it/s]Inference:  32%|███▏      | 13/41 [00:04<00:08,  3.46it/s]Inference:  34%|███▍      | 14/41 [00:04<00:08,  3.18it/s]Inference:  37%|███▋      | 15/41 [00:05<00:08,  3.01it/s]Inference:  39%|███▉      | 16/41 [00:05<00:07,  3.26it/s]Inference:  41%|████▏     | 17/41 [00:05<00:06,  3.70it/s]Inference:  44%|████▍     | 18/41 [00:06<00:07,  3.19it/s]Inference:  46%|████▋     | 19/41 [00:06<00:07,  3.12it/s]Inference:  49%|████▉     | 20/41 [00:06<00:06,  3.06it/s]Inference:  51%|█████     | 21/41 [00:07<00:07,  2.77it/s]Inference:  54%|█████▎    | 22/41 [00:07<00:06,  2.94it/s]Inference:  56%|█████▌    | 23/41 [00:07<00:06,  2.98it/s]Inference:  59%|█████▊    | 24/41 [00:08<00:06,  2.64it/s]Inference:  61%|██████    | 25/41 [00:08<00:05,  3.15it/s]Inference:  63%|██████▎   | 26/41 [00:08<00:04,  3.07it/s]Inference:  66%|██████▌   | 27/41 [00:09<00:04,  2.94it/s]Inference:  68%|██████▊   | 28/41 [00:09<00:05,  2.29it/s]Inference:  71%|███████   | 29/41 [00:10<00:05,  2.23it/s]Inference:  73%|███████▎  | 30/41 [00:10<00:04,  2.34it/s]Inference:  76%|███████▌  | 31/41 [00:10<00:03,  2.69it/s]Inference:  78%|███████▊  | 32/41 [00:12<00:06,  1.37it/s]Inference:  80%|████████  | 33/41 [00:14<00:07,  1.05it/s]Inference:  83%|████████▎ | 34/41 [00:14<00:05,  1.24it/s]Inference:  85%|████████▌ | 35/41 [00:16<00:06,  1.11s/it]Inference:  88%|████████▊ | 36/41 [00:16<00:04,  1.12it/s]Inference:  90%|█████████ | 37/41 [00:17<00:02,  1.38it/s]Inference:  93%|█████████▎| 38/41 [00:17<00:02,  1.28it/s]Inference:  95%|█████████▌| 39/41 [00:19<00:01,  1.15it/s]Inference:  98%|█████████▊| 40/41 [00:19<00:00,  1.43it/s]Inference: 100%|██████████| 41/41 [00:19<00:00,  1.64it/s]Inference: 100%|██████████| 41/41 [00:19<00:00,  2.08it/s]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/37 [00:00<?, ?it/s]
+No chat template is defined for this tokenizer - using the default template for the BloomTokenizerFast class. If the default is not appropriate for your model, please set `tokenizer.chat_template` to an appropriate template. See https://huggingface.co/docs/transformers/main/chat_templating for more information.
+
+Inference:   3%|▎         | 1/37 [00:00<00:34,  1.04it/s]Inference:   5%|▌         | 2/37 [00:01<00:21,  1.65it/s]Inference:   8%|▊         | 3/37 [00:01<00:16,  2.01it/s]Inference:  11%|█         | 4/37 [00:02<00:15,  2.14it/s]Inference:  14%|█▎        | 5/37 [00:02<00:12,  2.64it/s]Inference:  16%|█▌        | 6/37 [00:02<00:10,  3.01it/s]Inference:  19%|█▉        | 7/37 [00:02<00:08,  3.59it/s]Inference:  22%|██▏       | 8/37 [00:02<00:06,  4.28it/s]Inference:  24%|██▍       | 9/37 [00:03<00:09,  2.88it/s]Inference:  27%|██▋       | 10/37 [00:03<00:09,  2.78it/s]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  30%|██▉       | 11/37 [00:04<00:09,  2.67it/s]Inference:  32%|███▏      | 12/37 [00:04<00:10,  2.50it/s]Inference:  35%|███▌      | 13/37 [00:04<00:08,  2.94it/s]Inference:  38%|███▊      | 14/37 [00:05<00:06,  3.40it/s]Inference:  41%|████      | 15/37 [00:05<00:07,  2.79it/s]Inference:  43%|████▎     | 16/37 [00:05<00:07,  2.94it/s]Inference:  46%|████▌     | 17/37 [00:06<00:05,  3.35it/s]Inference:  49%|████▊     | 18/37 [00:06<00:06,  2.99it/s]Inference:  51%|█████▏    | 19/37 [00:06<00:05,  3.26it/s]Inference:  54%|█████▍    | 20/37 [00:07<00:05,  3.04it/s]Inference:  57%|█████▋    | 21/37 [00:07<00:04,  3.56it/s]Inference:  59%|█████▉    | 22/37 [00:07<00:04,  3.04it/s]Inference:  62%|██████▏   | 23/37 [00:07<00:03,  3.69it/s]Inference:  65%|██████▍   | 24/37 [00:08<00:03,  3.81it/s]Inference:  68%|██████▊   | 25/37 [00:09<00:08,  1.36it/s]Inference:  70%|███████   | 26/37 [00:10<00:08,  1.31it/s]Inference:  73%|███████▎  | 27/37 [00:11<00:06,  1.67it/s]Inference:  76%|███████▌  | 28/37 [00:11<00:04,  1.84it/s]Inference:  78%|███████▊  | 29/37 [00:11<00:03,  2.10it/s]Inference:  81%|████████  | 30/37 [00:12<00:03,  1.94it/s]Inference:  84%|████████▍ | 31/37 [00:12<00:02,  2.12it/s]Inference:  86%|████████▋ | 32/37 [00:13<00:02,  2.39it/s]Inference:  89%|████████▉ | 33/37 [00:13<00:01,  2.41it/s]Inference:  92%|█████████▏| 34/37 [00:13<00:01,  2.37it/s]Inference:  95%|█████████▍| 35/37 [00:14<00:00,  2.87it/s]Inference:  97%|█████████▋| 36/37 [00:14<00:00,  2.68it/s]Inference: 100%|██████████| 37/37 [00:14<00:00,  3.06it/s]Inference: 100%|██████████| 37/37 [00:14<00:00,  2.51it/s]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/47 [00:00<?, ?it/s]
+No chat template is defined for this tokenizer - using the default template for the BloomTokenizerFast class. If the default is not appropriate for your model, please set `tokenizer.chat_template` to an appropriate template. See https://huggingface.co/docs/transformers/main/chat_templating for more information.
+
+Inference:   2%|▏         | 1/47 [00:00<00:40,  1.13it/s]Inference:   4%|▍         | 2/47 [00:01<00:42,  1.07it/s]Inference:   6%|▋         | 3/47 [00:02<00:30,  1.46it/s]Inference:   9%|▊         | 4/47 [00:02<00:27,  1.56it/s]Inference:  11%|█         | 5/47 [00:03<00:24,  1.74it/s]Inference:  13%|█▎        | 6/47 [00:03<00:17,  2.35it/s]Inference:  15%|█▍        | 7/47 [00:03<00:13,  2.93it/s]Inference:  17%|█▋        | 8/47 [00:03<00:14,  2.76it/s]Inference:  19%|█▉        | 9/47 [00:04<00:14,  2.66it/s]Inference:  21%|██▏       | 10/47 [00:05<00:18,  2.03it/s]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  23%|██▎       | 11/47 [00:05<00:15,  2.35it/s]Inference:  26%|██▌       | 12/47 [00:05<00:15,  2.26it/s]Inference:  28%|██▊       | 13/47 [00:06<00:12,  2.83it/s]Inference:  30%|██▉       | 14/47 [00:06<00:11,  2.94it/s]Inference:  32%|███▏      | 15/47 [00:06<00:09,  3.20it/s]Inference:  34%|███▍      | 16/47 [00:06<00:08,  3.47it/s]Inference:  36%|███▌      | 17/47 [00:07<00:08,  3.34it/s]Inference:  38%|███▊      | 18/47 [00:07<00:09,  3.15it/s]Inference:  40%|████      | 19/47 [00:07<00:08,  3.43it/s]Inference:  43%|████▎     | 20/47 [00:07<00:06,  3.92it/s]Inference:  45%|████▍     | 21/47 [00:08<00:06,  4.03it/s]Inference:  47%|████▋     | 22/47 [00:08<00:06,  4.04it/s]Inference:  49%|████▉     | 23/47 [00:08<00:06,  3.55it/s]Inference:  51%|█████     | 24/47 [00:09<00:07,  3.09it/s]Inference:  53%|█████▎    | 25/47 [00:09<00:06,  3.61it/s]Inference:  55%|█████▌    | 26/47 [00:12<00:25,  1.20s/it]Inference:  57%|█████▋    | 27/47 [00:12<00:18,  1.08it/s]Inference:  60%|█████▉    | 28/47 [00:13<00:13,  1.44it/s]Inference:  62%|██████▏   | 29/47 [00:13<00:09,  1.81it/s]Inference:  64%|██████▍   | 30/47 [00:13<00:07,  2.34it/s]Inference:  66%|██████▌   | 31/47 [00:13<00:05,  2.90it/s]Inference:  68%|██████▊   | 32/47 [00:13<00:05,  2.89it/s]Inference:  70%|███████   | 33/47 [00:15<00:08,  1.60it/s]Inference:  72%|███████▏  | 34/47 [00:16<00:11,  1.18it/s]Inference:  74%|███████▍  | 35/47 [00:16<00:07,  1.55it/s]Inference:  77%|███████▋  | 36/47 [00:17<00:05,  1.94it/s]Inference:  79%|███████▊  | 37/47 [00:17<00:04,  2.38it/s]Inference:  81%|████████  | 38/47 [00:17<00:03,  2.89it/s]Inference:  83%|████████▎ | 39/47 [00:18<00:03,  2.03it/s]Inference:  85%|████████▌ | 40/47 [00:19<00:05,  1.21it/s]Inference:  87%|████████▋ | 41/47 [00:20<00:04,  1.48it/s]Inference:  89%|████████▉ | 42/47 [00:20<00:02,  1.84it/s]Inference:  91%|█████████▏| 43/47 [00:20<00:01,  2.07it/s]Inference:  94%|█████████▎| 44/47 [00:21<00:01,  2.27it/s]Inference:  96%|█████████▌| 45/47 [00:21<00:00,  2.78it/s]Inference:  98%|█████████▊| 46/47 [00:21<00:00,  3.35it/s]Inference: 100%|██████████| 47/47 [00:21<00:00,  3.62it/s]Inference: 100%|██████████| 47/47 [00:21<00:00,  2.17it/s]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/54 [00:00<?, ?it/s]
+No chat template is defined for this tokenizer - using the default template for the BloomTokenizerFast class. If the default is not appropriate for your model, please set `tokenizer.chat_template` to an appropriate template. See https://huggingface.co/docs/transformers/main/chat_templating for more information.
+
+Inference:   2%|▏         | 1/54 [00:01<01:15,  1.42s/it]Inference:   4%|▎         | 2/54 [00:02<00:49,  1.05it/s]Inference:   6%|▌         | 3/54 [00:02<00:32,  1.57it/s]Inference:   7%|▋         | 4/54 [00:02<00:30,  1.67it/s]Inference:   9%|▉         | 5/54 [00:03<00:27,  1.76it/s]Inference:  11%|█         | 6/54 [00:03<00:23,  2.08it/s]Inference:  13%|█▎        | 7/54 [00:03<00:17,  2.65it/s]Inference:  15%|█▍        | 8/54 [00:04<00:18,  2.44it/s]Inference:  17%|█▋        | 9/54 [00:04<00:16,  2.70it/s]Inference:  19%|█▊        | 10/54 [00:04<00:13,  3.17it/s]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  20%|██        | 11/54 [00:05<00:14,  2.92it/s]Inference:  22%|██▏       | 12/54 [00:05<00:14,  2.95it/s]Inference:  24%|██▍       | 13/54 [00:05<00:14,  2.89it/s]Inference:  26%|██▌       | 14/54 [00:06<00:15,  2.59it/s]Inference:  28%|██▊       | 15/54 [00:06<00:14,  2.74it/s]Inference:  30%|██▉       | 16/54 [00:06<00:13,  2.90it/s]Inference:  31%|███▏      | 17/54 [00:07<00:11,  3.16it/s]Inference:  33%|███▎      | 18/54 [00:08<00:26,  1.35it/s]Inference:  35%|███▌      | 19/54 [00:09<00:20,  1.73it/s]Inference:  37%|███▋      | 20/54 [00:09<00:16,  2.04it/s]Inference:  39%|███▉      | 21/54 [00:09<00:14,  2.26it/s]Inference:  41%|████      | 22/54 [00:09<00:11,  2.78it/s]Inference:  43%|████▎     | 23/54 [00:10<00:10,  3.02it/s]Inference:  44%|████▍     | 24/54 [00:10<00:08,  3.47it/s]Inference:  46%|████▋     | 25/54 [00:10<00:07,  3.82it/s]Inference:  48%|████▊     | 26/54 [00:11<00:09,  2.99it/s]Inference:  50%|█████     | 27/54 [00:11<00:09,  2.72it/s]Inference:  52%|█████▏    | 28/54 [00:11<00:08,  2.98it/s]Inference:  54%|█████▎    | 29/54 [00:12<00:07,  3.37it/s]Inference:  56%|█████▌    | 30/54 [00:13<00:12,  1.89it/s]Inference:  57%|█████▋    | 31/54 [00:13<00:13,  1.75it/s]Inference:  59%|█████▉    | 32/54 [00:13<00:10,  2.13it/s]Inference:  61%|██████    | 33/54 [00:14<00:11,  1.90it/s]Inference:  63%|██████▎   | 34/54 [00:14<00:08,  2.43it/s]Inference:  65%|██████▍   | 35/54 [00:23<00:52,  2.76s/it]Inference:  67%|██████▋   | 36/54 [00:23<00:37,  2.06s/it]Inference:  69%|██████▊   | 37/54 [00:23<00:25,  1.51s/it]Inference:  70%|███████   | 38/54 [00:23<00:17,  1.12s/it]Inference:  72%|███████▏  | 39/54 [00:24<00:12,  1.21it/s]Inference:  74%|███████▍  | 40/54 [00:24<00:10,  1.31it/s]Inference:  76%|███████▌  | 41/54 [00:25<00:08,  1.55it/s]Inference:  78%|███████▊  | 42/54 [00:25<00:08,  1.40it/s]Inference:  80%|███████▉  | 43/54 [00:26<00:06,  1.66it/s]Inference:  81%|████████▏ | 44/54 [00:26<00:04,  2.10it/s]Inference:  83%|████████▎ | 45/54 [00:26<00:04,  2.13it/s]Inference:  85%|████████▌ | 46/54 [00:27<00:03,  2.65it/s]Inference:  87%|████████▋ | 47/54 [00:29<00:06,  1.11it/s]Inference:  89%|████████▉ | 48/54 [00:30<00:06,  1.09s/it]Inference:  91%|█████████ | 49/54 [00:31<00:04,  1.13it/s]Inference:  93%|█████████▎| 50/54 [00:31<00:03,  1.29it/s]Inference:  94%|█████████▍| 51/54 [00:32<00:02,  1.50it/s]Inference:  96%|█████████▋| 52/54 [00:32<00:01,  1.85it/s]Inference:  98%|█████████▊| 53/54 [00:32<00:00,  2.32it/s]Inference: 100%|██████████| 54/54 [00:33<00:00,  1.88it/s]Inference: 100%|██████████| 54/54 [00:33<00:00,  1.63it/s]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.00it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.03s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.06s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.29it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.15it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/43 [00:00<?, ?it/s]Inference:   2%|▏         | 1/43 [00:07<05:16,  7.54s/it]Inference:   5%|▍         | 2/43 [00:18<06:25,  9.41s/it]Inference:   7%|▋         | 3/43 [00:23<04:59,  7.48s/it]Inference:   9%|▉         | 4/43 [00:30<04:41,  7.23s/it]Inference:  12%|█▏        | 5/43 [00:35<04:12,  6.63s/it]Inference:  14%|█▍        | 6/43 [00:41<03:54,  6.33s/it]Inference:  16%|█▋        | 7/43 [00:52<04:41,  7.83s/it]Inference:  19%|█▊        | 8/43 [00:59<04:20,  7.44s/it]Inference:  21%|██        | 9/43 [01:04<03:53,  6.87s/it]Inference:  23%|██▎       | 10/43 [01:10<03:37,  6.60s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  26%|██▌       | 11/43 [01:20<04:06,  7.69s/it]Inference:  28%|██▊       | 12/43 [01:27<03:51,  7.47s/it]Inference:  30%|███       | 13/43 [01:34<03:32,  7.10s/it]Inference:  33%|███▎      | 14/43 [01:39<03:11,  6.59s/it]Inference:  35%|███▍      | 15/43 [01:45<02:57,  6.34s/it]Inference:  37%|███▋      | 16/43 [01:51<02:51,  6.37s/it]Inference:  40%|███▉      | 17/43 [01:56<02:34,  5.95s/it]Inference:  42%|████▏     | 18/43 [02:01<02:22,  5.68s/it]Inference:  44%|████▍     | 19/43 [02:06<02:12,  5.53s/it]Inference:  47%|████▋     | 20/43 [02:13<02:14,  5.85s/it]Inference:  49%|████▉     | 21/43 [02:20<02:14,  6.13s/it]Inference:  51%|█████     | 22/43 [02:27<02:12,  6.31s/it]Inference:  53%|█████▎    | 23/43 [02:38<02:37,  7.88s/it]Inference:  56%|█████▌    | 24/43 [02:45<02:21,  7.45s/it]Inference:  58%|█████▊    | 25/43 [02:54<02:27,  8.19s/it]Inference:  60%|██████    | 26/43 [03:02<02:16,  8.02s/it]Inference:  63%|██████▎   | 27/43 [03:12<02:18,  8.68s/it]Inference:  65%|██████▌   | 28/43 [03:19<02:01,  8.11s/it]Inference:  67%|██████▋   | 29/43 [03:25<01:44,  7.48s/it]Inference:  70%|██████▉   | 30/43 [03:41<02:08,  9.90s/it]Inference:  72%|███████▏  | 31/43 [03:45<01:39,  8.28s/it]Inference:  74%|███████▍  | 32/43 [03:54<01:32,  8.40s/it]Inference:  77%|███████▋  | 33/43 [04:00<01:15,  7.60s/it]Inference:  79%|███████▉  | 34/43 [04:05<01:02,  7.00s/it]Inference:  81%|████████▏ | 35/43 [04:18<01:09,  8.70s/it]Inference:  84%|████████▎ | 36/43 [04:23<00:54,  7.77s/it]Inference:  86%|████████▌ | 37/43 [04:27<00:39,  6.60s/it]Inference:  88%|████████▊ | 38/43 [04:32<00:30,  6.11s/it]Inference:  91%|█████████ | 39/43 [04:39<00:25,  6.40s/it]Inference:  93%|█████████▎| 40/43 [04:44<00:17,  5.99s/it]Inference:  95%|█████████▌| 41/43 [04:50<00:11,  6.00s/it]Inference:  98%|█████████▊| 42/43 [04:58<00:06,  6.60s/it]Inference: 100%|██████████| 43/43 [05:04<00:00,  6.22s/it]Inference: 100%|██████████| 43/43 [05:04<00:00,  7.08s/it]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.02it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.01s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.30it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.16it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/41 [00:00<?, ?it/s]Inference:   2%|▏         | 1/41 [00:04<03:15,  4.90s/it]Inference:   5%|▍         | 2/41 [00:12<04:20,  6.67s/it]Inference:   7%|▋         | 3/41 [00:18<04:04,  6.44s/it]Inference:  10%|▉         | 4/41 [00:26<04:11,  6.81s/it]Inference:  12%|█▏        | 5/41 [00:30<03:35,  5.99s/it]Inference:  15%|█▍        | 6/41 [00:37<03:33,  6.11s/it]Inference:  17%|█▋        | 7/41 [00:41<03:10,  5.60s/it]Inference:  20%|█▉        | 8/41 [00:49<03:28,  6.31s/it]Inference:  22%|██▏       | 9/41 [00:55<03:19,  6.22s/it]Inference:  24%|██▍       | 10/41 [01:03<03:27,  6.70s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  27%|██▋       | 11/41 [01:11<03:37,  7.24s/it]Inference:  29%|██▉       | 12/41 [01:18<03:28,  7.20s/it]Inference:  32%|███▏      | 13/41 [01:24<03:08,  6.75s/it]Inference:  34%|███▍      | 14/41 [01:28<02:36,  5.81s/it]Inference:  37%|███▋      | 15/41 [01:35<02:41,  6.22s/it]Inference:  39%|███▉      | 16/41 [01:40<02:29,  5.99s/it]Inference:  41%|████▏     | 17/41 [01:46<02:17,  5.71s/it]Inference:  44%|████▍     | 18/41 [01:55<02:39,  6.94s/it]Inference:  46%|████▋     | 19/41 [02:01<02:24,  6.55s/it]Inference:  49%|████▉     | 20/41 [02:07<02:14,  6.41s/it]Inference:  51%|█████     | 21/41 [02:12<02:02,  6.12s/it]Inference:  54%|█████▎    | 22/41 [02:18<01:54,  6.04s/it]Inference:  56%|█████▌    | 23/41 [02:23<01:39,  5.55s/it]Inference:  59%|█████▊    | 24/41 [02:29<01:37,  5.74s/it]Inference:  61%|██████    | 25/41 [02:41<02:01,  7.61s/it]Inference:  63%|██████▎   | 26/41 [02:50<02:00,  8.05s/it]Inference:  66%|██████▌   | 27/41 [03:01<02:06,  9.01s/it]Inference:  68%|██████▊   | 28/41 [03:13<02:08,  9.92s/it]Inference:  71%|███████   | 29/41 [03:18<01:42,  8.51s/it]Inference:  73%|███████▎  | 30/41 [03:27<01:34,  8.59s/it]Inference:  76%|███████▌  | 31/41 [03:34<01:21,  8.17s/it]Inference:  78%|███████▊  | 32/41 [03:42<01:13,  8.11s/it]Inference:  80%|████████  | 33/41 [03:47<00:55,  6.91s/it]Inference:  83%|████████▎ | 34/41 [03:51<00:42,  6.05s/it]Inference:  85%|████████▌ | 35/41 [03:58<00:38,  6.35s/it]Inference:  88%|████████▊ | 36/41 [04:08<00:37,  7.44s/it]Inference:  90%|█████████ | 37/41 [04:14<00:28,  7.22s/it]Inference:  93%|█████████▎| 38/41 [04:21<00:21,  7.05s/it]Inference:  95%|█████████▌| 39/41 [04:26<00:12,  6.42s/it]Inference:  98%|█████████▊| 40/41 [04:32<00:06,  6.29s/it]Inference: 100%|██████████| 41/41 [04:41<00:00,  7.14s/it]Inference: 100%|██████████| 41/41 [04:41<00:00,  6.87s/it]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.02it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.01s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.30it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.16it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/37 [00:00<?, ?it/s]Inference:   3%|▎         | 1/37 [00:09<05:35,  9.31s/it]Inference:   5%|▌         | 2/37 [00:15<04:27,  7.66s/it]Inference:   8%|▊         | 3/37 [00:26<05:07,  9.05s/it]Inference:  11%|█         | 4/37 [00:34<04:49,  8.79s/it]Inference:  14%|█▎        | 5/37 [00:41<04:16,  8.01s/it]Inference:  16%|█▌        | 6/37 [00:45<03:27,  6.70s/it]Inference:  19%|█▉        | 7/37 [00:50<03:02,  6.09s/it]Inference:  22%|██▏       | 8/37 [00:56<02:57,  6.12s/it]Inference:  24%|██▍       | 9/37 [01:04<03:03,  6.56s/it]Inference:  27%|██▋       | 10/37 [01:11<02:59,  6.64s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  30%|██▉       | 11/37 [01:16<02:46,  6.39s/it]Inference:  32%|███▏      | 12/37 [01:25<02:57,  7.11s/it]Inference:  35%|███▌      | 13/37 [01:33<02:54,  7.28s/it]Inference:  38%|███▊      | 14/37 [01:38<02:34,  6.74s/it]Inference:  41%|████      | 15/37 [01:46<02:37,  7.17s/it]Inference:  43%|████▎     | 16/37 [01:53<02:26,  6.99s/it]Inference:  46%|████▌     | 17/37 [02:03<02:35,  7.76s/it]Inference:  49%|████▊     | 18/37 [02:09<02:18,  7.29s/it]Inference:  51%|█████▏    | 19/37 [02:17<02:17,  7.66s/it]Inference:  54%|█████▍    | 20/37 [02:27<02:21,  8.35s/it]Inference:  57%|█████▋    | 21/37 [02:32<01:55,  7.23s/it]Inference:  59%|█████▉    | 22/37 [02:40<01:53,  7.55s/it]Inference:  62%|██████▏   | 23/37 [02:45<01:32,  6.63s/it]Inference:  65%|██████▍   | 24/37 [02:52<01:28,  6.78s/it]Inference:  68%|██████▊   | 25/37 [03:00<01:26,  7.24s/it]Inference:  70%|███████   | 26/37 [03:04<01:09,  6.28s/it]Inference:  73%|███████▎  | 27/37 [03:07<00:53,  5.33s/it]Inference:  76%|███████▌  | 28/37 [03:13<00:50,  5.58s/it]Inference:  78%|███████▊  | 29/37 [03:24<00:55,  6.95s/it]Inference:  81%|████████  | 30/37 [03:29<00:45,  6.48s/it]Inference:  84%|████████▍ | 31/37 [03:40<00:46,  7.80s/it]Inference:  86%|████████▋ | 32/37 [03:46<00:36,  7.32s/it]Inference:  89%|████████▉ | 33/37 [03:53<00:28,  7.23s/it]Inference:  92%|█████████▏| 34/37 [04:03<00:24,  8.11s/it]Inference:  95%|█████████▍| 35/37 [04:13<00:17,  8.54s/it]Inference:  97%|█████████▋| 36/37 [04:21<00:08,  8.31s/it]Inference: 100%|██████████| 37/37 [04:26<00:00,  7.59s/it]Inference: 100%|██████████| 37/37 [04:26<00:00,  7.22s/it]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.02it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.03s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.06s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.28it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.15it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/47 [00:00<?, ?it/s]Inference:   2%|▏         | 1/47 [00:08<06:24,  8.35s/it]Inference:   4%|▍         | 2/47 [00:14<05:06,  6.80s/it]Inference:   6%|▋         | 3/47 [00:21<05:05,  6.93s/it]Inference:   9%|▊         | 4/47 [00:26<04:34,  6.39s/it]Inference:  11%|█         | 5/47 [00:32<04:21,  6.23s/it]Inference:  13%|█▎        | 6/47 [00:36<03:46,  5.53s/it]Inference:  15%|█▍        | 7/47 [00:44<04:04,  6.10s/it]Inference:  17%|█▋        | 8/47 [00:51<04:15,  6.55s/it]Inference:  19%|█▉        | 9/47 [01:04<05:20,  8.44s/it]Inference:  21%|██▏       | 10/47 [01:21<06:49, 11.08s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  23%|██▎       | 11/47 [01:30<06:20, 10.56s/it]Inference:  26%|██▌       | 12/47 [01:41<06:12, 10.64s/it]Inference:  28%|██▊       | 13/47 [01:52<06:07, 10.80s/it]Inference:  30%|██▉       | 14/47 [02:04<06:05, 11.07s/it]Inference:  32%|███▏      | 15/47 [02:11<05:17,  9.92s/it]Inference:  34%|███▍      | 16/47 [02:21<05:10, 10.00s/it]Inference:  36%|███▌      | 17/47 [02:28<04:34,  9.16s/it]Inference:  38%|███▊      | 18/47 [02:37<04:16,  8.83s/it]Inference:  40%|████      | 19/47 [02:45<04:04,  8.74s/it]Inference:  43%|████▎     | 20/47 [02:55<04:04,  9.05s/it]Inference:  45%|████▍     | 21/47 [03:04<03:57,  9.12s/it]Inference:  47%|████▋     | 22/47 [03:16<04:10, 10.02s/it]Inference:  49%|████▉     | 23/47 [03:24<03:45,  9.38s/it]Inference:  51%|█████     | 24/47 [03:37<04:02, 10.53s/it]Inference:  53%|█████▎    | 25/47 [03:43<03:19,  9.06s/it]Inference:  55%|█████▌    | 26/47 [03:52<03:08,  9.00s/it]Inference:  57%|█████▋    | 27/47 [04:04<03:21, 10.08s/it]Inference:  60%|█████▉    | 28/47 [04:19<03:39, 11.55s/it]Inference:  62%|██████▏   | 29/47 [04:30<03:21, 11.22s/it]Inference:  64%|██████▍   | 30/47 [04:38<02:53, 10.19s/it]Inference:  66%|██████▌   | 31/47 [04:45<02:31,  9.49s/it]Inference:  68%|██████▊   | 32/47 [04:52<02:06,  8.47s/it]Inference:  70%|███████   | 33/47 [04:59<01:53,  8.14s/it]Inference:  72%|███████▏  | 34/47 [05:08<01:48,  8.38s/it]Inference:  74%|███████▍  | 35/47 [05:14<01:30,  7.57s/it]Inference:  77%|███████▋  | 36/47 [05:20<01:20,  7.34s/it]Inference:  79%|███████▊  | 37/47 [05:24<01:03,  6.38s/it]Inference:  81%|████████  | 38/47 [05:32<01:01,  6.86s/it]Inference:  83%|████████▎ | 39/47 [05:40<00:57,  7.15s/it]Inference:  85%|████████▌ | 40/47 [05:52<00:59,  8.45s/it]Inference:  87%|████████▋ | 41/47 [06:05<00:58,  9.75s/it]Inference:  89%|████████▉ | 42/47 [06:13<00:46,  9.36s/it]Inference:  91%|█████████▏| 43/47 [06:23<00:37,  9.47s/it]Inference:  94%|█████████▎| 44/47 [06:35<00:30, 10.28s/it]Inference:  96%|█████████▌| 45/47 [06:46<00:21, 10.55s/it]Inference:  98%|█████████▊| 46/47 [06:59<00:11, 11.22s/it]Inference: 100%|██████████| 47/47 [07:05<00:00,  9.65s/it]Inference: 100%|██████████| 47/47 [07:05<00:00,  9.05s/it]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.41s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.35s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.34s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.03it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.11s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/54 [00:00<?, ?it/s]Inference:   2%|▏         | 1/54 [00:13<11:38, 13.17s/it]Inference:   4%|▎         | 2/54 [00:19<07:41,  8.88s/it]Inference:   6%|▌         | 3/54 [00:26<06:49,  8.02s/it]Inference:   7%|▋         | 4/54 [00:34<06:45,  8.11s/it]Inference:   9%|▉         | 5/54 [00:47<08:03,  9.88s/it]Inference:  11%|█         | 6/54 [01:03<09:35, 11.98s/it]Inference:  13%|█▎        | 7/54 [01:13<08:54, 11.38s/it]Inference:  15%|█▍        | 8/54 [01:24<08:44, 11.39s/it]Inference:  17%|█▋        | 9/54 [01:35<08:25, 11.23s/it]Inference:  19%|█▊        | 10/54 [01:43<07:30, 10.23s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  20%|██        | 11/54 [01:55<07:33, 10.54s/it]Inference:  22%|██▏       | 12/54 [02:09<08:09, 11.65s/it]Inference:  24%|██▍       | 13/54 [02:14<06:35,  9.64s/it]Inference:  26%|██▌       | 14/54 [02:21<05:54,  8.86s/it]Inference:  28%|██▊       | 15/54 [02:28<05:21,  8.25s/it]Inference:  30%|██▉       | 16/54 [02:32<04:33,  7.20s/it]Inference:  31%|███▏      | 17/54 [02:38<04:05,  6.65s/it]Inference:  33%|███▎      | 18/54 [02:45<04:06,  6.83s/it]Inference:  35%|███▌      | 19/54 [02:51<03:48,  6.54s/it]Inference:  37%|███▋      | 20/54 [02:58<03:44,  6.62s/it]Inference:  39%|███▉      | 21/54 [03:03<03:25,  6.24s/it]Inference:  41%|████      | 22/54 [03:08<03:06,  5.82s/it]Inference:  43%|████▎     | 23/54 [03:16<03:18,  6.41s/it]Inference:  44%|████▍     | 24/54 [03:21<03:06,  6.22s/it]Inference:  46%|████▋     | 25/54 [03:29<03:16,  6.76s/it]Inference:  48%|████▊     | 26/54 [03:35<02:58,  6.36s/it]Inference:  50%|█████     | 27/54 [03:40<02:44,  6.10s/it]Inference:  52%|█████▏    | 28/54 [03:49<03:00,  6.93s/it]Inference:  54%|█████▎    | 29/54 [03:55<02:42,  6.51s/it]Inference:  56%|█████▌    | 30/54 [03:58<02:12,  5.52s/it]Inference:  57%|█████▋    | 31/54 [04:02<01:56,  5.08s/it]Inference:  59%|█████▉    | 32/54 [04:09<02:04,  5.68s/it]Inference:  61%|██████    | 33/54 [04:14<01:53,  5.39s/it]Inference:  63%|██████▎   | 34/54 [04:16<01:31,  4.57s/it]Inference:  65%|██████▍   | 35/54 [04:21<01:27,  4.61s/it]Inference:  67%|██████▋   | 36/54 [04:26<01:24,  4.71s/it]Inference:  69%|██████▊   | 37/54 [04:31<01:22,  4.86s/it]Inference:  70%|███████   | 38/54 [04:38<01:25,  5.32s/it]Inference:  72%|███████▏  | 39/54 [04:42<01:16,  5.13s/it]Inference:  74%|███████▍  | 40/54 [04:49<01:16,  5.46s/it]Inference:  76%|███████▌  | 41/54 [04:55<01:15,  5.83s/it]Inference:  78%|███████▊  | 42/54 [05:00<01:06,  5.55s/it]Inference:  80%|███████▉  | 43/54 [05:04<00:54,  4.94s/it]Inference:  81%|████████▏ | 44/54 [05:08<00:47,  4.71s/it]Inference:  83%|████████▎ | 45/54 [05:15<00:48,  5.37s/it]Inference:  85%|████████▌ | 46/54 [05:19<00:41,  5.13s/it]Inference:  87%|████████▋ | 47/54 [05:30<00:48,  6.90s/it]Inference:  89%|████████▉ | 48/54 [05:39<00:44,  7.43s/it]Inference:  91%|█████████ | 49/54 [05:43<00:31,  6.35s/it]Inference:  93%|█████████▎| 50/54 [05:48<00:23,  5.87s/it]Inference:  94%|█████████▍| 51/54 [05:54<00:17,  5.88s/it]Inference:  96%|█████████▋| 52/54 [06:01<00:12,  6.29s/it]Inference:  98%|█████████▊| 53/54 [06:07<00:06,  6.31s/it]Inference: 100%|██████████| 54/54 [06:15<00:00,  6.72s/it]Inference: 100%|██████████| 54/54 [06:15<00:00,  6.95s/it]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.14s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:09,  4.67s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.95s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:13<00:00,  3.07s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:13<00:00,  3.44s/it]
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference.py", line 127, in <module>
+    main(model_id=args.model_id ,dataset_paths=args.dataset_paths,destination_path=args.destination_path,verbose=args.verbose)
+  File "/home/namwoam/dl-final/llm/inference.py", line 20, in main
+    pipeline = transformers.pipeline(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 1005, in pipeline
+    tokenizer = AutoTokenizer.from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 862, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2089, in from_pretrained
+    return cls._from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2311, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/llama/tokenization_llama_fast.py", line 124, in __init__
+    super().__init__(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_fast.py", line 102, in __init__
+    raise ValueError(
+ValueError: Cannot instantiate this tokenizer from a slow version. If it's based on sentencepiece, make sure you have sentencepiece installed.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.08s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.08s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.03s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.42it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.20it/s]
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference.py", line 127, in <module>
+    main(model_id=args.model_id ,dataset_paths=args.dataset_paths,destination_path=args.destination_path,verbose=args.verbose)
+  File "/home/namwoam/dl-final/llm/inference.py", line 20, in main
+    pipeline = transformers.pipeline(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 1005, in pipeline
+    tokenizer = AutoTokenizer.from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 862, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2089, in from_pretrained
+    return cls._from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2311, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/llama/tokenization_llama_fast.py", line 124, in __init__
+    super().__init__(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_fast.py", line 102, in __init__
+    raise ValueError(
+ValueError: Cannot instantiate this tokenizer from a slow version. If it's based on sentencepiece, make sure you have sentencepiece installed.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.11s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.09s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.04s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.41it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.19it/s]
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference.py", line 127, in <module>
+    main(model_id=args.model_id ,dataset_paths=args.dataset_paths,destination_path=args.destination_path,verbose=args.verbose)
+  File "/home/namwoam/dl-final/llm/inference.py", line 20, in main
+    pipeline = transformers.pipeline(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 1005, in pipeline
+    tokenizer = AutoTokenizer.from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 862, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2089, in from_pretrained
+    return cls._from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2311, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/llama/tokenization_llama_fast.py", line 124, in __init__
+    super().__init__(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_fast.py", line 102, in __init__
+    raise ValueError(
+ValueError: Cannot instantiate this tokenizer from a slow version. If it's based on sentencepiece, make sure you have sentencepiece installed.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.07s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.06s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.02s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.44it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.22it/s]
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference.py", line 127, in <module>
+    main(model_id=args.model_id ,dataset_paths=args.dataset_paths,destination_path=args.destination_path,verbose=args.verbose)
+  File "/home/namwoam/dl-final/llm/inference.py", line 20, in main
+    pipeline = transformers.pipeline(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 1005, in pipeline
+    tokenizer = AutoTokenizer.from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 862, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2089, in from_pretrained
+    return cls._from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2311, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/llama/tokenization_llama_fast.py", line 124, in __init__
+    super().__init__(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_fast.py", line 102, in __init__
+    raise ValueError(
+ValueError: Cannot instantiate this tokenizer from a slow version. If it's based on sentencepiece, make sure you have sentencepiece installed.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.07s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.07s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.02s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.44it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.21it/s]
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference.py", line 127, in <module>
+    main(model_id=args.model_id ,dataset_paths=args.dataset_paths,destination_path=args.destination_path,verbose=args.verbose)
+  File "/home/namwoam/dl-final/llm/inference.py", line 20, in main
+    pipeline = transformers.pipeline(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 1005, in pipeline
+    tokenizer = AutoTokenizer.from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 862, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2089, in from_pretrained
+    return cls._from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2311, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/llama/tokenization_llama_fast.py", line 124, in __init__
+    super().__init__(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_fast.py", line 102, in __init__
+    raise ValueError(
+ValueError: Cannot instantiate this tokenizer from a slow version. If it's based on sentencepiece, make sure you have sentencepiece installed.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/43 [00:00<?, ?it/s]/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Inference:   2%|▏         | 1/43 [00:08<06:08,  8.78s/it]Inference:   5%|▍         | 2/43 [00:10<03:01,  4.42s/it]Inference:   7%|▋         | 3/43 [00:18<04:14,  6.37s/it]Inference:   9%|▉         | 4/43 [00:23<03:38,  5.61s/it]Inference:  12%|█▏        | 5/43 [00:29<03:38,  5.75s/it]Inference:  14%|█▍        | 6/43 [00:33<03:10,  5.14s/it]Inference:  16%|█▋        | 7/43 [00:41<03:36,  6.02s/it]Inference:  19%|█▊        | 8/43 [00:43<02:55,  5.00s/it]Inference:  21%|██        | 9/43 [00:45<02:19,  4.09s/it]Inference:  23%|██▎       | 10/43 [00:50<02:19,  4.22s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  26%|██▌       | 11/43 [00:54<02:14,  4.19s/it]Inference:  28%|██▊       | 12/43 [00:57<02:01,  3.93s/it]Inference:  30%|███       | 13/43 [01:04<02:24,  4.83s/it]Inference:  33%|███▎      | 14/43 [01:09<02:22,  4.93s/it]Inference:  35%|███▍      | 15/43 [01:18<02:44,  5.89s/it]Inference:  37%|███▋      | 16/43 [01:21<02:19,  5.15s/it]Inference:  40%|███▉      | 17/43 [01:25<02:02,  4.70s/it]Inference:  42%|████▏     | 18/43 [01:34<02:31,  6.07s/it]Inference:  44%|████▍     | 19/43 [01:36<01:58,  4.93s/it]Inference:  47%|████▋     | 20/43 [01:46<02:23,  6.25s/it]Inference:  49%|████▉     | 21/43 [01:54<02:30,  6.85s/it]Inference:  51%|█████     | 22/43 [02:03<02:38,  7.54s/it]Inference:  53%|█████▎    | 23/43 [02:11<02:36,  7.82s/it]Inference:  56%|█████▌    | 24/43 [02:21<02:36,  8.26s/it]Inference:  58%|█████▊    | 25/43 [02:25<02:05,  6.95s/it]Inference:  60%|██████    | 26/43 [02:30<01:48,  6.37s/it]Inference:  63%|██████▎   | 27/43 [02:39<01:54,  7.15s/it]Inference:  65%|██████▌   | 28/43 [02:46<01:47,  7.14s/it]Inference:  67%|██████▋   | 29/43 [02:52<01:38,  7.03s/it]Inference:  70%|██████▉   | 30/43 [02:58<01:23,  6.43s/it]Inference:  72%|███████▏  | 31/43 [03:02<01:10,  5.85s/it]Inference:  74%|███████▍  | 32/43 [03:05<00:53,  4.88s/it]Inference:  77%|███████▋  | 33/43 [03:09<00:46,  4.63s/it]Inference:  79%|███████▉  | 34/43 [03:15<00:47,  5.25s/it]Inference:  81%|████████▏ | 35/43 [03:18<00:36,  4.61s/it]Inference:  84%|████████▎ | 36/43 [03:23<00:32,  4.58s/it]Inference:  86%|████████▌ | 37/43 [03:26<00:25,  4.20s/it]Inference:  88%|████████▊ | 38/43 [03:32<00:23,  4.63s/it]Inference:  91%|█████████ | 39/43 [03:42<00:24,  6.21s/it]Inference:  93%|█████████▎| 40/43 [03:47<00:17,  5.90s/it]Inference:  95%|█████████▌| 41/43 [03:51<00:10,  5.41s/it]Inference:  98%|█████████▊| 42/43 [04:01<00:06,  6.79s/it]Inference: 100%|██████████| 43/43 [04:04<00:00,  5.59s/it]Inference: 100%|██████████| 43/43 [04:04<00:00,  5.69s/it]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/41 [00:00<?, ?it/s]/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Inference:   2%|▏         | 1/41 [00:05<03:49,  5.74s/it]Inference:   5%|▍         | 2/41 [00:11<03:39,  5.62s/it]Inference:   7%|▋         | 3/41 [00:17<03:52,  6.12s/it]Inference:  10%|▉         | 4/41 [00:25<03:59,  6.48s/it]Inference:  12%|█▏        | 5/41 [00:32<04:05,  6.81s/it]Inference:  15%|█▍        | 6/41 [00:35<03:08,  5.39s/it]Inference:  17%|█▋        | 7/41 [00:44<03:46,  6.66s/it]Inference:  20%|█▉        | 8/41 [00:50<03:36,  6.56s/it]Inference:  22%|██▏       | 9/41 [00:55<03:09,  5.93s/it]Inference:  24%|██▍       | 10/41 [00:59<02:52,  5.55s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  27%|██▋       | 11/41 [01:03<02:30,  5.01s/it]Inference:  29%|██▉       | 12/41 [01:08<02:26,  5.06s/it]Inference:  32%|███▏      | 13/41 [01:12<02:05,  4.48s/it]Inference:  34%|███▍      | 14/41 [01:15<01:50,  4.10s/it]Inference:  37%|███▋      | 15/41 [01:17<01:33,  3.60s/it]Inference:  39%|███▉      | 16/41 [01:23<01:47,  4.28s/it]Inference:  41%|████▏     | 17/41 [01:27<01:39,  4.14s/it]Inference:  44%|████▍     | 18/41 [01:31<01:34,  4.09s/it]Inference:  46%|████▋     | 19/41 [01:35<01:33,  4.23s/it]Inference:  49%|████▉     | 20/41 [01:42<01:43,  4.92s/it]Inference:  51%|█████     | 21/41 [01:50<01:59,  5.95s/it]Inference:  54%|█████▎    | 22/41 [01:56<01:49,  5.77s/it]Inference:  56%|█████▌    | 23/41 [02:05<02:04,  6.91s/it]Inference:  59%|█████▊    | 24/41 [02:15<02:10,  7.68s/it]Inference:  61%|██████    | 25/41 [02:21<01:54,  7.18s/it]Inference:  63%|██████▎   | 26/41 [02:27<01:43,  6.87s/it]Inference:  66%|██████▌   | 27/41 [02:30<01:22,  5.86s/it]Inference:  68%|██████▊   | 28/41 [02:36<01:13,  5.65s/it]Inference:  71%|███████   | 29/41 [02:39<01:00,  5.07s/it]Inference:  73%|███████▎  | 30/41 [02:43<00:53,  4.82s/it]Inference:  76%|███████▌  | 31/41 [02:50<00:54,  5.41s/it]Inference:  78%|███████▊  | 32/41 [02:54<00:43,  4.86s/it]Inference:  80%|████████  | 33/41 [02:55<00:30,  3.78s/it]Inference:  83%|████████▎ | 34/41 [02:58<00:24,  3.45s/it]Inference:  85%|████████▌ | 35/41 [03:04<00:25,  4.30s/it]Inference:  88%|████████▊ | 36/41 [03:09<00:22,  4.44s/it]Inference:  90%|█████████ | 37/41 [03:13<00:17,  4.32s/it]Inference:  93%|█████████▎| 38/41 [03:19<00:14,  4.84s/it]Inference:  95%|█████████▌| 39/41 [03:27<00:11,  5.82s/it]Inference:  98%|█████████▊| 40/41 [03:30<00:04,  4.83s/it]Inference: 100%|██████████| 41/41 [03:33<00:00,  4.57s/it]Inference: 100%|██████████| 41/41 [03:33<00:00,  5.22s/it]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/37 [00:00<?, ?it/s]/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Inference:   3%|▎         | 1/37 [00:06<03:44,  6.23s/it]Inference:   5%|▌         | 2/37 [00:09<02:38,  4.53s/it]Inference:   8%|▊         | 3/37 [00:14<02:34,  4.53s/it]Inference:  11%|█         | 4/37 [00:19<02:41,  4.90s/it]Inference:  14%|█▎        | 5/37 [00:29<03:30,  6.59s/it]Inference:  16%|█▌        | 6/37 [00:31<02:41,  5.21s/it]Inference:  19%|█▉        | 7/37 [00:38<02:56,  5.87s/it]Inference:  22%|██▏       | 8/37 [00:41<02:22,  4.90s/it]Inference:  24%|██▍       | 9/37 [00:45<02:08,  4.59s/it]Inference:  27%|██▋       | 10/37 [00:48<01:47,  3.98s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  30%|██▉       | 11/37 [00:50<01:31,  3.53s/it]Inference:  32%|███▏      | 12/37 [01:00<02:15,  5.40s/it]Inference:  35%|███▌      | 13/37 [01:06<02:15,  5.65s/it]Inference:  38%|███▊      | 14/37 [01:10<01:56,  5.06s/it]Inference:  41%|████      | 15/37 [01:16<01:57,  5.33s/it]Inference:  43%|████▎     | 16/37 [01:25<02:14,  6.41s/it]Inference:  46%|████▌     | 17/37 [01:31<02:07,  6.35s/it]Inference:  49%|████▊     | 18/37 [01:35<01:46,  5.59s/it]Inference:  51%|█████▏    | 19/37 [01:43<01:56,  6.48s/it]Inference:  54%|█████▍    | 20/37 [01:49<01:47,  6.34s/it]Inference:  57%|█████▋    | 21/37 [01:53<01:28,  5.53s/it]Inference:  59%|█████▉    | 22/37 [01:57<01:17,  5.15s/it]Inference:  62%|██████▏   | 23/37 [02:02<01:09,  4.99s/it]Inference:  65%|██████▍   | 24/37 [02:09<01:13,  5.68s/it]Inference:  68%|██████▊   | 25/37 [02:16<01:12,  6.03s/it]Inference:  70%|███████   | 26/37 [02:24<01:14,  6.73s/it]Inference:  73%|███████▎  | 27/37 [02:30<01:03,  6.31s/it]Inference:  76%|███████▌  | 28/37 [02:34<00:52,  5.82s/it]Inference:  78%|███████▊  | 29/37 [02:39<00:42,  5.35s/it]Inference:  81%|████████  | 30/37 [02:44<00:37,  5.34s/it]Inference:  84%|████████▍ | 31/37 [02:53<00:38,  6.48s/it]Inference:  86%|████████▋ | 32/37 [03:01<00:35,  7.06s/it]Inference:  89%|████████▉ | 33/37 [03:06<00:25,  6.35s/it]Inference:  92%|█████████▏| 34/37 [03:10<00:16,  5.60s/it]Inference:  95%|█████████▍| 35/37 [03:19<00:13,  6.54s/it]Inference:  97%|█████████▋| 36/37 [03:27<00:06,  6.98s/it]Inference: 100%|██████████| 37/37 [03:36<00:00,  7.62s/it]Inference: 100%|██████████| 37/37 [03:36<00:00,  5.85s/it]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/47 [00:00<?, ?it/s]/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Inference:   2%|▏         | 1/47 [00:03<02:59,  3.90s/it]Inference:   4%|▍         | 2/47 [00:10<04:19,  5.76s/it]Inference:   6%|▋         | 3/47 [00:18<04:49,  6.58s/it]Inference:   9%|▊         | 4/47 [00:24<04:31,  6.31s/it]Inference:  11%|█         | 5/47 [00:26<03:27,  4.93s/it]Inference:  13%|█▎        | 6/47 [00:34<03:54,  5.73s/it]Inference:  15%|█▍        | 7/47 [00:40<04:01,  6.05s/it]Inference:  17%|█▋        | 8/47 [00:45<03:40,  5.65s/it]Inference:  19%|█▉        | 9/47 [00:48<03:05,  4.87s/it]Inference:  21%|██▏       | 10/47 [00:53<03:02,  4.92s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  23%|██▎       | 11/47 [00:59<02:59,  4.99s/it]Inference:  26%|██▌       | 12/47 [01:02<02:40,  4.58s/it]Inference:  28%|██▊       | 13/47 [01:05<02:15,  3.97s/it]Inference:  30%|██▉       | 14/47 [01:08<02:04,  3.78s/it]Inference:  32%|███▏      | 15/47 [01:12<01:57,  3.68s/it]Inference:  34%|███▍      | 16/47 [01:16<02:02,  3.94s/it]Inference:  36%|███▌      | 17/47 [01:23<02:24,  4.80s/it]Inference:  38%|███▊      | 18/47 [01:29<02:28,  5.12s/it]Inference:  40%|████      | 19/47 [01:36<02:38,  5.64s/it]Inference:  43%|████▎     | 20/47 [01:40<02:20,  5.21s/it]Inference:  45%|████▍     | 21/47 [01:44<02:04,  4.80s/it]Inference:  47%|████▋     | 22/47 [01:46<01:45,  4.20s/it]Inference:  49%|████▉     | 23/47 [01:49<01:29,  3.71s/it]Inference:  51%|█████     | 24/47 [01:53<01:25,  3.70s/it]Inference:  53%|█████▎    | 25/47 [01:59<01:35,  4.34s/it]Inference:  55%|█████▌    | 26/47 [02:07<01:56,  5.56s/it]Inference:  57%|█████▋    | 27/47 [02:14<01:59,  5.96s/it]Inference:  60%|█████▉    | 28/47 [02:20<01:56,  6.15s/it]Inference:  62%|██████▏   | 29/47 [02:25<01:44,  5.81s/it]Inference:  64%|██████▍   | 30/47 [02:33<01:50,  6.49s/it]Inference:  66%|██████▌   | 31/47 [02:38<01:33,  5.85s/it]Inference:  68%|██████▊   | 32/47 [02:45<01:33,  6.22s/it]Inference:  70%|███████   | 33/47 [02:54<01:39,  7.13s/it]Inference:  72%|███████▏  | 34/47 [03:01<01:31,  7.06s/it]Inference:  74%|███████▍  | 35/47 [03:03<01:07,  5.65s/it]Inference:  77%|███████▋  | 36/47 [03:06<00:50,  4.58s/it]Inference:  79%|███████▊  | 37/47 [03:13<00:55,  5.52s/it]Inference:  81%|████████  | 38/47 [03:18<00:46,  5.17s/it]Inference:  83%|████████▎ | 39/47 [03:20<00:33,  4.24s/it]Inference:  85%|████████▌ | 40/47 [03:27<00:36,  5.19s/it]Inference:  87%|████████▋ | 41/47 [03:31<00:29,  4.84s/it]Inference:  89%|████████▉ | 42/47 [03:33<00:20,  4.06s/it]Inference:  91%|█████████▏| 43/47 [03:41<00:20,  5.17s/it]Inference:  94%|█████████▎| 44/47 [03:48<00:17,  5.81s/it]Inference:  96%|█████████▌| 45/47 [03:52<00:10,  5.19s/it]Inference:  98%|█████████▊| 46/47 [03:55<00:04,  4.49s/it]Inference: 100%|██████████| 47/47 [04:02<00:00,  5.17s/it]Inference: 100%|██████████| 47/47 [04:02<00:00,  5.15s/it]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/54 [00:00<?, ?it/s]/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Inference:   2%|▏         | 1/54 [00:03<03:27,  3.91s/it]Inference:   4%|▎         | 2/54 [00:07<03:09,  3.64s/it]Inference:   6%|▌         | 3/54 [00:14<04:34,  5.38s/it]Inference:   7%|▋         | 4/54 [00:18<04:05,  4.90s/it]Inference:   9%|▉         | 5/54 [00:23<03:51,  4.72s/it]Inference:  11%|█         | 6/54 [00:27<03:31,  4.40s/it]Inference:  13%|█▎        | 7/54 [00:33<04:01,  5.14s/it]Inference:  15%|█▍        | 8/54 [00:39<03:57,  5.17s/it]Inference:  17%|█▋        | 9/54 [00:43<03:42,  4.94s/it]Inference:  19%|█▊        | 10/54 [00:46<03:13,  4.41s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  20%|██        | 11/54 [00:51<03:16,  4.57s/it]Inference:  22%|██▏       | 12/54 [00:57<03:31,  5.03s/it]Inference:  24%|██▍       | 13/54 [01:04<03:43,  5.45s/it]Inference:  26%|██▌       | 14/54 [01:10<03:52,  5.81s/it]Inference:  28%|██▊       | 15/54 [01:13<03:14,  4.99s/it]Inference:  30%|██▉       | 16/54 [01:23<03:57,  6.24s/it]Inference:  31%|███▏      | 17/54 [01:29<03:49,  6.20s/it]Inference:  33%|███▎      | 18/54 [01:33<03:24,  5.69s/it]Inference:  35%|███▌      | 19/54 [01:35<02:43,  4.68s/it]Inference:  37%|███▋      | 20/54 [01:43<03:06,  5.47s/it]Inference:  39%|███▉      | 21/54 [01:52<03:36,  6.57s/it]Inference:  41%|████      | 22/54 [01:56<03:04,  5.76s/it]Inference:  43%|████▎     | 23/54 [02:00<02:45,  5.33s/it]Inference:  44%|████▍     | 24/54 [02:04<02:25,  4.85s/it]Inference:  46%|████▋     | 25/54 [02:09<02:27,  5.10s/it]Inference:  48%|████▊     | 26/54 [02:12<02:02,  4.38s/it]Inference:  50%|█████     | 27/54 [02:16<01:55,  4.29s/it]Inference:  52%|█████▏    | 28/54 [02:21<01:51,  4.27s/it]Inference:  54%|█████▎    | 29/54 [02:24<01:43,  4.15s/it]Inference:  56%|█████▌    | 30/54 [02:29<01:44,  4.35s/it]Inference:  57%|█████▋    | 31/54 [02:33<01:35,  4.16s/it]Inference:  59%|█████▉    | 32/54 [02:38<01:35,  4.34s/it]Inference:  61%|██████    | 33/54 [02:43<01:35,  4.55s/it]Inference:  63%|██████▎   | 34/54 [02:45<01:15,  3.77s/it]Inference:  65%|██████▍   | 35/54 [02:49<01:14,  3.93s/it]Inference:  67%|██████▋   | 36/54 [02:54<01:16,  4.27s/it]Inference:  69%|██████▊   | 37/54 [03:00<01:20,  4.76s/it]Inference:  70%|███████   | 38/54 [03:05<01:17,  4.82s/it]Inference:  72%|███████▏  | 39/54 [03:08<01:03,  4.26s/it]Inference:  74%|███████▍  | 40/54 [03:15<01:11,  5.07s/it]Inference:  76%|███████▌  | 41/54 [03:18<00:59,  4.55s/it]Inference:  78%|███████▊  | 42/54 [03:26<01:05,  5.43s/it]Inference:  80%|███████▉  | 43/54 [03:29<00:53,  4.89s/it]Inference:  81%|████████▏ | 44/54 [03:33<00:44,  4.43s/it]Inference:  83%|████████▎ | 45/54 [03:40<00:47,  5.30s/it]Inference:  85%|████████▌ | 46/54 [03:42<00:34,  4.30s/it]Inference:  87%|████████▋ | 47/54 [03:47<00:31,  4.57s/it]Inference:  89%|████████▉ | 48/54 [03:53<00:28,  4.81s/it]Inference:  91%|█████████ | 49/54 [04:02<00:30,  6.11s/it]Inference:  93%|█████████▎| 50/54 [04:04<00:20,  5.02s/it]Inference:  94%|█████████▍| 51/54 [04:11<00:16,  5.62s/it]Inference:  96%|█████████▋| 52/54 [04:19<00:12,  6.41s/it]Inference:  98%|█████████▊| 53/54 [04:23<00:05,  5.56s/it]Inference: 100%|██████████| 54/54 [04:27<00:00,  5.18s/it]Inference: 100%|██████████| 54/54 [04:27<00:00,  4.96s/it]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.13it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.12it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.12it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/43 [00:00<?, ?it/s]/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Inference:   2%|▏         | 1/43 [00:05<04:08,  5.92s/it]Inference:   5%|▍         | 2/43 [00:20<07:38, 11.18s/it]Inference:   7%|▋         | 3/43 [00:22<04:43,  7.08s/it]Inference:   9%|▉         | 4/43 [00:25<03:30,  5.40s/it]Inference:  12%|█▏        | 5/43 [00:28<02:54,  4.59s/it]Inference:  14%|█▍        | 6/43 [00:30<02:16,  3.69s/it]Inference:  16%|█▋        | 7/43 [00:34<02:10,  3.61s/it]Inference:  19%|█▊        | 8/43 [00:36<01:53,  3.23s/it]Inference:  21%|██        | 9/43 [00:39<01:44,  3.06s/it]Inference:  23%|██▎       | 10/43 [00:44<01:58,  3.58s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  26%|██▌       | 11/43 [00:47<01:54,  3.59s/it]Inference:  28%|██▊       | 12/43 [00:54<02:22,  4.58s/it]Inference:  30%|███       | 13/43 [00:58<02:14,  4.50s/it]Inference:  33%|███▎      | 14/43 [01:01<01:49,  3.77s/it]Inference:  35%|███▍      | 15/43 [01:09<02:20,  5.03s/it]Inference:  37%|███▋      | 16/43 [01:13<02:12,  4.89s/it]Inference:  40%|███▉      | 17/43 [01:15<01:46,  4.10s/it]Inference:  42%|████▏     | 18/43 [01:18<01:28,  3.54s/it]Inference:  44%|████▍     | 19/43 [01:22<01:32,  3.86s/it]Inference:  47%|████▋     | 20/43 [01:26<01:28,  3.86s/it]Inference:  49%|████▉     | 21/43 [01:31<01:33,  4.26s/it]Inference:  51%|█████     | 22/43 [01:34<01:18,  3.73s/it]Inference:  53%|█████▎    | 23/43 [01:40<01:27,  4.39s/it]Inference:  56%|█████▌    | 24/43 [01:46<01:37,  5.11s/it]Inference:  58%|█████▊    | 25/43 [01:52<01:34,  5.22s/it]Inference:  60%|██████    | 26/43 [01:53<01:08,  4.02s/it]Inference:  63%|██████▎   | 27/43 [01:57<01:03,  3.95s/it]Inference:  65%|██████▌   | 28/43 [01:59<00:50,  3.38s/it]Inference:  67%|██████▋   | 29/43 [02:02<00:44,  3.17s/it]Inference:  70%|██████▉   | 30/43 [02:04<00:38,  2.97s/it]Inference:  72%|███████▏  | 31/43 [02:14<01:01,  5.15s/it]Inference:  74%|███████▍  | 32/43 [02:18<00:52,  4.77s/it]Inference:  77%|███████▋  | 33/43 [02:23<00:46,  4.65s/it]Inference:  79%|███████▉  | 34/43 [02:26<00:37,  4.20s/it]Inference:  81%|████████▏ | 35/43 [02:30<00:33,  4.19s/it]Inference:  84%|████████▎ | 36/43 [02:35<00:31,  4.44s/it]Inference:  86%|████████▌ | 37/43 [02:37<00:22,  3.79s/it]Inference:  88%|████████▊ | 38/43 [02:41<00:18,  3.72s/it]Inference:  91%|█████████ | 39/43 [02:49<00:20,  5.01s/it]Inference:  93%|█████████▎| 40/43 [02:51<00:12,  4.27s/it]Inference:  95%|█████████▌| 41/43 [02:54<00:07,  3.87s/it]Inference:  98%|█████████▊| 42/43 [02:58<00:03,  3.87s/it]Inference: 100%|██████████| 43/43 [03:01<00:00,  3.43s/it]Inference: 100%|██████████| 43/43 [03:01<00:00,  4.21s/it]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.12it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.13it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.13it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/41 [00:00<?, ?it/s]/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Inference:   2%|▏         | 1/41 [00:05<03:32,  5.32s/it]Inference:   5%|▍         | 2/41 [00:07<02:12,  3.41s/it]Inference:   7%|▋         | 3/41 [00:22<05:36,  8.85s/it]Inference:  10%|▉         | 4/41 [00:27<04:25,  7.18s/it]Inference:  12%|█▏        | 5/41 [00:29<03:06,  5.19s/it]Inference:  15%|█▍        | 6/41 [00:32<02:36,  4.48s/it]Inference:  17%|█▋        | 7/41 [00:34<02:09,  3.81s/it]Inference:  20%|█▉        | 8/41 [00:36<01:42,  3.11s/it]Inference:  22%|██▏       | 9/41 [00:40<01:49,  3.42s/it]Inference:  24%|██▍       | 10/41 [00:42<01:38,  3.18s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  27%|██▋       | 11/41 [00:45<01:30,  3.01s/it]Inference:  29%|██▉       | 12/41 [00:49<01:34,  3.26s/it]Inference:  32%|███▏      | 13/41 [00:53<01:42,  3.65s/it]Inference:  34%|███▍      | 14/41 [00:58<01:42,  3.79s/it]Inference:  37%|███▋      | 15/41 [01:03<01:48,  4.18s/it]Inference:  39%|███▉      | 16/41 [01:07<01:42,  4.11s/it]Inference:  41%|████▏     | 17/41 [01:09<01:28,  3.67s/it]Inference:  44%|████▍     | 18/41 [01:13<01:27,  3.80s/it]Inference:  46%|████▋     | 19/41 [01:16<01:17,  3.52s/it]Inference:  49%|████▉     | 20/41 [01:19<01:06,  3.17s/it]Inference:  51%|█████     | 21/41 [01:22<01:02,  3.14s/it]Inference:  54%|█████▎    | 22/41 [01:28<01:16,  4.04s/it]Inference:  56%|█████▌    | 23/41 [01:31<01:06,  3.72s/it]Inference:  59%|█████▊    | 24/41 [01:34<01:03,  3.71s/it]Inference:  61%|██████    | 25/41 [01:37<00:53,  3.33s/it]Inference:  63%|██████▎   | 26/41 [01:52<01:44,  6.93s/it]Inference:  66%|██████▌   | 27/41 [01:57<01:28,  6.31s/it]Inference:  68%|██████▊   | 28/41 [02:01<01:13,  5.63s/it]Inference:  71%|███████   | 29/41 [02:04<00:57,  4.78s/it]Inference:  73%|███████▎  | 30/41 [02:08<00:51,  4.69s/it]Inference:  76%|███████▌  | 31/41 [02:10<00:38,  3.88s/it]Inference:  78%|███████▊  | 32/41 [02:13<00:30,  3.42s/it]Inference:  80%|████████  | 33/41 [02:16<00:28,  3.53s/it]Inference:  83%|████████▎ | 34/41 [02:18<00:20,  2.92s/it]Inference:  85%|████████▌ | 35/41 [02:23<00:20,  3.43s/it]Inference:  88%|████████▊ | 36/41 [02:28<00:20,  4.13s/it]Inference:  90%|█████████ | 37/41 [02:33<00:17,  4.33s/it]Inference:  93%|█████████▎| 38/41 [02:37<00:12,  4.15s/it]Inference:  95%|█████████▌| 39/41 [02:42<00:09,  4.57s/it]Inference:  98%|█████████▊| 40/41 [02:47<00:04,  4.68s/it]Inference: 100%|██████████| 41/41 [02:49<00:00,  3.80s/it]Inference: 100%|██████████| 41/41 [02:49<00:00,  4.14s/it]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.09it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.11it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.11it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/37 [00:00<?, ?it/s]/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Inference:   3%|▎         | 1/37 [00:03<01:50,  3.07s/it]Inference:   5%|▌         | 2/37 [00:07<02:18,  3.94s/it]Inference:   8%|▊         | 3/37 [00:11<02:18,  4.09s/it]Inference:  11%|█         | 4/37 [00:13<01:46,  3.24s/it]Inference:  14%|█▎        | 5/37 [00:17<01:43,  3.25s/it]Inference:  16%|█▌        | 6/37 [00:20<01:40,  3.24s/it]Inference:  19%|█▉        | 7/37 [00:22<01:30,  3.00s/it]Inference:  22%|██▏       | 8/37 [00:24<01:17,  2.66s/it]Inference:  24%|██▍       | 9/37 [00:28<01:21,  2.91s/it]Inference:  27%|██▋       | 10/37 [00:29<01:05,  2.42s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  30%|██▉       | 11/37 [00:33<01:14,  2.88s/it]Inference:  32%|███▏      | 12/37 [00:36<01:14,  2.99s/it]Inference:  35%|███▌      | 13/37 [00:39<01:06,  2.79s/it]Inference:  38%|███▊      | 14/37 [00:41<00:59,  2.58s/it]Inference:  41%|████      | 15/37 [00:46<01:16,  3.48s/it]Inference:  43%|████▎     | 16/37 [00:49<01:07,  3.21s/it]Inference:  46%|████▌     | 17/37 [00:55<01:22,  4.11s/it]Inference:  49%|████▊     | 18/37 [00:59<01:16,  4.01s/it]Inference:  51%|█████▏    | 19/37 [01:02<01:05,  3.63s/it]Inference:  54%|█████▍    | 20/37 [01:04<00:56,  3.32s/it]Inference:  57%|█████▋    | 21/37 [01:19<01:46,  6.66s/it]Inference:  59%|█████▉    | 22/37 [01:21<01:18,  5.27s/it]Inference:  62%|██████▏   | 23/37 [01:23<01:00,  4.30s/it]Inference:  65%|██████▍   | 24/37 [01:24<00:45,  3.52s/it]Inference:  68%|██████▊   | 25/37 [01:28<00:42,  3.50s/it]Inference:  70%|███████   | 26/37 [01:29<00:32,  2.94s/it]Inference:  73%|███████▎  | 27/37 [01:45<01:06,  6.61s/it]Inference:  76%|███████▌  | 28/37 [01:46<00:45,  5.02s/it]Inference:  78%|███████▊  | 29/37 [01:48<00:32,  4.10s/it]Inference:  81%|████████  | 30/37 [01:50<00:23,  3.40s/it]Inference:  84%|████████▍ | 31/37 [01:54<00:21,  3.57s/it]Inference:  86%|████████▋ | 32/37 [01:56<00:16,  3.25s/it]Inference:  89%|████████▉ | 33/37 [02:03<00:16,  4.22s/it]Inference:  92%|█████████▏| 34/37 [02:18<00:22,  7.57s/it]Inference:  95%|█████████▍| 35/37 [02:21<00:12,  6.15s/it]Inference:  97%|█████████▋| 36/37 [02:26<00:05,  5.76s/it]Inference: 100%|██████████| 37/37 [02:31<00:00,  5.75s/it]Inference: 100%|██████████| 37/37 [02:31<00:00,  4.10s/it]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.11it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.11it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.11it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/47 [00:00<?, ?it/s]/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Inference:   2%|▏         | 1/47 [00:03<02:27,  3.21s/it]Inference:   4%|▍         | 2/47 [00:06<02:18,  3.09s/it]Inference:   6%|▋         | 3/47 [00:07<01:46,  2.42s/it]Inference:   9%|▊         | 4/47 [00:12<02:21,  3.29s/it]Inference:  11%|█         | 5/47 [00:15<02:09,  3.09s/it]Inference:  13%|█▎        | 6/47 [00:17<01:54,  2.80s/it]Inference:  15%|█▍        | 7/47 [00:20<01:53,  2.84s/it]Inference:  17%|█▋        | 8/47 [00:27<02:49,  4.34s/it]Inference:  19%|█▉        | 9/47 [00:35<03:25,  5.40s/it]Inference:  21%|██▏       | 10/47 [00:39<03:01,  4.92s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  23%|██▎       | 11/47 [00:44<03:01,  5.05s/it]Inference:  26%|██▌       | 12/47 [00:46<02:20,  4.00s/it]Inference:  28%|██▊       | 13/47 [00:49<02:03,  3.63s/it]Inference:  30%|██▉       | 14/47 [00:50<01:37,  2.96s/it]Inference:  32%|███▏      | 15/47 [00:53<01:33,  2.91s/it]Inference:  34%|███▍      | 16/47 [00:57<01:38,  3.17s/it]Inference:  36%|███▌      | 17/47 [01:02<01:54,  3.81s/it]Inference:  38%|███▊      | 18/47 [01:03<01:29,  3.08s/it]Inference:  40%|████      | 19/47 [01:08<01:41,  3.64s/it]Inference:  43%|████▎     | 20/47 [01:11<01:32,  3.43s/it]Inference:  45%|████▍     | 21/47 [01:14<01:24,  3.27s/it]Inference:  47%|████▋     | 22/47 [01:18<01:24,  3.39s/it]Inference:  49%|████▉     | 23/47 [01:22<01:25,  3.58s/it]Inference:  51%|█████     | 24/47 [01:27<01:30,  3.95s/it]Inference:  53%|█████▎    | 25/47 [01:29<01:15,  3.44s/it]Inference:  55%|█████▌    | 26/47 [01:33<01:14,  3.53s/it]Inference:  57%|█████▋    | 27/47 [01:35<01:06,  3.31s/it]Inference:  60%|█████▉    | 28/47 [01:40<01:09,  3.66s/it]Inference:  62%|██████▏   | 29/47 [01:43<01:01,  3.41s/it]Inference:  64%|██████▍   | 30/47 [01:47<01:02,  3.68s/it]Inference:  66%|██████▌   | 31/47 [01:49<00:50,  3.17s/it]Inference:  68%|██████▊   | 32/47 [01:52<00:45,  3.04s/it]Inference:  70%|███████   | 33/47 [01:56<00:47,  3.41s/it]Inference:  72%|███████▏  | 34/47 [01:59<00:44,  3.42s/it]Inference:  74%|███████▍  | 35/47 [02:01<00:35,  2.97s/it]Inference:  77%|███████▋  | 36/47 [02:04<00:30,  2.76s/it]Inference:  79%|███████▊  | 37/47 [02:08<00:33,  3.31s/it]Inference:  81%|████████  | 38/47 [02:12<00:29,  3.32s/it]Inference:  83%|████████▎ | 39/47 [02:13<00:22,  2.86s/it]Inference:  85%|████████▌ | 40/47 [02:16<00:19,  2.76s/it]Inference:  87%|████████▋ | 41/47 [02:20<00:19,  3.22s/it]Inference:  89%|████████▉ | 42/47 [02:24<00:16,  3.38s/it]Inference:  91%|█████████▏| 43/47 [02:26<00:12,  3.02s/it]Inference:  94%|█████████▎| 44/47 [02:30<00:10,  3.35s/it]Inference:  96%|█████████▌| 45/47 [02:34<00:06,  3.42s/it]Inference:  98%|█████████▊| 46/47 [02:35<00:02,  2.89s/it]Inference: 100%|██████████| 47/47 [02:38<00:00,  2.84s/it]Inference: 100%|██████████| 47/47 [02:38<00:00,  3.38s/it]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.12it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.12it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.12it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/54 [00:00<?, ?it/s]/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Inference:   2%|▏         | 1/54 [00:02<01:57,  2.21s/it]Inference:   4%|▎         | 2/54 [00:04<02:08,  2.48s/it]Inference:   6%|▌         | 3/54 [00:06<01:50,  2.17s/it]Inference:   7%|▋         | 4/54 [00:08<01:50,  2.20s/it]Inference:   9%|▉         | 5/54 [00:15<03:01,  3.70s/it]Inference:  11%|█         | 6/54 [00:21<03:31,  4.41s/it]Inference:  13%|█▎        | 7/54 [00:25<03:33,  4.54s/it]Inference:  15%|█▍        | 8/54 [00:29<03:19,  4.33s/it]Inference:  17%|█▋        | 9/54 [00:36<03:49,  5.10s/it]Inference:  19%|█▊        | 10/54 [00:38<03:01,  4.12s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  20%|██        | 11/54 [00:40<02:27,  3.44s/it]Inference:  22%|██▏       | 12/54 [00:44<02:28,  3.53s/it]Inference:  24%|██▍       | 13/54 [00:45<02:03,  3.02s/it]Inference:  26%|██▌       | 14/54 [00:49<02:12,  3.30s/it]Inference:  28%|██▊       | 15/54 [00:51<01:53,  2.91s/it]Inference:  30%|██▉       | 16/54 [00:53<01:36,  2.54s/it]Inference:  31%|███▏      | 17/54 [00:56<01:38,  2.65s/it]Inference:  33%|███▎      | 18/54 [00:58<01:31,  2.54s/it]Inference:  35%|███▌      | 19/54 [01:00<01:21,  2.33s/it]Inference:  37%|███▋      | 20/54 [01:02<01:18,  2.32s/it]Inference:  39%|███▉      | 21/54 [01:06<01:32,  2.79s/it]Inference:  41%|████      | 22/54 [01:22<03:28,  6.51s/it]Inference:  43%|████▎     | 23/54 [01:26<03:00,  5.84s/it]Inference:  44%|████▍     | 24/54 [01:28<02:26,  4.88s/it]Inference:  46%|████▋     | 25/54 [01:32<02:11,  4.54s/it]Inference:  48%|████▊     | 26/54 [01:36<02:00,  4.31s/it]Inference:  50%|█████     | 27/54 [01:37<01:31,  3.38s/it]Inference:  52%|█████▏    | 28/54 [01:40<01:21,  3.13s/it]Inference:  54%|█████▎    | 29/54 [01:42<01:14,  2.98s/it]Inference:  56%|█████▌    | 30/54 [01:44<01:01,  2.55s/it]Inference:  57%|█████▋    | 31/54 [01:45<00:51,  2.26s/it]Inference:  59%|█████▉    | 32/54 [01:48<00:53,  2.42s/it]Inference:  61%|██████    | 33/54 [01:51<00:49,  2.38s/it]Inference:  63%|██████▎   | 34/54 [01:52<00:43,  2.16s/it]Inference:  65%|██████▍   | 35/54 [01:55<00:43,  2.27s/it]Inference:  67%|██████▋   | 36/54 [01:58<00:45,  2.50s/it]Inference:  69%|██████▊   | 37/54 [01:59<00:37,  2.23s/it]Inference:  70%|███████   | 38/54 [02:02<00:37,  2.33s/it]Inference:  72%|███████▏  | 39/54 [02:04<00:33,  2.23s/it]Inference:  74%|███████▍  | 40/54 [02:08<00:37,  2.68s/it]Inference:  76%|███████▌  | 41/54 [02:10<00:32,  2.53s/it]Inference:  78%|███████▊  | 42/54 [02:12<00:30,  2.57s/it]Inference:  80%|███████▉  | 43/54 [02:17<00:33,  3.04s/it]Inference:  81%|████████▏ | 44/54 [02:22<00:36,  3.63s/it]Inference:  83%|████████▎ | 45/54 [02:23<00:27,  3.06s/it]Inference:  85%|████████▌ | 46/54 [02:25<00:21,  2.67s/it]Inference:  87%|████████▋ | 47/54 [02:33<00:29,  4.15s/it]Inference:  89%|████████▉ | 48/54 [02:35<00:21,  3.63s/it]Inference:  91%|█████████ | 49/54 [02:39<00:18,  3.78s/it]Inference:  93%|█████████▎| 50/54 [02:44<00:16,  4.00s/it]Inference:  94%|█████████▍| 51/54 [02:46<00:10,  3.45s/it]Inference:  96%|█████████▋| 52/54 [02:49<00:06,  3.35s/it]Inference:  98%|█████████▊| 53/54 [02:51<00:03,  3.08s/it]Inference: 100%|██████████| 54/54 [02:54<00:00,  3.01s/it]Inference: 100%|██████████| 54/54 [02:54<00:00,  3.24s/it]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards:  25%|██▌       | 1/4 [02:32<07:38, 152.93s/it]Downloading shards:  50%|█████     | 2/4 [03:25<03:07, 93.68s/it] Downloading shards:  75%|███████▌  | 3/4 [04:57<01:33, 93.17s/it]Downloading shards: 100%|██████████| 4/4 [06:13<00:00, 86.46s/it]Downloading shards: 100%|██████████| 4/4 [06:13<00:00, 93.47s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.20it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.22it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.25it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.30it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/43 [00:00<?, ?it/s]/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:509: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+Inference:   2%|▏         | 1/43 [00:05<03:43,  5.33s/it]Inference:   5%|▍         | 2/43 [00:10<03:24,  4.98s/it]Inference:   7%|▋         | 3/43 [00:14<03:13,  4.83s/it]Inference:   9%|▉         | 4/43 [00:21<03:40,  5.66s/it]Inference:  12%|█▏        | 5/43 [00:24<02:58,  4.70s/it]Inference:  14%|█▍        | 6/43 [00:27<02:34,  4.17s/it]Inference:  16%|█▋        | 7/43 [00:32<02:31,  4.22s/it]Inference:  19%|█▊        | 8/43 [00:36<02:28,  4.25s/it]Inference:  21%|██        | 9/43 [00:40<02:21,  4.17s/it]Inference:  23%|██▎       | 10/43 [00:44<02:19,  4.23s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  26%|██▌       | 11/43 [00:50<02:31,  4.74s/it]Inference:  28%|██▊       | 12/43 [00:54<02:22,  4.59s/it]Inference:  30%|███       | 13/43 [00:58<02:12,  4.41s/it]Inference:  33%|███▎      | 14/43 [01:02<01:59,  4.11s/it]Inference:  35%|███▍      | 15/43 [01:07<02:07,  4.55s/it]Inference:  37%|███▋      | 16/43 [01:12<01:59,  4.43s/it]Inference:  40%|███▉      | 17/43 [01:16<01:56,  4.48s/it]Inference:  42%|████▏     | 18/43 [01:23<02:07,  5.12s/it]Inference:  44%|████▍     | 19/43 [01:27<01:58,  4.92s/it]Inference:  47%|████▋     | 20/43 [01:32<01:50,  4.82s/it]Inference:  49%|████▉     | 21/43 [01:36<01:44,  4.74s/it]Inference:  51%|█████     | 22/43 [01:41<01:39,  4.74s/it]Inference:  53%|█████▎    | 23/43 [01:44<01:25,  4.27s/it]Inference:  56%|█████▌    | 24/43 [01:48<01:18,  4.13s/it]Inference:  58%|█████▊    | 25/43 [01:53<01:19,  4.42s/it]Inference:  60%|██████    | 26/43 [01:56<01:08,  4.04s/it]Inference:  63%|██████▎   | 27/43 [02:02<01:12,  4.56s/it]Inference:  65%|██████▌   | 28/43 [02:08<01:14,  4.96s/it]Inference:  67%|██████▋   | 29/43 [02:12<01:04,  4.64s/it]Inference:  70%|██████▉   | 30/43 [02:16<00:57,  4.40s/it]Inference:  72%|███████▏  | 31/43 [02:22<00:59,  5.00s/it]Inference:  74%|███████▍  | 32/43 [02:26<00:51,  4.65s/it]Inference:  77%|███████▋  | 33/43 [02:29<00:41,  4.18s/it]Inference:  79%|███████▉  | 34/43 [02:34<00:40,  4.45s/it]Inference:  81%|████████▏ | 35/43 [02:40<00:37,  4.74s/it]Inference:  84%|████████▎ | 36/43 [02:42<00:28,  4.08s/it]Inference:  86%|████████▌ | 37/43 [02:46<00:24,  4.06s/it]Inference:  88%|████████▊ | 38/43 [02:50<00:20,  4.09s/it]Inference:  91%|█████████ | 39/43 [02:54<00:15,  3.90s/it]Inference:  93%|█████████▎| 40/43 [02:58<00:11,  3.88s/it]Inference:  95%|█████████▌| 41/43 [03:02<00:07,  3.95s/it]Inference:  98%|█████████▊| 42/43 [03:05<00:03,  3.84s/it]Inference: 100%|██████████| 43/43 [03:10<00:00,  4.17s/it]Inference: 100%|██████████| 43/43 [03:10<00:00,  4.43s/it]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.14it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.19it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.24it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.28it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/41 [00:00<?, ?it/s]/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:509: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+Inference:   2%|▏         | 1/41 [00:04<03:07,  4.70s/it]Inference:   5%|▍         | 2/41 [00:10<03:23,  5.21s/it]Inference:   7%|▋         | 3/41 [00:14<03:05,  4.88s/it]Inference:  10%|▉         | 4/41 [00:19<03:03,  4.97s/it]Inference:  12%|█▏        | 5/41 [00:24<02:50,  4.73s/it]Inference:  15%|█▍        | 6/41 [00:26<02:21,  4.04s/it]Inference:  17%|█▋        | 7/41 [00:31<02:21,  4.17s/it]Inference:  20%|█▉        | 8/41 [00:36<02:24,  4.37s/it]Inference:  22%|██▏       | 9/41 [00:40<02:16,  4.25s/it]Inference:  24%|██▍       | 10/41 [00:43<02:02,  3.94s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  27%|██▋       | 11/41 [00:47<02:04,  4.14s/it]Inference:  29%|██▉       | 12/41 [00:53<02:09,  4.47s/it]Inference:  32%|███▏      | 13/41 [00:56<01:58,  4.24s/it]Inference:  34%|███▍      | 14/41 [00:59<01:42,  3.79s/it]Inference:  37%|███▋      | 15/41 [01:03<01:36,  3.70s/it]Inference:  39%|███▉      | 16/41 [01:09<01:55,  4.61s/it]Inference:  41%|████▏     | 17/41 [01:13<01:43,  4.30s/it]Inference:  44%|████▍     | 18/41 [01:18<01:43,  4.49s/it]Inference:  46%|████▋     | 19/41 [01:24<01:49,  4.98s/it]Inference:  49%|████▉     | 20/41 [01:29<01:46,  5.05s/it]Inference:  51%|█████     | 21/41 [01:34<01:41,  5.09s/it]Inference:  54%|█████▎    | 22/41 [01:37<01:25,  4.48s/it]Inference:  56%|█████▌    | 23/41 [01:41<01:15,  4.17s/it]Inference:  59%|█████▊    | 24/41 [01:45<01:12,  4.26s/it]Inference:  61%|██████    | 25/41 [01:50<01:10,  4.39s/it]Inference:  63%|██████▎   | 26/41 [01:55<01:07,  4.53s/it]Inference:  66%|██████▌   | 27/41 [02:00<01:03,  4.57s/it]Inference:  68%|██████▊   | 28/41 [02:07<01:11,  5.48s/it]Inference:  71%|███████   | 29/41 [02:11<00:59,  4.96s/it]Inference:  73%|███████▎  | 30/41 [02:15<00:53,  4.85s/it]Inference:  76%|███████▌  | 31/41 [02:21<00:51,  5.16s/it]Inference:  78%|███████▊  | 32/41 [02:27<00:48,  5.35s/it]Inference:  80%|████████  | 33/41 [02:29<00:35,  4.40s/it]Inference:  83%|████████▎ | 34/41 [02:32<00:27,  3.90s/it]Inference:  85%|████████▌ | 35/41 [02:36<00:24,  4.01s/it]Inference:  88%|████████▊ | 36/41 [02:42<00:22,  4.49s/it]Inference:  90%|█████████ | 37/41 [02:46<00:17,  4.34s/it]Inference:  93%|█████████▎| 38/41 [02:50<00:12,  4.21s/it]Inference:  95%|█████████▌| 39/41 [02:55<00:09,  4.60s/it]Inference:  98%|█████████▊| 40/41 [03:01<00:04,  4.83s/it]Inference: 100%|██████████| 41/41 [03:04<00:00,  4.30s/it]Inference: 100%|██████████| 41/41 [03:04<00:00,  4.50s/it]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.19it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.19it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.25it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.29it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/37 [00:00<?, ?it/s]/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:509: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+Inference:   3%|▎         | 1/37 [00:03<02:10,  3.62s/it]Inference:   5%|▌         | 2/37 [00:07<02:15,  3.86s/it]Inference:   8%|▊         | 3/37 [00:13<02:41,  4.74s/it]Inference:  11%|█         | 4/37 [00:17<02:27,  4.47s/it]Inference:  14%|█▎        | 5/37 [00:21<02:22,  4.45s/it]Inference:  16%|█▌        | 6/37 [00:24<02:01,  3.91s/it]Inference:  19%|█▉        | 7/37 [00:27<01:48,  3.61s/it]Inference:  22%|██▏       | 8/37 [00:32<01:54,  3.96s/it]Inference:  24%|██▍       | 9/37 [00:36<01:47,  3.85s/it]Inference:  27%|██▋       | 10/37 [00:41<01:55,  4.27s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  30%|██▉       | 11/37 [00:44<01:44,  4.01s/it]Inference:  32%|███▏      | 12/37 [00:48<01:40,  4.01s/it]Inference:  35%|███▌      | 13/37 [00:51<01:29,  3.74s/it]Inference:  38%|███▊      | 14/37 [00:55<01:28,  3.86s/it]Inference:  41%|████      | 15/37 [01:00<01:32,  4.18s/it]Inference:  43%|████▎     | 16/37 [01:05<01:30,  4.30s/it]Inference:  46%|████▌     | 17/37 [01:10<01:27,  4.40s/it]Inference:  49%|████▊     | 18/37 [01:14<01:23,  4.39s/it]Inference:  51%|█████▏    | 19/37 [01:21<01:31,  5.09s/it]Inference:  54%|█████▍    | 20/37 [01:25<01:23,  4.90s/it]Inference:  57%|█████▋    | 21/37 [01:29<01:14,  4.67s/it]Inference:  59%|█████▉    | 22/37 [01:33<01:06,  4.41s/it]Inference:  62%|██████▏   | 23/37 [01:36<00:56,  4.04s/it]Inference:  65%|██████▍   | 24/37 [01:41<00:56,  4.35s/it]Inference:  68%|██████▊   | 25/37 [01:45<00:50,  4.21s/it]Inference:  70%|███████   | 26/37 [01:48<00:42,  3.87s/it]Inference:  73%|███████▎  | 27/37 [01:56<00:49,  4.97s/it]Inference:  76%|███████▌  | 28/37 [01:59<00:39,  4.35s/it]Inference:  78%|███████▊  | 29/37 [02:04<00:38,  4.75s/it]Inference:  81%|████████  | 30/37 [02:07<00:28,  4.14s/it]Inference:  84%|████████▍ | 31/37 [02:11<00:23,  3.91s/it]Inference:  86%|████████▋ | 32/37 [02:14<00:18,  3.73s/it]Inference:  89%|████████▉ | 33/37 [02:20<00:17,  4.37s/it]Inference:  92%|█████████▏| 34/37 [02:23<00:12,  4.14s/it]Inference:  95%|█████████▍| 35/37 [02:28<00:08,  4.34s/it]Inference:  97%|█████████▋| 36/37 [02:33<00:04,  4.63s/it]Inference: 100%|██████████| 37/37 [02:39<00:00,  4.81s/it]Inference: 100%|██████████| 37/37 [02:39<00:00,  4.30s/it]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.22it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.25it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.29it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.37it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.33it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/47 [00:00<?, ?it/s]/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:509: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+Inference:   2%|▏         | 1/47 [00:03<02:37,  3.43s/it]Inference:   4%|▍         | 2/47 [00:06<02:30,  3.35s/it]Inference:   6%|▋         | 3/47 [00:11<02:46,  3.78s/it]Inference:   9%|▊         | 4/47 [00:14<02:37,  3.66s/it]Inference:  11%|█         | 5/47 [00:19<02:47,  3.98s/it]Inference:  13%|█▎        | 6/47 [00:23<02:52,  4.21s/it]Inference:  15%|█▍        | 7/47 [00:27<02:39,  3.99s/it]Inference:  17%|█▋        | 8/47 [00:32<02:46,  4.28s/it]Inference:  19%|█▉        | 9/47 [00:37<02:52,  4.54s/it]Inference:  21%|██▏       | 10/47 [00:41<02:43,  4.42s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  23%|██▎       | 11/47 [00:45<02:36,  4.35s/it]Inference:  26%|██▌       | 12/47 [00:48<02:16,  3.90s/it]Inference:  28%|██▊       | 13/47 [00:52<02:09,  3.81s/it]Inference:  30%|██▉       | 14/47 [00:54<01:52,  3.40s/it]Inference:  32%|███▏      | 15/47 [00:57<01:44,  3.26s/it]Inference:  34%|███▍      | 16/47 [01:02<01:58,  3.82s/it]Inference:  36%|███▌      | 17/47 [01:06<01:53,  3.78s/it]Inference:  38%|███▊      | 18/47 [01:11<01:58,  4.09s/it]Inference:  40%|████      | 19/47 [01:15<02:00,  4.31s/it]Inference:  43%|████▎     | 20/47 [01:20<01:59,  4.44s/it]Inference:  45%|████▍     | 21/47 [01:25<02:01,  4.68s/it]Inference:  47%|████▋     | 22/47 [01:31<02:05,  5.00s/it]Inference:  49%|████▉     | 23/47 [01:36<01:56,  4.84s/it]Inference:  51%|█████     | 24/47 [01:40<01:51,  4.85s/it]Inference:  53%|█████▎    | 25/47 [01:43<01:34,  4.30s/it]Inference:  55%|█████▌    | 26/47 [01:48<01:31,  4.36s/it]Inference:  57%|█████▋    | 27/47 [01:52<01:23,  4.18s/it]Inference:  60%|█████▉    | 28/47 [01:56<01:19,  4.20s/it]Inference:  62%|██████▏   | 29/47 [02:00<01:16,  4.25s/it]Inference:  64%|██████▍   | 30/47 [02:03<01:03,  3.76s/it]Inference:  66%|██████▌   | 31/47 [02:08<01:07,  4.20s/it]Inference:  68%|██████▊   | 32/47 [02:13<01:07,  4.50s/it]Inference:  70%|███████   | 33/47 [02:17<00:58,  4.16s/it]Inference:  72%|███████▏  | 34/47 [02:21<00:52,  4.07s/it]Inference:  74%|███████▍  | 35/47 [02:25<00:50,  4.20s/it]Inference:  77%|███████▋  | 36/47 [02:29<00:45,  4.10s/it]Inference:  79%|███████▊  | 37/47 [02:34<00:44,  4.48s/it]Inference:  81%|████████  | 38/47 [02:38<00:37,  4.15s/it]Inference:  83%|████████▎ | 39/47 [02:43<00:35,  4.46s/it]Inference:  85%|████████▌ | 40/47 [02:49<00:33,  4.81s/it]Inference:  87%|████████▋ | 41/47 [02:54<00:29,  4.90s/it]Inference:  89%|████████▉ | 42/47 [02:58<00:23,  4.62s/it]Inference:  91%|█████████▏| 43/47 [03:02<00:17,  4.49s/it]Inference:  94%|█████████▎| 44/47 [03:07<00:14,  4.84s/it]Inference:  96%|█████████▌| 45/47 [03:11<00:08,  4.37s/it]Inference:  98%|█████████▊| 46/47 [03:14<00:04,  4.08s/it]Inference: 100%|██████████| 47/47 [03:18<00:00,  4.08s/it]Inference: 100%|██████████| 47/47 [03:18<00:00,  4.23s/it]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.21it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.24it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.28it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.36it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.32it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/54 [00:00<?, ?it/s]/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:509: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+Inference:   2%|▏         | 1/54 [00:04<04:24,  4.99s/it]Inference:   4%|▎         | 2/54 [00:09<04:05,  4.73s/it]Inference:   6%|▌         | 3/54 [00:12<03:21,  3.94s/it]Inference:   7%|▋         | 4/54 [00:17<03:34,  4.29s/it]Inference:   9%|▉         | 5/54 [00:22<03:40,  4.49s/it]Inference:  11%|█         | 6/54 [00:27<03:49,  4.79s/it]Inference:  13%|█▎        | 7/54 [00:33<03:55,  5.00s/it]Inference:  15%|█▍        | 8/54 [00:37<03:41,  4.82s/it]Inference:  17%|█▋        | 9/54 [00:41<03:21,  4.49s/it]Inference:  19%|█▊        | 10/54 [00:44<03:06,  4.23s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  20%|██        | 11/54 [00:48<02:54,  4.05s/it]Inference:  22%|██▏       | 12/54 [00:54<03:13,  4.60s/it]Inference:  24%|██▍       | 13/54 [00:57<02:48,  4.10s/it]Inference:  26%|██▌       | 14/54 [01:02<02:56,  4.41s/it]Inference:  28%|██▊       | 15/54 [01:07<03:05,  4.75s/it]Inference:  30%|██▉       | 16/54 [01:12<03:01,  4.77s/it]Inference:  31%|███▏      | 17/54 [01:17<02:57,  4.81s/it]Inference:  33%|███▎      | 18/54 [01:23<02:59,  5.00s/it]Inference:  35%|███▌      | 19/54 [01:26<02:40,  4.59s/it]Inference:  37%|███▋      | 20/54 [01:29<02:15,  3.99s/it]Inference:  39%|███▉      | 21/54 [01:34<02:24,  4.39s/it]Inference:  41%|████      | 22/54 [01:38<02:12,  4.15s/it]Inference:  43%|████▎     | 23/54 [01:43<02:20,  4.55s/it]Inference:  44%|████▍     | 24/54 [01:47<02:09,  4.30s/it]Inference:  46%|████▋     | 25/54 [01:52<02:07,  4.38s/it]Inference:  48%|████▊     | 26/54 [01:55<01:55,  4.12s/it]Inference:  50%|█████     | 27/54 [02:00<01:55,  4.29s/it]Inference:  52%|█████▏    | 28/54 [02:03<01:45,  4.07s/it]Inference:  54%|█████▎    | 29/54 [02:08<01:46,  4.26s/it]Inference:  56%|█████▌    | 30/54 [02:13<01:47,  4.49s/it]Inference:  57%|█████▋    | 31/54 [02:18<01:44,  4.53s/it]Inference:  59%|█████▉    | 32/54 [02:21<01:32,  4.22s/it]Inference:  61%|██████    | 33/54 [02:24<01:21,  3.86s/it]Inference:  63%|██████▎   | 34/54 [02:27<01:08,  3.42s/it]Inference:  65%|██████▍   | 35/54 [02:30<01:03,  3.35s/it]Inference:  67%|██████▋   | 36/54 [02:34<01:07,  3.75s/it]Inference:  69%|██████▊   | 37/54 [02:37<00:59,  3.48s/it]Inference:  70%|███████   | 38/54 [02:40<00:54,  3.39s/it]Inference:  72%|███████▏  | 39/54 [02:44<00:52,  3.51s/it]Inference:  74%|███████▍  | 40/54 [02:48<00:51,  3.66s/it]Inference:  76%|███████▌  | 41/54 [02:54<00:54,  4.19s/it]Inference:  78%|███████▊  | 42/54 [02:59<00:53,  4.47s/it]Inference:  80%|███████▉  | 43/54 [03:03<00:47,  4.32s/it]Inference:  81%|████████▏ | 44/54 [03:08<00:47,  4.72s/it]Inference:  83%|████████▎ | 45/54 [03:12<00:39,  4.38s/it]Inference:  85%|████████▌ | 46/54 [03:17<00:35,  4.49s/it]Inference:  87%|████████▋ | 47/54 [03:23<00:35,  5.03s/it]Inference:  89%|████████▉ | 48/54 [03:27<00:28,  4.73s/it]Inference:  91%|█████████ | 49/54 [03:40<00:35,  7.06s/it]Inference:  93%|█████████▎| 50/54 [03:44<00:25,  6.29s/it]Inference:  94%|█████████▍| 51/54 [03:51<00:19,  6.37s/it]Inference:  96%|█████████▋| 52/54 [03:56<00:11,  5.98s/it]Inference:  98%|█████████▊| 53/54 [04:00<00:05,  5.44s/it]Inference: 100%|██████████| 54/54 [04:05<00:00,  5.22s/it]Inference: 100%|██████████| 54/54 [04:05<00:00,  4.54s/it]
+/home/namwoam/dl-final/llm/inference.py:109: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+Downloading shards:   0%|          | 0/8 [00:00<?, ?it/s]Downloading shards:  12%|█▎        | 1/8 [02:19<16:16, 139.44s/it]Downloading shards:  25%|██▌       | 2/8 [04:52<14:44, 147.34s/it]Downloading shards:  38%|███▊      | 3/8 [07:25<12:29, 149.81s/it]Downloading shards:  50%|█████     | 4/8 [09:47<09:48, 147.03s/it]Downloading shards:  62%|██████▎   | 5/8 [12:21<07:28, 149.34s/it]Downloading shards:  75%|███████▌  | 6/8 [14:55<05:01, 150.96s/it]Downloading shards:  88%|████████▊ | 7/8 [17:35<02:33, 153.99s/it]Downloading shards: 100%|██████████| 8/8 [17:52<00:00, 110.20s/it]Downloading shards: 100%|██████████| 8/8 [17:52<00:00, 134.00s/it]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:28<03:21, 28.75s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:34<01:32, 15.35s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:35<00:44,  8.88s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:37<00:23,  5.81s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:38<00:12,  4.09s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:38<00:05,  2.79s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:38<00:01,  1.97s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:38<00:00,  1.38s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:38<00:00,  4.84s/it]
+WARNING:root:Some parameters are on the meta device device because they were offloaded to the cpu.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/43 [00:00<?, ?it/s]/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:509: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+Inference:   0%|          | 0/43 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference.py", line 127, in <module>
+    main(model_id=args.model_id ,dataset_paths=args.dataset_paths,destination_path=args.destination_path,verbose=args.verbose)
+  File "/home/namwoam/dl-final/llm/inference.py", line 78, in main
+    outputs = pipeline(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 240, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1242, in __call__
+    return self.run_single(inputs, preprocess_params, forward_params, postprocess_params)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1249, in run_single
+    model_outputs = self.forward(model_inputs, **forward_params)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1149, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 327, in _forward
+    generated_sequence = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/utils.py", line 1576, in generate
+    result = self._greedy_search(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/utils.py", line 2494, in _greedy_search
+    outputs = self(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/accelerate/hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/qwen2_moe/modeling_qwen2_moe.py", line 1364, in forward
+    logits = self.lm_head(hidden_states)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/accelerate/hooks.py", line 161, in new_forward
+    args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/accelerate/hooks.py", line 347, in pre_forward
+    set_module_tensor_to_device(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/accelerate/utils/modeling.py", line 399, in set_module_tensor_to_device
+    new_value = value.to(device)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 594.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 448.81 MiB is free. Including non-PyTorch memory, this process has 23.17 GiB memory in use. Of the allocated memory 19.21 GiB is allocated by PyTorch, and 3.51 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.04s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:02<00:06,  1.12s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:03<00:05,  1.13s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:04<00:04,  1.11s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:05<00:03,  1.09s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:05<00:01,  1.23it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:06<00:00,  1.58it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  2.10it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.30it/s]
+WARNING:root:Some parameters are on the meta device device because they were offloaded to the cpu.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/41 [00:00<?, ?it/s]/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:509: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+Inference:   0%|          | 0/41 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference.py", line 127, in <module>
+    main(model_id=args.model_id ,dataset_paths=args.dataset_paths,destination_path=args.destination_path,verbose=args.verbose)
+  File "/home/namwoam/dl-final/llm/inference.py", line 78, in main
+    outputs = pipeline(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 240, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1242, in __call__
+    return self.run_single(inputs, preprocess_params, forward_params, postprocess_params)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1249, in run_single
+    model_outputs = self.forward(model_inputs, **forward_params)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1149, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 327, in _forward
+    generated_sequence = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/utils.py", line 1576, in generate
+    result = self._greedy_search(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/utils.py", line 2494, in _greedy_search
+    outputs = self(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/accelerate/hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/qwen2_moe/modeling_qwen2_moe.py", line 1364, in forward
+    logits = self.lm_head(hidden_states)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/accelerate/hooks.py", line 161, in new_forward
+    args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/accelerate/hooks.py", line 347, in pre_forward
+    set_module_tensor_to_device(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/accelerate/utils/modeling.py", line 399, in set_module_tensor_to_device
+    new_value = value.to(device)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 594.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 448.81 MiB is free. Including non-PyTorch memory, this process has 23.17 GiB memory in use. Of the allocated memory 19.21 GiB is allocated by PyTorch, and 3.51 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.01s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:02<00:06,  1.08s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:03<00:05,  1.09s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:04<00:04,  1.09s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:05<00:03,  1.06s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:05<00:01,  1.27it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.61it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  2.15it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.33it/s]
+WARNING:root:Some parameters are on the meta device device because they were offloaded to the cpu.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/37 [00:00<?, ?it/s]/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:509: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+Inference:   0%|          | 0/37 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference.py", line 127, in <module>
+    main(model_id=args.model_id ,dataset_paths=args.dataset_paths,destination_path=args.destination_path,verbose=args.verbose)
+  File "/home/namwoam/dl-final/llm/inference.py", line 78, in main
+    outputs = pipeline(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 240, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1242, in __call__
+    return self.run_single(inputs, preprocess_params, forward_params, postprocess_params)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1249, in run_single
+    model_outputs = self.forward(model_inputs, **forward_params)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1149, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 327, in _forward
+    generated_sequence = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/utils.py", line 1576, in generate
+    result = self._greedy_search(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/utils.py", line 2494, in _greedy_search
+    outputs = self(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/accelerate/hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/qwen2_moe/modeling_qwen2_moe.py", line 1364, in forward
+    logits = self.lm_head(hidden_states)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/accelerate/hooks.py", line 161, in new_forward
+    args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/accelerate/hooks.py", line 347, in pre_forward
+    set_module_tensor_to_device(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/accelerate/utils/modeling.py", line 399, in set_module_tensor_to_device
+    new_value = value.to(device)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 594.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 448.81 MiB is free. Including non-PyTorch memory, this process has 23.17 GiB memory in use. Of the allocated memory 19.21 GiB is allocated by PyTorch, and 3.51 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.01s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:02<00:06,  1.07s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:03<00:05,  1.09s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:04<00:04,  1.08s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:05<00:03,  1.06s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:05<00:01,  1.27it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.62it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  2.15it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.34it/s]
+WARNING:root:Some parameters are on the meta device device because they were offloaded to the cpu.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/47 [00:00<?, ?it/s]/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:509: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+Inference:   0%|          | 0/47 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference.py", line 127, in <module>
+    main(model_id=args.model_id ,dataset_paths=args.dataset_paths,destination_path=args.destination_path,verbose=args.verbose)
+  File "/home/namwoam/dl-final/llm/inference.py", line 78, in main
+    outputs = pipeline(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 240, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1242, in __call__
+    return self.run_single(inputs, preprocess_params, forward_params, postprocess_params)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1249, in run_single
+    model_outputs = self.forward(model_inputs, **forward_params)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1149, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 327, in _forward
+    generated_sequence = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/utils.py", line 1576, in generate
+    result = self._greedy_search(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/utils.py", line 2494, in _greedy_search
+    outputs = self(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/accelerate/hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/qwen2_moe/modeling_qwen2_moe.py", line 1364, in forward
+    logits = self.lm_head(hidden_states)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/accelerate/hooks.py", line 161, in new_forward
+    args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/accelerate/hooks.py", line 347, in pre_forward
+    set_module_tensor_to_device(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/accelerate/utils/modeling.py", line 399, in set_module_tensor_to_device
+    new_value = value.to(device)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 594.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 448.81 MiB is free. Including non-PyTorch memory, this process has 23.17 GiB memory in use. Of the allocated memory 19.21 GiB is allocated by PyTorch, and 3.51 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.02s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:02<00:06,  1.09s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:03<00:05,  1.10s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:04<00:04,  1.09s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:05<00:03,  1.08s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:05<00:01,  1.24it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.58it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  2.10it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.31it/s]
+WARNING:root:Some parameters are on the meta device device because they were offloaded to the cpu.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/54 [00:00<?, ?it/s]/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:509: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+Inference:   0%|          | 0/54 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference.py", line 127, in <module>
+    main(model_id=args.model_id ,dataset_paths=args.dataset_paths,destination_path=args.destination_path,verbose=args.verbose)
+  File "/home/namwoam/dl-final/llm/inference.py", line 78, in main
+    outputs = pipeline(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 240, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1242, in __call__
+    return self.run_single(inputs, preprocess_params, forward_params, postprocess_params)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1249, in run_single
+    model_outputs = self.forward(model_inputs, **forward_params)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1149, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 327, in _forward
+    generated_sequence = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/utils.py", line 1576, in generate
+    result = self._greedy_search(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/generation/utils.py", line 2494, in _greedy_search
+    outputs = self(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/accelerate/hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/qwen2_moe/modeling_qwen2_moe.py", line 1364, in forward
+    logits = self.lm_head(hidden_states)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/accelerate/hooks.py", line 161, in new_forward
+    args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/accelerate/hooks.py", line 347, in pre_forward
+    set_module_tensor_to_device(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/accelerate/utils/modeling.py", line 399, in set_module_tensor_to_device
+    new_value = value.to(device)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 594.00 MiB. GPU 0 has a total capacity of 23.65 GiB of which 448.81 MiB is free. Including non-PyTorch memory, this process has 23.17 GiB memory in use. Of the allocated memory 19.21 GiB is allocated by PyTorch, and 3.51 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Downloading shards:   0%|          | 0/3 [00:00<?, ?it/s]Downloading shards:  33%|███▎      | 1/3 [01:38<03:16, 98.39s/it]Downloading shards:  67%|██████▋   | 2/3 [03:40<01:52, 112.30s/it]Downloading shards: 100%|██████████| 3/3 [04:20<00:00, 79.51s/it] Downloading shards: 100%|██████████| 3/3 [04:20<00:00, 86.97s/it]
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.00it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.04s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.16s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:03<00:00,  1.12s/it]
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference.py", line 127, in <module>
+    main(model_id=args.model_id ,dataset_paths=args.dataset_paths,destination_path=args.destination_path,verbose=args.verbose)
+  File "/home/namwoam/dl-final/llm/inference.py", line 20, in main
+    pipeline = transformers.pipeline(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 1005, in pipeline
+    tokenizer = AutoTokenizer.from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 862, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2089, in from_pretrained
+    return cls._from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2311, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/llama/tokenization_llama_fast.py", line 124, in __init__
+    super().__init__(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_fast.py", line 102, in __init__
+    raise ValueError(
+ValueError: Cannot instantiate this tokenizer from a slow version. If it's based on sentencepiece, make sure you have sentencepiece installed.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.01it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.04s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.22it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.15it/s]
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference.py", line 127, in <module>
+    main(model_id=args.model_id ,dataset_paths=args.dataset_paths,destination_path=args.destination_path,verbose=args.verbose)
+  File "/home/namwoam/dl-final/llm/inference.py", line 20, in main
+    pipeline = transformers.pipeline(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 1005, in pipeline
+    tokenizer = AutoTokenizer.from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 862, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2089, in from_pretrained
+    return cls._from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2311, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/llama/tokenization_llama_fast.py", line 124, in __init__
+    super().__init__(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_fast.py", line 102, in __init__
+    raise ValueError(
+ValueError: Cannot instantiate this tokenizer from a slow version. If it's based on sentencepiece, make sure you have sentencepiece installed.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.02s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.06s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.20it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.12it/s]
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference.py", line 127, in <module>
+    main(model_id=args.model_id ,dataset_paths=args.dataset_paths,destination_path=args.destination_path,verbose=args.verbose)
+  File "/home/namwoam/dl-final/llm/inference.py", line 20, in main
+    pipeline = transformers.pipeline(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 1005, in pipeline
+    tokenizer = AutoTokenizer.from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 862, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2089, in from_pretrained
+    return cls._from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2311, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/llama/tokenization_llama_fast.py", line 124, in __init__
+    super().__init__(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_fast.py", line 102, in __init__
+    raise ValueError(
+ValueError: Cannot instantiate this tokenizer from a slow version. If it's based on sentencepiece, make sure you have sentencepiece installed.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.04s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.07s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.20it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.12it/s]
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference.py", line 127, in <module>
+    main(model_id=args.model_id ,dataset_paths=args.dataset_paths,destination_path=args.destination_path,verbose=args.verbose)
+  File "/home/namwoam/dl-final/llm/inference.py", line 20, in main
+    pipeline = transformers.pipeline(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 1005, in pipeline
+    tokenizer = AutoTokenizer.from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 862, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2089, in from_pretrained
+    return cls._from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2311, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/llama/tokenization_llama_fast.py", line 124, in __init__
+    super().__init__(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_fast.py", line 102, in __init__
+    raise ValueError(
+ValueError: Cannot instantiate this tokenizer from a slow version. If it's based on sentencepiece, make sure you have sentencepiece installed.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.04s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.08s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.19it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.11it/s]
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference.py", line 127, in <module>
+    main(model_id=args.model_id ,dataset_paths=args.dataset_paths,destination_path=args.destination_path,verbose=args.verbose)
+  File "/home/namwoam/dl-final/llm/inference.py", line 20, in main
+    pipeline = transformers.pipeline(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 1005, in pipeline
+    tokenizer = AutoTokenizer.from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 862, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2089, in from_pretrained
+    return cls._from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2311, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/llama/tokenization_llama_fast.py", line 124, in __init__
+    super().__init__(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_fast.py", line 102, in __init__
+    raise ValueError(
+ValueError: Cannot instantiate this tokenizer from a slow version. If it's based on sentencepiece, make sure you have sentencepiece installed.
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards:  25%|██▌       | 1/4 [03:11<09:33, 191.31s/it]Downloading shards:  50%|█████     | 2/4 [06:23<06:23, 191.54s/it]Downloading shards:  75%|███████▌  | 3/4 [09:34<03:11, 191.30s/it]Downloading shards: 100%|██████████| 4/4 [11:21<00:00, 158.10s/it]Downloading shards: 100%|██████████| 4/4 [11:21<00:00, 170.31s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.00s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.04s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.08s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.13s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.10s/it]
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference.py", line 127, in <module>
+    main(model_id=args.model_id ,dataset_paths=args.dataset_paths,destination_path=args.destination_path,verbose=args.verbose)
+  File "/home/namwoam/dl-final/llm/inference.py", line 20, in main
+    pipeline = transformers.pipeline(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 1005, in pipeline
+    tokenizer = AutoTokenizer.from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 862, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2089, in from_pretrained
+    return cls._from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2311, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/llama/tokenization_llama_fast.py", line 124, in __init__
+    super().__init__(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_fast.py", line 102, in __init__
+    raise ValueError(
+ValueError: Cannot instantiate this tokenizer from a slow version. If it's based on sentencepiece, make sure you have sentencepiece installed.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.00s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.05s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.09s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.08it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.03it/s]
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference.py", line 127, in <module>
+    main(model_id=args.model_id ,dataset_paths=args.dataset_paths,destination_path=args.destination_path,verbose=args.verbose)
+  File "/home/namwoam/dl-final/llm/inference.py", line 20, in main
+    pipeline = transformers.pipeline(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 1005, in pipeline
+    tokenizer = AutoTokenizer.from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 862, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2089, in from_pretrained
+    return cls._from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2311, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/llama/tokenization_llama_fast.py", line 124, in __init__
+    super().__init__(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_fast.py", line 102, in __init__
+    raise ValueError(
+ValueError: Cannot instantiate this tokenizer from a slow version. If it's based on sentencepiece, make sure you have sentencepiece installed.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.00it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.05s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.09s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.08it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.03it/s]
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference.py", line 127, in <module>
+    main(model_id=args.model_id ,dataset_paths=args.dataset_paths,destination_path=args.destination_path,verbose=args.verbose)
+  File "/home/namwoam/dl-final/llm/inference.py", line 20, in main
+    pipeline = transformers.pipeline(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 1005, in pipeline
+    tokenizer = AutoTokenizer.from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 862, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2089, in from_pretrained
+    return cls._from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2311, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/llama/tokenization_llama_fast.py", line 124, in __init__
+    super().__init__(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_fast.py", line 102, in __init__
+    raise ValueError(
+ValueError: Cannot instantiate this tokenizer from a slow version. If it's based on sentencepiece, make sure you have sentencepiece installed.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.00s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.04s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.07s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.10it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.04it/s]
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference.py", line 127, in <module>
+    main(model_id=args.model_id ,dataset_paths=args.dataset_paths,destination_path=args.destination_path,verbose=args.verbose)
+  File "/home/namwoam/dl-final/llm/inference.py", line 20, in main
+    pipeline = transformers.pipeline(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 1005, in pipeline
+    tokenizer = AutoTokenizer.from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 862, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2089, in from_pretrained
+    return cls._from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2311, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/llama/tokenization_llama_fast.py", line 124, in __init__
+    super().__init__(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_fast.py", line 102, in __init__
+    raise ValueError(
+ValueError: Cannot instantiate this tokenizer from a slow version. If it's based on sentencepiece, make sure you have sentencepiece installed.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.00s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.03s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.07s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.10it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.04it/s]
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference.py", line 127, in <module>
+    main(model_id=args.model_id ,dataset_paths=args.dataset_paths,destination_path=args.destination_path,verbose=args.verbose)
+  File "/home/namwoam/dl-final/llm/inference.py", line 20, in main
+    pipeline = transformers.pipeline(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 1005, in pipeline
+    tokenizer = AutoTokenizer.from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 862, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2089, in from_pretrained
+    return cls._from_pretrained(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2311, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/models/llama/tokenization_llama_fast.py", line 124, in __init__
+    super().__init__(
+  File "/home/namwoam/miniforge3/lib/python3.10/site-packages/transformers/tokenization_utils_fast.py", line 102, in __init__
+    raise ValueError(
+ValueError: Cannot instantiate this tokenizer from a slow version. If it's based on sentencepiece, make sure you have sentencepiece installed.
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference-openai.py", line 13, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference-openai.py", line 13, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference-openai.py", line 13, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference-openai.py", line 13, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+Traceback (most recent call last):
+  File "/home/namwoam/dl-final/llm/inference-openai.py", line 13, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+                                           model short_name  open  zh-tw
+0                         ikala/bloom-zh-3b-chat   bloom-3b  True   True
+1           taide/Llama3-TAIDE-LX-8B-Chat-Alpha1   taide-8b  True   True
+2  MediaTek-Research/Breeze-7B-32k-Instruct-v1_0  breeze-7b  True   True
+3                         Qwen/Qwen1.5-1.8B-Chat  qwen-1.8b  True  False
+4                           Qwen/Qwen1.5-4B-Chat    qwen-4b  True  False
+  dataset_name                                    path  ...  4_tile  5_tile
+0       113-ss  ../dataset/gsat/113_social_studies.csv  ...   39.56   28.25
+1       112-ss  ../dataset/gsat/112_social_studies.csv  ...   38.13   27.24
+2       111-ss  ../dataset/gsat/111_social_studies.csv  ...   45.90   34.42
+3       110-ss  ../dataset/gsat/110_social_studies.csv  ...   40.50   34.72
+4       109-ss  ../dataset/gsat/109_social_studies.csv  ...   49.01   36.76
+
+[5 rows x 7 columns]
+Running dataset:113-ss on model:bloom-3b
+Running dataset:112-ss on model:bloom-3b
+Running dataset:111-ss on model:bloom-3b
+Running dataset:110-ss on model:bloom-3b
+Running dataset:109-ss on model:bloom-3b
+Running dataset:113-ss on model:taide-8b
+Running dataset:112-ss on model:taide-8b
+Running dataset:111-ss on model:taide-8b
+Running dataset:110-ss on model:taide-8b
+Running dataset:109-ss on model:taide-8b
+Running dataset:113-ss on model:breeze-7b
+Running dataset:112-ss on model:breeze-7b
+Running dataset:111-ss on model:breeze-7b
+Running dataset:110-ss on model:breeze-7b
+Running dataset:109-ss on model:breeze-7b
+Running dataset:113-ss on model:qwen-1.8b
+Running dataset:112-ss on model:qwen-1.8b
+Running dataset:111-ss on model:qwen-1.8b
+Running dataset:110-ss on model:qwen-1.8b
+Running dataset:109-ss on model:qwen-1.8b
+Running dataset:113-ss on model:qwen-4b
+Running dataset:112-ss on model:qwen-4b
+Running dataset:111-ss on model:qwen-4b
+Running dataset:110-ss on model:qwen-4b
+Running dataset:109-ss on model:qwen-4b
+Running dataset:113-ss on model:qwen-7b
+Running dataset:112-ss on model:qwen-7b
+Running dataset:111-ss on model:qwen-7b
+Running dataset:110-ss on model:qwen-7b
+Running dataset:109-ss on model:qwen-7b
+Running dataset:113-ss on model:qwen-2.7b-MoE
+Running dataset:112-ss on model:qwen-2.7b-MoE
+Running dataset:111-ss on model:qwen-2.7b-MoE
+Running dataset:110-ss on model:qwen-2.7b-MoE
+Running dataset:109-ss on model:qwen-2.7b-MoE
+Running dataset:113-ss on model:yi-6b
+Running dataset:112-ss on model:yi-6b
+Running dataset:111-ss on model:yi-6b
+Running dataset:110-ss on model:yi-6b
+Running dataset:109-ss on model:yi-6b
+Running dataset:113-ss on model:yi-9b
+Running dataset:112-ss on model:yi-9b
+Running dataset:111-ss on model:yi-9b
+Running dataset:110-ss on model:yi-9b
+Running dataset:109-ss on model:yi-9b
+Running dataset:113-ss on model:gpt-4o
+Running dataset:112-ss on model:gpt-4o
+Running dataset:111-ss on model:gpt-4o
+Running dataset:110-ss on model:gpt-4o
+Running dataset:109-ss on model:gpt-4o
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.12s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:02<00:06,  1.14s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:03<00:05,  1.17s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:04<00:04,  1.17s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:05<00:03,  1.17s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:06<00:02,  1.17s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:08<00:01,  1.19s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:08<00:00,  1.11it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:08<00:00,  1.06s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/43 [00:00<?, ?it/s]/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:515: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:520: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:537: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.bfloat16 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   2%|▏         | 1/43 [03:11<2:13:53, 191.28s/it]Inference:   5%|▍         | 2/43 [05:31<1:50:08, 161.18s/it]Inference:   7%|▋         | 3/43 [08:47<1:58:07, 177.18s/it]Inference:   9%|▉         | 4/43 [11:01<1:44:00, 160.01s/it]Inference:  12%|█▏        | 5/43 [12:32<1:25:35, 135.14s/it]Inference:  14%|█▍        | 6/43 [14:46<1:23:10, 134.89s/it]Inference:  16%|█▋        | 7/43 [17:31<1:26:49, 144.71s/it]Inference:  19%|█▊        | 8/43 [18:12<1:05:07, 111.63s/it]Inference:  21%|██        | 9/43 [21:08<1:14:36, 131.67s/it]Inference:  23%|██▎       | 10/43 [22:30<1:04:06, 116.55s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  26%|██▌       | 11/43 [25:14<1:09:53, 131.03s/it]Inference:  28%|██▊       | 12/43 [27:17<1:06:20, 128.39s/it]Inference:  30%|███       | 13/43 [29:40<1:06:27, 132.91s/it]Inference:  33%|███▎      | 14/43 [31:13<58:22, 120.78s/it]  Inference:  35%|███▍      | 15/43 [32:59<54:23, 116.54s/it]Inference:  37%|███▋      | 16/43 [35:43<58:47, 130.65s/it]Inference:  40%|███▉      | 17/43 [37:21<52:26, 121.00s/it]Inference:  42%|████▏     | 18/43 [38:56<47:08, 113.12s/it]Inference:  44%|████▍     | 19/43 [41:33<50:31, 126.32s/it]Inference:  47%|████▋     | 20/43 [45:17<59:38, 155.60s/it]Inference:  49%|████▉     | 21/43 [46:57<50:55, 138.90s/it]Inference:  51%|█████     | 22/43 [49:15<48:33, 138.74s/it]Inference:  53%|█████▎    | 23/43 [51:14<44:12, 132.61s/it]Inference:  56%|█████▌    | 24/43 [54:43<49:16, 155.60s/it]Inference:  58%|█████▊    | 25/43 [59:44<59:44, 199.12s/it]Inference:  60%|██████    | 26/43 [1:00:25<43:01, 151.87s/it]Inference:  63%|██████▎   | 27/43 [1:02:12<36:55, 138.48s/it]Inference:  65%|██████▌   | 28/43 [1:04:55<36:23, 145.59s/it]Inference:  67%|██████▋   | 29/43 [1:06:51<31:56, 136.93s/it]Inference:  70%|██████▉   | 30/43 [1:11:36<39:15, 181.15s/it]Inference:  72%|███████▏  | 31/43 [1:14:44<36:38, 183.18s/it]Inference:  74%|███████▍  | 32/43 [1:17:54<33:58, 185.35s/it]Inference:  77%|███████▋  | 33/43 [1:19:18<25:50, 155.02s/it]Inference:  79%|███████▉  | 34/43 [1:23:07<26:34, 177.20s/it]Inference:  81%|████████▏ | 35/43 [1:24:46<20:29, 153.68s/it]Inference:  84%|████████▎ | 36/43 [1:27:40<18:38, 159.80s/it]Inference:  86%|████████▌ | 37/43 [1:29:19<14:08, 141.47s/it]Inference:  88%|████████▊ | 38/43 [1:31:22<11:19, 135.98s/it]Inference:  91%|█████████ | 39/43 [1:35:13<10:57, 164.41s/it]Inference:  93%|█████████▎| 40/43 [1:38:03<08:18, 166.29s/it]Inference:  95%|█████████▌| 41/43 [1:41:08<05:43, 171.66s/it]Inference:  98%|█████████▊| 42/43 [1:42:51<02:31, 151.30s/it]Inference: 100%|██████████| 43/43 [1:46:40<00:00, 174.35s/it]Inference: 100%|██████████| 43/43 [1:46:40<00:00, 148.84s/it]
+/home/namwoam/dl-final/llm/inference.py:111: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.14s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:02<00:06,  1.14s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:03<00:05,  1.15s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:04<00:04,  1.15s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:05<00:03,  1.15s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:06<00:02,  1.15s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:08<00:01,  1.16s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:08<00:00,  1.14it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:08<00:00,  1.04s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/41 [00:00<?, ?it/s]/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:515: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:520: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:537: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.bfloat16 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   2%|▏         | 1/41 [02:03<1:22:24, 123.62s/it]Inference:   5%|▍         | 2/41 [08:26<2:59:28, 276.11s/it]Inference:   7%|▋         | 3/41 [10:04<2:03:24, 194.86s/it]Inference:  10%|▉         | 4/41 [14:56<2:23:48, 233.19s/it]Inference:  12%|█▏        | 5/41 [16:27<1:49:01, 181.71s/it]Inference:  15%|█▍        | 6/41 [18:26<1:33:42, 160.63s/it]Inference:  17%|█▋        | 7/41 [21:40<1:37:05, 171.34s/it]Inference:  20%|█▉        | 8/41 [24:16<1:31:35, 166.52s/it]Inference:  22%|██▏       | 9/41 [26:06<1:19:29, 149.03s/it]Inference:  24%|██▍       | 10/41 [27:54<1:10:23, 136.24s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  27%|██▋       | 11/41 [29:37<1:03:00, 126.03s/it]Inference:  29%|██▉       | 12/41 [30:31<50:18, 104.08s/it]  Inference:  32%|███▏      | 13/41 [32:58<54:41, 117.20s/it]Inference:  34%|███▍      | 14/41 [36:09<1:02:42, 139.36s/it]Inference:  37%|███▋      | 15/41 [38:31<1:00:49, 140.35s/it]Inference:  39%|███▉      | 16/41 [41:13<1:01:11, 146.87s/it]Inference:  41%|████▏     | 17/41 [43:01<54:04, 135.17s/it]  Inference:  44%|████▍     | 18/41 [49:25<1:20:24, 209.77s/it]Inference:  46%|████▋     | 19/41 [51:56<1:10:31, 192.34s/it]Inference:  49%|████▉     | 20/41 [54:54<1:05:48, 188.02s/it]Inference:  51%|█████     | 21/41 [56:16<51:59, 155.99s/it]  Inference:  54%|█████▎    | 22/41 [58:33<47:39, 150.50s/it]Inference:  56%|█████▌    | 23/41 [1:00:49<43:47, 145.99s/it]Inference:  59%|█████▊    | 24/41 [1:04:10<46:04, 162.61s/it]Inference:  61%|██████    | 25/41 [1:06:13<40:08, 150.51s/it]Inference:  63%|██████▎   | 26/41 [1:07:28<31:57, 127.83s/it]Inference:  66%|██████▌   | 27/41 [1:09:29<29:21, 125.84s/it]Inference:  68%|██████▊   | 28/41 [1:12:06<29:19, 135.34s/it]Inference:  71%|███████   | 29/41 [1:14:01<25:50, 129.18s/it]Inference:  73%|███████▎  | 30/41 [1:14:46<19:03, 103.98s/it]Inference:  76%|███████▌  | 31/41 [1:17:56<21:37, 129.80s/it]Inference:  78%|███████▊  | 32/41 [1:21:27<23:07, 154.20s/it]Inference:  80%|████████  | 33/41 [1:22:16<16:19, 122.42s/it]Inference:  83%|████████▎ | 34/41 [1:24:10<14:00, 120.08s/it]Inference:  85%|████████▌ | 35/41 [1:26:49<13:10, 131.73s/it]Inference:  88%|████████▊ | 36/41 [1:28:53<10:47, 129.49s/it]Inference:  90%|█████████ | 37/41 [1:32:04<09:51, 147.91s/it]Inference:  93%|█████████▎| 38/41 [1:34:00<06:54, 138.26s/it]Inference:  95%|█████████▌| 39/41 [1:36:04<04:27, 133.97s/it]Inference:  98%|█████████▊| 40/41 [1:37:50<02:05, 125.43s/it]Inference: 100%|██████████| 41/41 [1:39:47<00:00, 122.94s/it]Inference: 100%|██████████| 41/41 [1:39:47<00:00, 146.03s/it]
+/home/namwoam/dl-final/llm/inference.py:111: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.09s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:02<00:06,  1.13s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:03<00:05,  1.15s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:04<00:04,  1.16s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:05<00:03,  1.16s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:06<00:02,  1.15s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:08<00:01,  1.16s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:08<00:00,  1.14it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:08<00:00,  1.04s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/37 [00:00<?, ?it/s]/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:515: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:520: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:537: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.bfloat16 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   3%|▎         | 1/37 [01:59<1:11:33, 119.27s/it]Inference:   5%|▌         | 2/37 [04:38<1:23:25, 143.03s/it]Inference:   8%|▊         | 3/37 [08:37<1:45:51, 186.82s/it]Inference:  11%|█         | 4/37 [10:15<1:23:24, 151.66s/it]Inference:  14%|█▎        | 5/37 [12:48<1:21:10, 152.19s/it]Inference:  16%|█▌        | 6/37 [15:16<1:17:46, 150.52s/it]Inference:  19%|█▉        | 7/37 [17:27<1:12:09, 144.32s/it]Inference:  22%|██▏       | 8/37 [19:08<1:03:00, 130.37s/it]Inference:  24%|██▍       | 9/37 [20:02<49:47, 106.70s/it]  Inference:  27%|██▋       | 10/37 [21:35<46:04, 102.37s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  30%|██▉       | 11/37 [22:24<37:19, 86.14s/it] Inference:  32%|███▏      | 12/37 [24:38<41:55, 100.60s/it]Inference:  35%|███▌      | 13/37 [26:39<42:42, 106.76s/it]Inference:  38%|███▊      | 14/37 [29:01<45:02, 117.52s/it]Inference:  41%|████      | 15/37 [31:05<43:47, 119.44s/it]Inference:  43%|████▎     | 16/37 [33:53<46:57, 134.16s/it]Inference:  46%|████▌     | 17/37 [37:54<55:21, 166.10s/it]Inference:  49%|████▊     | 18/37 [40:25<51:11, 161.66s/it]Inference:  51%|█████▏    | 19/37 [42:08<43:09, 143.89s/it]Inference:  54%|█████▍    | 20/37 [44:06<38:37, 136.34s/it]Inference:  57%|█████▋    | 21/37 [45:58<34:22, 128.94s/it]Inference:  59%|█████▉    | 22/37 [48:11<32:30, 130.01s/it]Inference:  62%|██████▏   | 23/37 [50:16<30:01, 128.69s/it]Inference:  65%|██████▍   | 24/37 [51:54<25:51, 119.35s/it]Inference:  68%|██████▊   | 25/37 [54:11<24:54, 124.58s/it]Inference:  70%|███████   | 26/37 [56:30<23:40, 129.11s/it]Inference:  73%|███████▎  | 27/37 [58:41<21:36, 129.68s/it]Inference:  76%|███████▌  | 28/37 [1:01:24<20:57, 139.74s/it]Inference:  78%|███████▊  | 29/37 [1:04:59<21:36, 162.11s/it]Inference:  81%|████████  | 30/37 [1:07:52<19:17, 165.30s/it]Inference:  84%|████████▍ | 31/37 [1:11:01<17:15, 172.66s/it]Inference:  86%|████████▋ | 32/37 [1:13:47<14:12, 170.57s/it]Inference:  89%|████████▉ | 33/37 [1:16:12<10:52, 163.03s/it]Inference:  92%|█████████▏| 34/37 [1:18:18<07:35, 151.89s/it]Inference:  95%|█████████▍| 35/37 [1:19:59<04:33, 136.66s/it]Inference:  97%|█████████▋| 36/37 [1:23:52<02:45, 165.42s/it]Inference: 100%|██████████| 37/37 [1:26:47<00:00, 168.42s/it]Inference: 100%|██████████| 37/37 [1:26:47<00:00, 140.75s/it]
+/home/namwoam/dl-final/llm/inference.py:111: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.11s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:02<00:06,  1.13s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:03<00:05,  1.15s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:04<00:04,  1.15s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:05<00:03,  1.16s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:06<00:02,  1.15s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:08<00:01,  1.16s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:08<00:00,  1.14it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:08<00:00,  1.04s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/47 [00:00<?, ?it/s]/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:515: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:520: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:537: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.bfloat16 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   2%|▏         | 1/47 [02:01<1:33:15, 121.65s/it]Inference:   4%|▍         | 2/47 [02:43<56:11, 74.92s/it]   Inference:   6%|▋         | 3/47 [04:55<1:13:55, 100.80s/it]Inference:   9%|▊         | 4/47 [06:36<1:12:26, 101.08s/it]Inference:  11%|█         | 5/47 [08:58<1:20:58, 115.68s/it]Inference:  13%|█▎        | 6/47 [11:40<1:29:48, 131.43s/it]Inference:  15%|█▍        | 7/47 [13:29<1:22:49, 124.24s/it]Inference:  17%|█▋        | 8/47 [17:30<1:44:52, 161.36s/it]Inference:  19%|█▉        | 9/47 [20:02<1:40:13, 158.25s/it]Inference:  21%|██▏       | 10/47 [21:58<1:29:34, 145.27s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  23%|██▎       | 11/47 [28:19<2:10:25, 217.37s/it]Inference:  26%|██▌       | 12/47 [30:01<1:46:23, 182.40s/it]Inference:  28%|██▊       | 13/47 [32:04<1:33:02, 164.20s/it]Inference:  30%|██▉       | 14/47 [34:25<1:26:28, 157.24s/it]Inference:  32%|███▏      | 15/47 [35:39<1:10:30, 132.21s/it]Inference:  34%|███▍      | 16/47 [37:30<1:05:00, 125.81s/it]Inference:  36%|███▌      | 17/47 [39:59<1:06:23, 132.79s/it]Inference:  38%|███▊      | 18/47 [42:35<1:07:36, 139.87s/it]Inference:  40%|████      | 19/47 [44:48<1:04:12, 137.60s/it]Inference:  43%|████▎     | 20/47 [47:33<1:05:43, 146.06s/it]Inference:  45%|████▍     | 21/47 [50:24<1:06:25, 153.31s/it]Inference:  47%|████▋     | 22/47 [52:30<1:00:34, 145.39s/it]Inference:  49%|████▉     | 23/47 [54:06<52:11, 130.48s/it]  Inference:  51%|█████     | 24/47 [56:00<48:08, 125.58s/it]Inference:  53%|█████▎    | 25/47 [58:15<47:04, 128.37s/it]Inference:  55%|█████▌    | 26/47 [1:01:37<52:36, 150.29s/it]Inference:  57%|█████▋    | 27/47 [1:03:42<47:38, 142.93s/it]Inference:  60%|█████▉    | 28/47 [1:06:41<48:41, 153.74s/it]Inference:  62%|██████▏   | 29/47 [1:08:13<40:34, 135.24s/it]Inference:  64%|██████▍   | 30/47 [1:10:57<40:45, 143.88s/it]Inference:  66%|██████▌   | 31/47 [1:12:15<33:03, 123.96s/it]Inference:  68%|██████▊   | 32/47 [1:13:15<26:13, 104.90s/it]Inference:  70%|███████   | 33/47 [1:15:58<28:31, 122.23s/it]Inference:  72%|███████▏  | 34/47 [1:18:07<26:53, 124.13s/it]Inference:  74%|███████▍  | 35/47 [1:20:14<25:02, 125.23s/it]Inference:  77%|███████▋  | 36/47 [1:21:51<21:23, 116.72s/it]Inference:  79%|███████▊  | 37/47 [1:23:19<18:00, 108.07s/it]Inference:  81%|████████  | 38/47 [1:25:15<16:33, 110.36s/it]Inference:  83%|████████▎ | 39/47 [1:27:02<14:35, 109.47s/it]Inference:  85%|████████▌ | 40/47 [1:30:27<16:06, 138.02s/it]Inference:  87%|████████▋ | 41/47 [1:34:08<16:17, 162.87s/it]Inference:  89%|████████▉ | 42/47 [1:36:44<13:23, 160.77s/it]Inference:  91%|█████████▏| 43/47 [1:39:42<11:04, 166.10s/it]Inference:  94%|█████████▎| 44/47 [1:41:57<07:49, 156.62s/it]Inference:  96%|█████████▌| 45/47 [1:43:16<04:26, 133.34s/it]Inference:  98%|█████████▊| 46/47 [1:45:22<02:11, 131.25s/it]Inference: 100%|██████████| 47/47 [1:47:15<00:00, 125.73s/it]Inference: 100%|██████████| 47/47 [1:47:15<00:00, 136.92s/it]
+/home/namwoam/dl-final/llm/inference.py:111: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.08s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:02<00:06,  1.11s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:03<00:05,  1.13s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:04<00:04,  1.14s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:05<00:03,  1.15s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:06<00:02,  1.14s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:07<00:01,  1.15s/it]Loading checkpoint shards: 100%|██████████| 8/8 [00:08<00:00,  1.15it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:08<00:00,  1.03s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Inference:   0%|          | 0/54 [00:00<?, ?it/s]/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:515: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:520: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:537: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.bfloat16 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   2%|▏         | 1/54 [01:45<1:32:55, 105.19s/it]Inference:   4%|▎         | 2/54 [03:56<1:44:29, 120.57s/it]Inference:   6%|▌         | 3/54 [05:27<1:30:53, 106.93s/it]Inference:   7%|▋         | 4/54 [08:08<1:47:03, 128.48s/it]Inference:   9%|▉         | 5/54 [10:50<1:54:47, 140.55s/it]Inference:  11%|█         | 6/54 [13:16<1:53:59, 142.49s/it]Inference:  13%|█▎        | 7/54 [15:35<1:50:41, 141.31s/it]Inference:  15%|█▍        | 8/54 [17:46<1:45:48, 138.01s/it]Inference:  17%|█▋        | 9/54 [19:46<1:39:10, 132.23s/it]Inference:  19%|█▊        | 10/54 [20:49<1:21:26, 111.06s/it]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+Inference:  20%|██        | 11/54 [23:26<1:29:38, 125.08s/it]Inference:  22%|██▏       | 12/54 [26:43<1:42:52, 146.96s/it]Inference:  24%|██▍       | 13/54 [29:45<1:47:41, 157.59s/it]Inference:  26%|██▌       | 14/54 [32:01<1:40:32, 150.81s/it]Inference:  28%|██▊       | 15/54 [34:13<1:34:29, 145.36s/it]Inference:  30%|██▉       | 16/54 [36:19<1:28:20, 139.48s/it]Inference:  31%|███▏      | 17/54 [38:07<1:20:09, 129.98s/it]Inference:  33%|███▎      | 18/54 [39:42<1:11:46, 119.62s/it]Inference:  35%|███▌      | 19/54 [41:31<1:07:52, 116.36s/it]Inference:  37%|███▋      | 20/54 [43:14<1:03:38, 112.30s/it]Inference:  39%|███▉      | 21/54 [45:54<1:09:39, 126.65s/it]Inference:  41%|████      | 22/54 [47:19<1:00:51, 114.11s/it]Inference:  43%|████▎     | 23/54 [48:57<56:31, 109.41s/it]  Inference:  44%|████▍     | 24/54 [50:29<51:57, 103.93s/it]Inference:  46%|████▋     | 25/54 [53:29<1:01:15, 126.73s/it]Inference:  48%|████▊     | 26/54 [55:27<57:56, 124.14s/it]  Inference:  50%|█████     | 27/54 [56:38<48:40, 108.17s/it]Inference:  52%|█████▏    | 28/54 [59:42<56:46, 131.01s/it]Inference:  54%|█████▎    | 29/54 [1:03:56<1:09:58, 167.93s/it]Inference:  56%|█████▌    | 30/54 [1:06:02<1:02:09, 155.42s/it]Inference:  57%|█████▋    | 31/54 [1:10:57<1:15:34, 197.17s/it]Inference:  59%|█████▉    | 32/54 [1:13:53<1:09:56, 190.76s/it]Inference:  61%|██████    | 33/54 [1:14:43<52:03, 148.74s/it]  Inference:  63%|██████▎   | 34/54 [1:16:22<44:34, 133.75s/it]Inference:  65%|██████▍   | 35/54 [1:18:39<42:39, 134.69s/it]Inference:  67%|██████▋   | 36/54 [1:22:42<50:09, 167.22s/it]Inference:  69%|██████▊   | 37/54 [1:23:57<39:34, 139.66s/it]Inference:  70%|███████   | 38/54 [1:26:56<40:22, 151.42s/it]Inference:  72%|███████▏  | 39/54 [1:30:00<40:18, 161.21s/it]Inference:  74%|███████▍  | 40/54 [1:33:01<39:00, 167.17s/it]Inference:  76%|███████▌  | 41/54 [1:35:46<36:01, 166.28s/it]Inference:  78%|███████▊  | 42/54 [1:37:40<30:08, 150.69s/it]Inference:  80%|███████▉  | 43/54 [1:39:40<25:55, 141.44s/it]Inference:  81%|████████▏ | 44/54 [1:42:23<24:38, 147.89s/it]Inference:  83%|████████▎ | 45/54 [1:44:26<21:03, 140.37s/it]Inference:  85%|████████▌ | 46/54 [1:45:51<16:31, 123.93s/it]Inference:  87%|████████▋ | 47/54 [1:47:34<13:44, 117.77s/it]Inference:  89%|████████▉ | 48/54 [1:49:10<11:07, 111.19s/it]Inference:  91%|█████████ | 49/54 [1:50:31<08:30, 102.11s/it]Inference:  93%|█████████▎| 50/54 [1:55:36<10:51, 162.77s/it]Inference:  94%|█████████▍| 51/54 [1:56:55<06:53, 137.71s/it]Inference:  96%|█████████▋| 52/54 [1:58:50<04:22, 131.06s/it]Inference:  98%|█████████▊| 53/54 [2:00:31<02:02, 122.07s/it]Inference: 100%|██████████| 54/54 [2:01:42<00:00, 106.55s/it]Inference: 100%|██████████| 54/54 [2:01:42<00:00, 135.23s/it]
+/home/namwoam/dl-final/llm/inference.py:111: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:,"score"] = scores
+                         model     short_name  open  zh-tw
+0  Qwen/Qwen1.5-MoE-A2.7B-Chat  qwen-2.7b-MoE  True  False
+  dataset_name                                    path  ...  4_tile  5_tile
+0       113-ss  ../dataset/gsat/113_social_studies.csv  ...   39.56   28.25
+1       112-ss  ../dataset/gsat/112_social_studies.csv  ...   38.13   27.24
+2       111-ss  ../dataset/gsat/111_social_studies.csv  ...   45.90   34.42
+3       110-ss  ../dataset/gsat/110_social_studies.csv  ...   40.50   34.72
+4       109-ss  ../dataset/gsat/109_social_studies.csv  ...   49.01   36.76
+
+[5 rows x 7 columns]
+Running dataset:113-ss on model:qwen-2.7b-MoE
+Running dataset:112-ss on model:qwen-2.7b-MoE
+Running dataset:111-ss on model:qwen-2.7b-MoE
+Running dataset:110-ss on model:qwen-2.7b-MoE
+Running dataset:109-ss on model:qwen-2.7b-MoE
