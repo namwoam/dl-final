@@ -72,18 +72,18 @@ def main(model_id: str, dataset_path: str, load_lora_path: str, store_lora_path:
 
     peft_model = get_peft_model(original_model, config)
 
-    max_seq_len = 4096
+    max_seq_len = 1024
 
     train_args = TrainingArguments(
         output_dir=store_lora_path,
         # just for demo purposes
-        num_train_epochs=1,
+        num_train_epochs=5,
         # trying to max out resources on colab
-        per_device_train_batch_size=4,
+        per_device_train_batch_size=1,
         gradient_accumulation_steps=10,
         gradient_checkpointing=True,
         optim="paged_adamw_32bit",
-        logging_steps=25,
+        logging_steps=100,
         save_strategy="steps",
         save_steps=100,
         learning_rate=3e-5,
