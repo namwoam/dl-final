@@ -1,26 +1,112 @@
 import argparse
 import os
 from datasets import Dataset
-from transformers import AutoModelForCausalLM, AutoTokenizer
-from trl import SFTTrainer, DataCollatorForCompletionOnlyLM
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, TrainingArguments
+from peft import LoraConfig, prepare_model_for_kbit_training, get_peft_model
+from trl import SFTTrainer
 
 # check: https://huggingface.co/docs/trl/en/sft_trainer
 
+
 def main(model_id: str, dataset_path: str, load_lora_path: str, store_lora_path: str, verbose=False):
     dataset = Dataset.from_csv(dataset_path)
-    model = AutoModelForCausalLM.from_pretrained("facebook/opt-350m")
-    tokenizer = AutoTokenizer.from_pretrained("facebook/opt-350m")
+    tokenizer = AutoTokenizer.from_pretrained(model_id)
+    tokenizer.pad_token = tokenizer.eos_token
+    tokenizer.padding_side = "right"
 
-    def formatting_prompts_func(example):
-        output_texts = []
-        for i in range(len(example['instruction'])):
-            text = f"### Question: {example['instruction'][i]}\n ### Answer: {example['output'][i]}"
-            output_texts.append(text)
-        return output_texts
+    print(f"Instruction dataset size:{len(dataset)}")
 
-    response_template = " ### Answer:"
-    collator = DataCollatorForCompletionOnlyLM(
-        response_template, tokenizer=tokenizer)
+    def format_row_as_instruction_prompt(example):
+        # Check if 'input' key exists and has content
+
+        # Define the prompts based on the presence of input
+        primer_prompt = ("Below is an instruction that describes a task, paired with an input "
+                         "that provides further context. Write a response that appropriately completes the request.")
+        input_template = f"### 題目: \n{example['question']}\n\n"
+
+        instruction_template = f"""### 指令:你是一個用於解決臺灣高中生升學考試選擇題的 AI 助理，請依據邏輯推理及高中程度的知識選出正確的答案。\n
+                        輸出格式：\n
+                        ### 正確的答案：[填入正確的選項]\n
+                        ### 解釋：[填入解釋]\n\n"""
+
+    # Check if 'output' key exists
+
+        response_template = f"""### 正確的答案：{example["answer"]}\n
+                                ### 解釋：{example["explanation"]}\n\n
+                        """
+
+        return f"{primer_prompt}\n\n{instruction_template}{input_template}{response_template}"
+
+    bnb_config = BitsAndBytesConfig(
+        load_in_8bit=True,
+    )
+
+    device_map = {"": 0}
+    original_model = AutoModelForCausalLM.from_pretrained(model_id,
+                                                          device_map=device_map,
+                                                          quantization_config=bnb_config,
+                                                          trust_remote_code=True,
+                                                          use_auth_token=True)
+
+    original_model = prepare_model_for_kbit_training(original_model)
+
+    config = LoraConfig(
+        r=32,  # Rank
+        lora_alpha=32,
+        target_modules=[
+            'q_proj',
+            'k_proj',
+            'v_proj',
+            'up_proj',
+            'down_proj',
+            'o_proj',
+            'dense'
+        ],
+        bias="none",
+        lora_dropout=0.05,  # Conventional
+        task_type="CAUSAL_LM",
+    )
+
+    # 1 - Enabling gradient checkpointing to reduce memory usage during fine-tuning
+    original_model.gradient_checkpointing_enable()
+
+    peft_model = get_peft_model(original_model, config)
+
+    max_seq_len = 4096
+
+    train_args = TrainingArguments(
+        output_dir=store_lora_path,
+        # just for demo purposes
+        num_train_epochs=1,
+        # trying to max out resources on colab
+        per_device_train_batch_size=4,
+        gradient_accumulation_steps=10,
+        gradient_checkpointing=True,
+        optim="paged_adamw_32bit",
+        logging_steps=25,
+        save_strategy="steps",
+        save_steps=100,
+        learning_rate=3e-5,
+        bf16=True,
+        tf32=True,
+        max_grad_norm=0.3,
+        warmup_ratio=0.03,
+        lr_scheduler_type="linear",
+        disable_tqdm=False
+    )
+
+    trainer = SFTTrainer(
+        model=peft_model,
+        train_dataset=dataset,
+        max_seq_length=max_seq_len,
+        tokenizer=tokenizer,
+        packing=True,
+        formatting_func=format_row_as_instruction_prompt,
+        args=train_args,
+    )
+    trainer.train()
+    trainer.save_state()
+    trainer.save_model()
 
 
 if __name__ == "__main__":
