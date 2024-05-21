@@ -1,1 +1,1 @@
-python ./lora-inference.py -v
+python ./lora-inference.py -v -l ./is-all_gsat

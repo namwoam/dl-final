@@ -1,2 +1,2 @@
-model,short_name,open,zh-tw
-"Qwen/Qwen1.5-MoE-A2.7B-Chat","qwen-2.7b-MoE",true,false
+model,short_name,open,zh-tw,lora,lora_path
+"MediaTek-Research/Breeze-7B-32k-Instruct-v1_0","breeze-7b-is_gsat",true,true,true,"../finetune/is-all_gsat"

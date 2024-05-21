@@ -22,9 +22,9 @@ def main(model_id: str, dataset_path: str, load_lora_path: str, store_lora_path:
         # Define the prompts based on the presence of input
         primer_prompt = ("Below is an instruction that describes a task, paired with an input "
                          "that provides further context. Write a response that appropriately completes the request.")
-        input_template = f"### 題目: \n{example['question']}\n\n"
+        input_template = f"""###題目: 請針對以下問題，選出正確的選項，此題為{"單選題" if len(example['answer'])==1 else "多選題"}。請問"""+example["question"]+"？\n\n"
 
-        instruction_template = f"""### 指令:你是一個用於解決臺灣高中生升學考試選擇題的 AI 助理，請依據邏輯推理及高中程度的知識選出正確的答案。\n
+        instruction_template = f"""### 指令: 你是一個用於解決臺灣高中生升學考試選擇題的 AI 助理，請依據邏輯推理及高中程度的知識選出正確的答案。\n
                         輸出格式：\n
                         ### 正確的答案：[填入正確的選項]\n
                         ### 解釋：[填入解釋]\n\n"""
@@ -72,14 +72,13 @@ def main(model_id: str, dataset_path: str, load_lora_path: str, store_lora_path:
 
     peft_model = get_peft_model(original_model, config)
 
-    max_seq_len = 4096
-
+    max_seq_len = 512
+    
     train_args = TrainingArguments(
         output_dir=store_lora_path,
-        # just for demo purposes
-        num_train_epochs=10,
+        num_train_epochs=20,
         # trying to max out resources on colab
-        per_device_train_batch_size=8,
+        per_device_train_batch_size=1,
         gradient_accumulation_steps=10,
         gradient_checkpointing=True,
         optim="paged_adamw_32bit",

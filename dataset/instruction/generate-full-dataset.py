@@ -3,7 +3,9 @@ import csv
 files = ["112_chinese.csv", "111_chinese.csv",
          "110_chinese.csv", "109_chinese.csv",
          "112_social_studies.csv", "111_social_studies.csv",
-         "110_social_studies.csv", "109_social_studies.csv"]
+         "110_social_studies.csv", "109_social_studies.csv",
+         "112_natural_sciences.csv", "111_natural_sciences.csv",
+         "110_natural_sciences.csv", "109_natural_sciences.csv"]
 
 df = None
 for file in files:
