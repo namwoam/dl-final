@@ -1,0 +1,1 @@
+python ./instruction-tuning.py -i "../dataset/instruction/tmmlu_plus-explain_2k.csv" -m "MediaTek-Research/Breeze-7B-32k-Instruct-v1_0"  -sl "is-tmmlu_2k/" 
