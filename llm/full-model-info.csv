@@ -10,3 +10,4 @@ model,short_name,open,zh-tw,lora,lora_path
 "01-ai/Yi-1.5-9B-Chat","yi-9b",true,false,false,""
 "gpt-4o","gpt-4o",false,false,false,""
 "MediaTek-Research/Breeze-7B-32k-Instruct-v1_0","breeze-7b-is_gsat",true,true,true,"../finetune/is-all_gsat"
+"MediaTek-Research/Breeze-7B-32k-Instruct-v1_0","breeze-7b-cp+is_gsat",true,true,true,"../finetune/cp-all_textbook+is-all_gsat"

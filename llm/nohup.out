@@ -790,3 +790,863 @@ Running dataset:112-ss on model:breeze-7b-is_gsat
 Running dataset:111-ss on model:breeze-7b-is_gsat
 Running dataset:110-ss on model:breeze-7b-is_gsat
 Running dataset:109-ss on model:breeze-7b-is_gsat
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:468: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.74s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.70s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.63s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.09s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.30s/it]
+Inference:   0%|          | 0/33 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   3%|▎         | 1/33 [00:11<06:00, 11.27s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   6%|▌         | 2/33 [00:25<06:52, 13.29s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   9%|▉         | 3/33 [01:11<13:59, 27.97s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  12%|█▏        | 4/33 [01:24<10:46, 22.29s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  15%|█▌        | 5/33 [02:07<13:50, 29.67s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:468: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.78s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.71s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:05<00:01,  1.67s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.12s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.33s/it]
+Inference:   0%|          | 0/34 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   3%|▎         | 1/34 [00:10<05:58, 10.86s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   6%|▌         | 2/34 [00:32<09:02, 16.96s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:468: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.74s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.73s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:05<00:01,  1.66s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.11s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.33s/it]
+Inference:   0%|          | 0/34 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   3%|▎         | 1/34 [00:17<09:51, 17.91s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:468: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.75s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.69s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.63s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.09s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.30s/it]
+Inference:   0%|          | 0/42 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   2%|▏         | 1/42 [00:11<07:56, 11.63s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   5%|▍         | 2/42 [00:28<09:52, 14.82s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   7%|▋         | 3/42 [00:55<13:18, 20.46s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  10%|▉         | 4/42 [01:08<10:58, 17.34s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  12%|█▏        | 5/42 [01:25<10:40, 17.30s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  14%|█▍        | 6/42 [01:38<09:29, 15.83s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  17%|█▋        | 7/42 [01:50<08:30, 14.60s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  19%|█▉        | 8/42 [02:21<11:09, 19.69s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  21%|██▏       | 9/42 [02:58<13:54, 25.29s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  24%|██▍       | 10/42 [03:23<13:23, 25.11s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  26%|██▌       | 11/42 [03:39<11:35, 22.45s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  29%|██▊       | 12/42 [04:11<12:35, 25.18s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  31%|███       | 13/42 [04:41<12:51, 26.61s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  33%|███▎      | 14/42 [05:01<11:28, 24.60s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  36%|███▌      | 15/42 [05:09<08:52, 19.71s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:468: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.70s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.65s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.61s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.08s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.28s/it]
+Inference:   0%|          | 0/33 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   3%|▎         | 1/33 [00:11<05:53, 11.06s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   6%|▌         | 2/33 [00:25<06:48, 13.19s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   9%|▉         | 3/33 [01:09<13:39, 27.30s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  12%|█▏        | 4/33 [01:23<10:31, 21.77s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  15%|█▌        | 5/33 [02:05<13:36, 29.14s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  18%|█▊        | 6/33 [02:49<15:23, 34.21s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  21%|██        | 7/33 [03:04<12:10, 28.09s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  24%|██▍       | 8/33 [03:24<10:34, 25.37s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  27%|██▋       | 9/33 [03:36<08:27, 21.15s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  30%|███       | 10/33 [03:43<06:28, 16.90s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  33%|███▎      | 11/33 [04:25<09:01, 24.64s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  36%|███▋      | 12/33 [04:38<07:21, 21.05s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  39%|███▉      | 13/33 [05:27<09:48, 29.44s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  42%|████▏     | 14/33 [06:05<10:09, 32.10s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  45%|████▌     | 15/33 [07:10<12:36, 42.02s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  48%|████▊     | 16/33 [07:25<09:34, 33.77s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  52%|█████▏    | 17/33 [08:04<09:26, 35.39s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  55%|█████▍    | 18/33 [08:19<07:20, 29.37s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  58%|█████▊    | 19/33 [08:34<05:47, 24.85s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  61%|██████    | 20/33 [08:54<05:04, 23.42s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  64%|██████▎   | 21/33 [09:19<04:46, 23.84s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  67%|██████▋   | 22/33 [09:33<03:50, 20.97s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  70%|██████▉   | 23/33 [09:51<03:20, 20.07s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  73%|███████▎  | 24/33 [10:12<03:02, 20.33s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  76%|███████▌  | 25/33 [10:30<02:38, 19.79s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  79%|███████▉  | 26/33 [11:12<03:04, 26.36s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  82%|████████▏ | 27/33 [11:22<02:09, 21.59s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  85%|████████▍ | 28/33 [11:50<01:57, 23.50s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  88%|████████▊ | 29/33 [13:23<02:56, 44.12s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  91%|█████████ | 30/33 [13:58<02:04, 41.40s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  94%|█████████▍| 31/33 [15:59<02:10, 65.27s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  97%|█████████▋| 32/33 [16:51<01:01, 61.47s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference: 100%|██████████| 33/33 [17:19<00:00, 51.38s/it]Inference: 100%|██████████| 33/33 [17:19<00:00, 31.50s/it]
+/home/namwoam/dl-final/llm/inference-lora.py:121: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:, "score"] = scores
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:468: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.72s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.66s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.62s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.08s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.29s/it]
+Inference:   0%|          | 0/34 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   3%|▎         | 1/34 [00:10<05:37, 10.23s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   6%|▌         | 2/34 [00:29<08:22, 15.71s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   9%|▉         | 3/34 [00:54<10:20, 20.02s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  12%|█▏        | 4/34 [03:59<42:29, 84.98s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  15%|█▍        | 5/34 [04:10<28:07, 58.19s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  18%|█▊        | 6/34 [04:34<21:43, 46.55s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  21%|██        | 7/34 [04:49<16:21, 36.37s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  24%|██▎       | 8/34 [05:09<13:27, 31.07s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  26%|██▋       | 9/34 [05:40<13:00, 31.21s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  29%|██▉       | 10/34 [06:05<11:37, 29.07s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  32%|███▏      | 11/34 [10:30<38:51, 101.38s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  35%|███▌      | 12/34 [10:38<26:42, 72.86s/it] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  38%|███▊      | 13/34 [10:52<19:20, 55.25s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  41%|████      | 14/34 [11:18<15:27, 46.38s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  44%|████▍     | 15/34 [11:29<11:18, 35.72s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  47%|████▋     | 16/34 [11:49<09:16, 30.91s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  50%|█████     | 17/34 [12:29<09:32, 33.67s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  53%|█████▎    | 18/34 [12:58<08:34, 32.14s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  56%|█████▌    | 19/34 [13:27<07:48, 31.25s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  59%|█████▉    | 20/34 [13:46<06:27, 27.65s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  62%|██████▏   | 21/34 [13:56<04:50, 22.37s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  65%|██████▍   | 22/34 [14:11<04:01, 20.13s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  68%|██████▊   | 23/34 [14:36<03:56, 21.53s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  71%|███████   | 24/34 [15:03<03:53, 23.33s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  74%|███████▎  | 25/34 [15:43<04:13, 28.21s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  76%|███████▋  | 26/34 [16:09<03:41, 27.64s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  79%|███████▉  | 27/34 [16:21<02:39, 22.83s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  82%|████████▏ | 28/34 [17:14<03:11, 31.96s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  85%|████████▌ | 29/34 [17:42<02:34, 30.82s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  88%|████████▊ | 30/34 [17:59<01:46, 26.51s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  91%|█████████ | 31/34 [18:36<01:29, 29.74s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  94%|█████████▍| 32/34 [19:22<01:09, 34.73s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  97%|█████████▋| 33/34 [20:07<00:37, 37.72s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference: 100%|██████████| 34/34 [20:30<00:00, 33.33s/it]Inference: 100%|██████████| 34/34 [20:30<00:00, 36.19s/it]
+/home/namwoam/dl-final/llm/inference-lora.py:121: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:, "score"] = scores
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:468: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.69s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.61s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.53s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.03s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.23s/it]
+Inference:   0%|          | 0/34 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   3%|▎         | 1/34 [00:15<08:31, 15.50s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   6%|▌         | 2/34 [00:25<06:27, 12.11s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   9%|▉         | 3/34 [00:44<07:51, 15.22s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  12%|█▏        | 4/34 [01:05<08:52, 17.74s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  15%|█▍        | 5/34 [01:30<09:47, 20.26s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  18%|█▊        | 6/34 [01:50<09:25, 20.21s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  21%|██        | 7/34 [02:07<08:39, 19.23s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  24%|██▎       | 8/34 [02:22<07:38, 17.65s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  26%|██▋       | 9/34 [02:54<09:14, 22.19s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  29%|██▉       | 10/34 [04:20<16:46, 41.95s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  32%|███▏      | 11/34 [04:39<13:24, 34.99s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  35%|███▌      | 12/34 [06:45<22:55, 62.51s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  38%|███▊      | 13/34 [07:23<19:18, 55.15s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  41%|████      | 14/34 [08:25<19:05, 57.26s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  44%|████▍     | 15/34 [09:20<17:57, 56.72s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  47%|████▋     | 16/34 [09:41<13:46, 45.90s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  50%|█████     | 17/34 [10:34<13:36, 48.03s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  53%|█████▎    | 18/34 [10:41<09:28, 35.52s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  56%|█████▌    | 19/34 [11:14<08:41, 34.80s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  59%|█████▉    | 20/34 [13:17<14:17, 61.23s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  62%|██████▏   | 21/34 [14:28<13:54, 64.19s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  65%|██████▍   | 22/34 [15:03<11:07, 55.64s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  68%|██████▊   | 23/34 [15:28<08:30, 46.45s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  71%|███████   | 24/34 [15:49<06:27, 38.76s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  74%|███████▎  | 25/34 [16:25<05:39, 37.74s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  76%|███████▋  | 26/34 [16:36<03:57, 29.72s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  79%|███████▉  | 27/34 [17:20<03:58, 34.07s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  82%|████████▏ | 28/34 [17:40<02:59, 29.84s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  85%|████████▌ | 29/34 [18:26<02:54, 34.83s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  88%|████████▊ | 30/34 [19:09<02:28, 37.16s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  91%|█████████ | 31/34 [20:23<02:24, 48.29s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  94%|█████████▍| 32/34 [20:50<01:23, 42.00s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  97%|█████████▋| 33/34 [21:10<00:35, 35.21s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference: 100%|██████████| 34/34 [21:40<00:00, 33.64s/it]Inference: 100%|██████████| 34/34 [21:40<00:00, 38.24s/it]
+/home/namwoam/dl-final/llm/inference-lora.py:121: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:, "score"] = scores
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:468: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.75s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.65s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.58s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.27s/it]
+Inference:   0%|          | 0/42 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   2%|▏         | 1/42 [00:11<07:32, 11.04s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   5%|▍         | 2/42 [00:27<09:26, 14.16s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   7%|▋         | 3/42 [00:53<12:42, 19.56s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  10%|▉         | 4/42 [01:05<10:25, 16.47s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  12%|█▏        | 5/42 [01:21<10:08, 16.45s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  14%|█▍        | 6/42 [01:33<09:02, 15.08s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  17%|█▋        | 7/42 [01:45<08:06, 13.91s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  19%|█▉        | 8/42 [02:14<10:36, 18.72s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  21%|██▏       | 9/42 [02:50<13:16, 24.15s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  24%|██▍       | 10/42 [03:14<12:48, 24.00s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  26%|██▌       | 11/42 [03:30<11:08, 21.55s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  29%|██▊       | 12/42 [04:00<12:06, 24.22s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  31%|███       | 13/42 [04:29<12:20, 25.52s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  33%|███▎      | 14/42 [04:48<10:59, 23.54s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  36%|███▌      | 15/42 [04:56<08:29, 18.85s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  38%|███▊      | 16/42 [05:37<11:04, 25.57s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  40%|████      | 17/42 [06:04<10:55, 26.22s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  43%|████▎     | 18/42 [06:36<11:08, 27.85s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  45%|████▌     | 19/42 [06:53<09:23, 24.50s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  48%|████▊     | 20/42 [07:09<08:07, 22.15s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  50%|█████     | 21/42 [07:33<07:55, 22.64s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  52%|█████▏    | 22/42 [08:01<08:02, 24.11s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  55%|█████▍    | 23/42 [08:16<06:47, 21.47s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  57%|█████▋    | 24/42 [08:36<06:15, 20.88s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  60%|█████▉    | 25/42 [08:57<05:58, 21.07s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  62%|██████▏   | 26/42 [10:19<10:30, 39.39s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  64%|██████▍   | 27/42 [12:30<16:43, 66.88s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  67%|██████▋   | 28/42 [12:50<12:18, 52.77s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  69%|██████▉   | 29/42 [13:07<09:05, 41.96s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  71%|███████▏  | 30/42 [15:52<15:46, 78.88s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  74%|███████▍  | 31/42 [16:12<11:15, 61.41s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  76%|███████▌  | 32/42 [16:53<09:12, 55.25s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  79%|███████▊  | 33/42 [17:24<07:11, 47.91s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  81%|████████  | 34/42 [17:50<05:29, 41.24s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  83%|████████▎ | 35/42 [18:04<03:52, 33.16s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  86%|████████▌ | 36/42 [18:32<03:10, 31.72s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  88%|████████▊ | 37/42 [18:44<02:07, 25.57s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  90%|█████████ | 38/42 [19:00<01:31, 22.83s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  93%|█████████▎| 39/42 [19:24<01:09, 23.14s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  95%|█████████▌| 40/42 [19:49<00:47, 23.75s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  98%|█████████▊| 41/42 [20:07<00:21, 21.97s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference: 100%|██████████| 42/42 [20:24<00:00, 20.52s/it]Inference: 100%|██████████| 42/42 [20:24<00:00, 29.16s/it]
+/home/namwoam/dl-final/llm/inference-lora.py:121: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:, "score"] = scores
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:468: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.69s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.64s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.61s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.08s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.28s/it]
+Inference:   0%|          | 0/42 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   2%|▏         | 1/42 [00:12<08:50, 12.93s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   5%|▍         | 2/42 [00:27<09:15, 13.89s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   7%|▋         | 3/42 [00:55<13:17, 20.44s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  10%|▉         | 4/42 [01:15<12:53, 20.34s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  12%|█▏        | 5/42 [01:34<12:02, 19.53s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  14%|█▍        | 6/42 [01:43<09:38, 16.06s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  17%|█▋        | 7/42 [09:04<1:30:28, 155.11s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  19%|█▉        | 8/42 [09:16<1:01:57, 109.34s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  21%|██▏       | 9/42 [09:40<45:34, 82.88s/it]   Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  24%|██▍       | 10/42 [09:57<33:19, 62.47s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  26%|██▌       | 11/42 [10:17<25:31, 49.41s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  29%|██▊       | 12/42 [10:56<23:11, 46.37s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  31%|███       | 13/42 [11:12<17:56, 37.11s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  33%|███▎      | 14/42 [11:37<15:37, 33.49s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  36%|███▌      | 15/42 [11:56<13:05, 29.11s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  38%|███▊      | 16/42 [12:30<13:10, 30.41s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  40%|████      | 17/42 [12:39<10:04, 24.18s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  43%|████▎     | 18/42 [12:51<08:09, 20.38s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  45%|████▌     | 19/42 [13:31<10:03, 26.24s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  48%|████▊     | 20/42 [14:34<13:42, 37.38s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  50%|█████     | 21/42 [14:45<10:19, 29.51s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  52%|█████▏    | 22/42 [15:14<09:47, 29.36s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  55%|█████▍    | 23/42 [15:24<07:26, 23.49s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  57%|█████▋    | 24/42 [16:00<08:13, 27.40s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  60%|█████▉    | 25/42 [16:12<06:26, 22.72s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  62%|██████▏   | 26/42 [16:39<06:20, 23.77s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  64%|██████▍   | 27/42 [17:02<05:54, 23.62s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  67%|██████▋   | 28/42 [17:53<07:27, 31.97s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  69%|██████▉   | 29/42 [18:31<07:19, 33.79s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  71%|███████▏  | 30/42 [20:16<11:00, 55.04s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  74%|███████▍  | 31/42 [20:51<08:59, 49.05s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  76%|███████▌  | 32/42 [21:11<06:42, 40.26s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  79%|███████▊  | 33/42 [22:45<08:28, 56.53s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  81%|████████  | 34/42 [23:04<06:01, 45.15s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  83%|████████▎ | 35/42 [23:15<04:04, 34.95s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  86%|████████▌ | 36/42 [23:44<03:18, 33.11s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  88%|████████▊ | 37/42 [24:18<02:47, 33.50s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  90%|█████████ | 38/42 [24:58<02:21, 35.33s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  93%|█████████▎| 39/42 [25:22<01:35, 31.87s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  95%|█████████▌| 40/42 [26:38<01:30, 45.12s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  98%|█████████▊| 41/42 [27:12<00:41, 41.96s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference: 100%|██████████| 42/42 [27:58<00:00, 42.97s/it]Inference: 100%|██████████| 42/42 [27:58<00:00, 39.95s/it]
+/home/namwoam/dl-final/llm/inference-lora.py:121: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:, "score"] = scores
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:468: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.73s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.68s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.61s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.07s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.29s/it]
+Inference:   0%|          | 0/22 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   5%|▍         | 1/22 [00:34<12:10, 34.78s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   9%|▉         | 2/22 [01:23<14:16, 42.80s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  14%|█▎        | 3/22 [01:49<11:07, 35.14s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  18%|█▊        | 4/22 [02:40<12:24, 41.34s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  23%|██▎       | 5/22 [03:08<10:24, 36.72s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  27%|██▋       | 6/22 [03:55<10:41, 40.09s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  32%|███▏      | 7/22 [05:15<13:17, 53.17s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  36%|███▋      | 8/22 [05:52<11:11, 47.93s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  41%|████      | 9/22 [06:44<10:42, 49.43s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  45%|████▌     | 10/22 [06:58<07:40, 38.34s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  50%|█████     | 11/22 [08:26<09:50, 53.67s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  55%|█████▍    | 12/22 [08:44<07:08, 42.88s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  59%|█████▉    | 13/22 [09:22<06:11, 41.31s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  64%|██████▎   | 14/22 [09:44<04:42, 35.36s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  68%|██████▊   | 15/22 [11:25<06:26, 55.16s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  73%|███████▎  | 16/22 [11:50<04:37, 46.26s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  77%|███████▋  | 17/22 [12:27<03:37, 43.40s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  82%|████████▏ | 18/22 [13:00<02:41, 40.26s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  86%|████████▋ | 19/22 [13:29<01:50, 36.97s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  91%|█████████ | 20/22 [13:56<01:07, 33.80s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  95%|█████████▌| 21/22 [14:17<00:30, 30.02s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference: 100%|██████████| 22/22 [14:36<00:00, 26.73s/it]Inference: 100%|██████████| 22/22 [14:36<00:00, 39.84s/it]
+/home/namwoam/dl-final/llm/inference-lora.py:121: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:, "score"] = scores
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:468: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.68s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.64s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.59s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.07s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.27s/it]
+Inference:   0%|          | 0/27 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   4%|▎         | 1/27 [00:12<05:23, 12.45s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   7%|▋         | 2/27 [00:22<04:31, 10.87s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  11%|█         | 3/27 [00:40<05:43, 14.30s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  15%|█▍        | 4/27 [01:04<06:52, 17.95s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  19%|█▊        | 5/27 [01:41<09:07, 24.87s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  22%|██▏       | 6/27 [01:55<07:23, 21.13s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  26%|██▌       | 7/27 [02:37<09:18, 27.92s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  30%|██▉       | 8/27 [02:56<07:57, 25.11s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  33%|███▎      | 9/27 [03:23<07:41, 25.66s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  37%|███▋      | 10/27 [04:09<09:05, 32.07s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  41%|████      | 11/27 [04:29<07:34, 28.39s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  44%|████▍     | 12/27 [04:48<06:22, 25.49s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  48%|████▊     | 13/27 [05:09<05:38, 24.18s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  52%|█████▏    | 14/27 [06:10<07:40, 35.44s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  56%|█████▌    | 15/27 [06:34<06:22, 31.87s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  59%|█████▉    | 16/27 [07:09<06:01, 32.89s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  63%|██████▎   | 17/27 [07:33<05:01, 30.13s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  67%|██████▋   | 18/27 [07:54<04:07, 27.47s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  70%|███████   | 19/27 [08:27<03:52, 29.11s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  74%|███████▍  | 20/27 [09:22<04:17, 36.82s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  78%|███████▊  | 21/27 [09:45<03:15, 32.58s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  81%|████████▏ | 22/27 [09:58<02:13, 26.71s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  85%|████████▌ | 23/27 [10:38<02:03, 30.76s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  89%|████████▉ | 24/27 [10:59<01:23, 27.87s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  93%|█████████▎| 25/27 [11:13<00:47, 23.76s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  96%|█████████▋| 26/27 [11:34<00:22, 22.89s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference: 100%|██████████| 27/27 [12:09<00:00, 26.60s/it]Inference: 100%|██████████| 27/27 [12:09<00:00, 27.03s/it]
+/home/namwoam/dl-final/llm/inference-lora.py:121: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:, "score"] = scores
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:468: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.64s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.61s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.51s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.01s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.22s/it]
+Inference:   0%|          | 0/21 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   5%|▍         | 1/21 [00:34<11:27, 34.38s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  10%|▉         | 2/21 [00:48<07:07, 22.49s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  14%|█▍        | 3/21 [01:18<07:48, 26.03s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  19%|█▉        | 4/21 [01:42<07:06, 25.09s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  24%|██▍       | 5/21 [03:16<13:18, 49.92s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  29%|██▊       | 6/21 [03:51<11:12, 44.81s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  33%|███▎      | 7/21 [04:13<08:44, 37.48s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  38%|███▊      | 8/21 [04:43<07:36, 35.10s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  43%|████▎     | 9/21 [05:14<06:46, 33.85s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  48%|████▊     | 10/21 [05:54<06:31, 35.57s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  52%|█████▏    | 11/21 [06:21<05:31, 33.17s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  57%|█████▋    | 12/21 [07:03<05:22, 35.88s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  62%|██████▏   | 13/21 [07:31<04:25, 33.22s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  67%|██████▋   | 14/21 [07:54<03:31, 30.15s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  71%|███████▏  | 15/21 [08:21<02:55, 29.28s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  76%|███████▌  | 16/21 [08:36<02:04, 24.87s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  81%|████████  | 17/21 [09:27<02:12, 33.01s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  86%|████████▌ | 18/21 [10:24<01:59, 39.99s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  90%|█████████ | 19/21 [11:16<01:27, 43.62s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  95%|█████████▌| 20/21 [11:45<00:39, 39.33s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference: 100%|██████████| 21/21 [11:58<00:00, 31.30s/it]Inference: 100%|██████████| 21/21 [11:58<00:00, 34.20s/it]
+/home/namwoam/dl-final/llm/inference-lora.py:121: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:, "score"] = scores
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:468: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.66s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.56s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.50s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.00s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.21s/it]
+Inference:   0%|          | 0/39 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   3%|▎         | 1/39 [00:06<03:50,  6.06s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   5%|▌         | 2/39 [00:19<06:17, 10.20s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   8%|▊         | 3/39 [00:55<13:09, 21.92s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  10%|█         | 4/39 [01:11<11:36, 19.89s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  13%|█▎        | 5/39 [01:26<10:14, 18.08s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  15%|█▌        | 6/39 [02:16<15:50, 28.79s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  18%|█▊        | 7/39 [02:28<12:26, 23.34s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  21%|██        | 8/39 [02:43<10:38, 20.60s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  23%|██▎       | 9/39 [03:05<10:38, 21.28s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  26%|██▌       | 10/39 [03:29<10:34, 21.87s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  28%|██▊       | 11/39 [03:52<10:25, 22.34s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  31%|███       | 12/39 [04:44<14:08, 31.44s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  33%|███▎      | 13/39 [05:14<13:23, 30.89s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  36%|███▌      | 14/39 [05:37<11:53, 28.55s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  38%|███▊      | 15/39 [06:17<12:49, 32.07s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  41%|████      | 16/39 [06:51<12:27, 32.50s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  44%|████▎     | 17/39 [07:07<10:07, 27.60s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  46%|████▌     | 18/39 [07:23<08:27, 24.17s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  49%|████▊     | 19/39 [08:33<12:34, 37.75s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  51%|█████▏    | 20/39 [08:44<09:26, 29.83s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  54%|█████▍    | 21/39 [09:13<08:55, 29.75s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  56%|█████▋    | 22/39 [09:35<07:42, 27.19s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  59%|█████▉    | 23/39 [10:10<07:53, 29.58s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  62%|██████▏   | 24/39 [10:40<07:24, 29.67s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  64%|██████▍   | 25/39 [11:07<06:45, 28.97s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  67%|██████▋   | 26/39 [11:28<05:45, 26.56s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  69%|██████▉   | 27/39 [11:57<05:27, 27.31s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  72%|███████▏  | 28/39 [12:18<04:38, 25.33s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  74%|███████▍  | 29/39 [12:33<03:41, 22.19s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  77%|███████▋  | 30/39 [13:16<04:17, 28.65s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  79%|███████▉  | 31/39 [13:38<03:31, 26.49s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  82%|████████▏ | 32/39 [20:14<16:01, 137.30s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  85%|████████▍ | 33/39 [20:40<10:24, 104.09s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  87%|████████▋ | 34/39 [21:22<07:06, 85.37s/it] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  90%|████████▉ | 35/39 [21:36<04:15, 63.95s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  92%|█████████▏| 36/39 [21:54<02:30, 50.12s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  95%|█████████▍| 37/39 [22:35<01:34, 47.47s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  97%|█████████▋| 38/39 [22:56<00:39, 39.57s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference: 100%|██████████| 39/39 [23:19<00:00, 34.66s/it]Inference: 100%|██████████| 39/39 [23:19<00:00, 35.89s/it]
+/home/namwoam/dl-final/llm/inference-lora.py:121: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:, "score"] = scores
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:468: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.69s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.59s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.53s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.02s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.23s/it]
+Inference:   0%|          | 0/33 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   3%|▎         | 1/33 [00:24<12:53, 24.16s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   6%|▌         | 2/33 [00:33<07:56, 15.38s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   9%|▉         | 3/33 [00:43<06:23, 12.79s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  12%|█▏        | 4/33 [00:54<06:00, 12.44s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  15%|█▌        | 5/33 [01:33<10:11, 21.82s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  18%|█▊        | 6/33 [01:47<08:37, 19.16s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  21%|██        | 7/33 [02:08<08:32, 19.70s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  24%|██▍       | 8/33 [02:56<12:02, 28.89s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  27%|██▋       | 9/33 [03:16<10:22, 25.95s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  30%|███       | 10/33 [03:50<10:52, 28.38s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  33%|███▎      | 11/33 [04:06<09:02, 24.66s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  36%|███▋      | 12/33 [04:33<08:53, 25.39s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  39%|███▉      | 13/33 [04:58<08:24, 25.22s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  42%|████▏     | 14/33 [05:10<06:45, 21.36s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  45%|████▌     | 15/33 [05:48<07:54, 26.34s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  48%|████▊     | 16/33 [06:19<07:50, 27.67s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  52%|█████▏    | 17/33 [06:40<06:53, 25.83s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  55%|█████▍    | 18/33 [07:25<07:51, 31.42s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  58%|█████▊    | 19/33 [08:55<11:25, 48.94s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  61%|██████    | 20/33 [09:12<08:33, 39.53s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  64%|██████▎   | 21/33 [09:26<06:21, 31.76s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  67%|██████▋   | 22/33 [09:39<04:47, 26.16s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  70%|██████▉   | 23/33 [10:07<04:28, 26.84s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  73%|███████▎  | 24/33 [10:23<03:30, 23.36s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  76%|███████▌  | 25/33 [10:51<03:19, 24.97s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  79%|███████▉  | 26/33 [11:23<03:08, 26.91s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  82%|████████▏ | 27/33 [11:39<02:23, 23.85s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  85%|████████▍ | 28/33 [12:12<02:11, 26.36s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  88%|████████▊ | 29/33 [18:46<09:07, 136.79s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  91%|█████████ | 30/33 [19:01<05:00, 100.08s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  94%|█████████▍| 31/33 [19:18<02:30, 75.16s/it] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  97%|█████████▋| 32/33 [19:43<01:00, 60.11s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference: 100%|██████████| 33/33 [20:20<00:00, 53.36s/it]Inference: 100%|██████████| 33/33 [20:20<00:00, 36.99s/it]
+/home/namwoam/dl-final/llm/inference-lora.py:121: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:, "score"] = scores
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:468: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.68s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.62s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.53s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.02s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.23s/it]
+Inference:   0%|          | 0/43 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   2%|▏         | 1/43 [00:19<13:18, 19.01s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   5%|▍         | 2/43 [00:34<11:34, 16.94s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   7%|▋         | 3/43 [00:48<10:28, 15.72s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   9%|▉         | 4/43 [01:17<13:28, 20.74s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  12%|█▏        | 5/43 [01:38<13:15, 20.93s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  14%|█▍        | 6/43 [02:34<20:15, 32.85s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  16%|█▋        | 7/43 [03:57<29:38, 49.41s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  19%|█▊        | 8/43 [04:30<25:40, 44.03s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  21%|██        | 9/43 [05:25<26:57, 47.57s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  23%|██▎       | 10/43 [05:42<20:56, 38.08s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  26%|██▌       | 11/43 [06:21<20:30, 38.45s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  28%|██▊       | 12/43 [06:38<16:22, 31.68s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  30%|███       | 13/43 [06:56<13:52, 27.76s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  33%|███▎      | 14/43 [07:29<14:09, 29.28s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  35%|███▍      | 15/43 [07:53<12:53, 27.64s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  37%|███▋      | 16/43 [08:20<12:23, 27.52s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  40%|███▉      | 17/43 [08:27<09:12, 21.26s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  42%|████▏     | 18/43 [08:50<09:04, 21.78s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  44%|████▍     | 19/43 [08:58<07:00, 17.53s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  47%|████▋     | 20/43 [09:26<07:58, 20.81s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  49%|████▉     | 21/43 [09:43<07:11, 19.62s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  51%|█████     | 22/43 [09:50<05:34, 15.92s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  53%|█████▎    | 23/43 [10:11<05:45, 17.26s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  56%|█████▌    | 24/43 [10:28<05:28, 17.29s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  58%|█████▊    | 25/43 [11:08<07:17, 24.28s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  60%|██████    | 26/43 [11:19<05:43, 20.19s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  63%|██████▎   | 27/43 [11:34<04:59, 18.72s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  65%|██████▌   | 28/43 [12:08<05:45, 23.04s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  67%|██████▋   | 29/43 [12:18<04:30, 19.34s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  70%|██████▉   | 30/43 [12:42<04:29, 20.73s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  72%|███████▏  | 31/43 [14:24<08:58, 44.92s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  74%|███████▍  | 32/43 [15:18<08:44, 47.64s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  77%|███████▋  | 33/43 [15:30<06:09, 36.96s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  79%|███████▉  | 34/43 [15:40<04:22, 29.11s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  81%|████████▏ | 35/43 [16:00<03:30, 26.32s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  84%|████████▎ | 36/43 [16:36<03:23, 29.05s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  86%|████████▌ | 37/43 [16:45<02:19, 23.22s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  88%|████████▊ | 38/43 [17:10<01:57, 23.54s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  91%|█████████ | 39/43 [17:35<01:36, 24.07s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  93%|█████████▎| 40/43 [20:09<03:08, 62.96s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  95%|█████████▌| 41/43 [20:17<01:33, 46.51s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  98%|█████████▊| 42/43 [20:48<00:41, 41.89s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference: 100%|██████████| 43/43 [20:59<00:00, 32.55s/it]Inference: 100%|██████████| 43/43 [20:59<00:00, 29.28s/it]
+/home/namwoam/dl-final/llm/inference-lora.py:121: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:, "score"] = scores
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:468: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.67s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.62s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.58s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.26s/it]
+Inference:   0%|          | 0/41 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   2%|▏         | 1/41 [00:26<17:34, 26.37s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   5%|▍         | 2/41 [00:48<15:41, 24.15s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   7%|▋         | 3/41 [01:09<14:20, 22.64s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  10%|▉         | 4/41 [01:21<11:15, 18.25s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  12%|█▏        | 5/41 [01:42<11:30, 19.17s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  15%|█▍        | 6/41 [02:05<12:06, 20.74s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  17%|█▋        | 7/41 [02:42<14:41, 25.94s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  20%|█▉        | 8/41 [03:16<15:43, 28.59s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  22%|██▏       | 9/41 [03:45<15:15, 28.61s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  24%|██▍       | 10/41 [04:16<15:07, 29.29s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  27%|██▋       | 11/41 [04:47<14:56, 29.89s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  29%|██▉       | 12/41 [05:05<12:40, 26.24s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  32%|███▏      | 13/41 [07:52<32:10, 68.94s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  34%|███▍      | 14/41 [08:11<24:10, 53.74s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  37%|███▋      | 15/41 [08:52<21:39, 49.97s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  39%|███▉      | 16/41 [09:15<17:27, 41.89s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  41%|████▏     | 17/41 [09:29<13:26, 33.60s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  44%|████▍     | 18/41 [09:43<10:36, 27.65s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  46%|████▋     | 19/41 [11:45<20:27, 55.78s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  49%|████▉     | 20/41 [11:55<14:43, 42.09s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  51%|█████     | 21/41 [12:09<11:15, 33.78s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  54%|█████▎    | 22/41 [12:32<09:38, 30.44s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  56%|█████▌    | 23/41 [13:03<09:11, 30.66s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  59%|█████▊    | 24/41 [13:20<07:30, 26.48s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  61%|██████    | 25/41 [13:37<06:20, 23.78s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  63%|██████▎   | 26/41 [13:52<05:17, 21.20s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  66%|██████▌   | 27/41 [14:01<04:04, 17.48s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  68%|██████▊   | 28/41 [14:10<03:12, 14.84s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  71%|███████   | 29/41 [14:25<02:57, 14.81s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  73%|███████▎  | 30/41 [14:34<02:24, 13.16s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  76%|███████▌  | 31/41 [15:44<05:02, 30.21s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  78%|███████▊  | 32/41 [15:54<03:36, 24.09s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  80%|████████  | 33/41 [16:02<02:35, 19.38s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  83%|████████▎ | 34/41 [16:13<01:57, 16.76s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  85%|████████▌ | 35/41 [16:54<02:24, 24.15s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  88%|████████▊ | 36/41 [17:30<02:18, 27.74s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  90%|█████████ | 37/41 [18:02<01:55, 28.98s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  93%|█████████▎| 38/41 [18:36<01:31, 30.57s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  95%|█████████▌| 39/41 [19:16<01:06, 33.43s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  98%|█████████▊| 40/41 [19:24<00:25, 25.64s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference: 100%|██████████| 41/41 [20:42<00:00, 41.35s/it]Inference: 100%|██████████| 41/41 [20:42<00:00, 30.30s/it]
+/home/namwoam/dl-final/llm/inference-lora.py:121: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:, "score"] = scores
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:468: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.68s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.60s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.52s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.01s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.22s/it]
+Inference:   0%|          | 0/37 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   3%|▎         | 1/37 [01:44<1:02:24, 104.03s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   5%|▌         | 2/37 [01:58<29:48, 51.11s/it]   Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   8%|▊         | 3/37 [02:08<18:29, 32.65s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  11%|█         | 4/37 [02:40<17:50, 32.44s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  14%|█▎        | 5/37 [03:04<15:31, 29.12s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  16%|█▌        | 6/37 [03:21<12:57, 25.07s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  19%|█▉        | 7/37 [03:26<09:21, 18.70s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  22%|██▏       | 8/37 [03:45<08:57, 18.55s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  24%|██▍       | 9/37 [07:04<35:03, 75.12s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  27%|██▋       | 10/37 [07:18<25:15, 56.14s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  30%|██▉       | 11/37 [07:50<21:07, 48.73s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  32%|███▏      | 12/37 [07:59<15:18, 36.73s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  35%|███▌      | 13/37 [08:13<11:53, 29.72s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  38%|███▊      | 14/37 [08:46<11:46, 30.72s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  41%|████      | 15/37 [09:13<10:54, 29.76s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  43%|████▎     | 16/37 [09:38<09:56, 28.42s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  46%|████▌     | 17/37 [09:47<07:26, 22.31s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  49%|████▊     | 18/37 [10:03<06:32, 20.64s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  51%|█████▏    | 19/37 [10:23<06:07, 20.44s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  54%|█████▍    | 20/37 [10:45<05:55, 20.89s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  57%|█████▋    | 21/37 [11:41<08:20, 31.31s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  59%|█████▉    | 22/37 [11:59<06:49, 27.28s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  62%|██████▏   | 23/37 [12:10<05:13, 22.40s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  65%|██████▍   | 24/37 [12:23<04:14, 19.57s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  68%|██████▊   | 25/37 [12:58<04:49, 24.17s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  70%|███████   | 26/37 [13:16<04:05, 22.32s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  73%|███████▎  | 27/37 [14:12<05:26, 32.65s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  76%|███████▌  | 28/37 [15:13<06:08, 40.91s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  78%|███████▊  | 29/37 [15:44<05:04, 38.09s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  81%|████████  | 30/37 [16:06<03:52, 33.20s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  84%|████████▍ | 31/37 [16:48<03:36, 36.03s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  86%|████████▋ | 32/37 [17:00<02:23, 28.80s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  89%|████████▉ | 33/37 [17:31<01:56, 29.23s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  92%|█████████▏| 34/37 [17:38<01:08, 22.75s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  95%|█████████▍| 35/37 [17:59<00:44, 22.18s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  97%|█████████▋| 36/37 [18:23<00:22, 22.56s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference: 100%|██████████| 37/37 [18:50<00:00, 24.12s/it]Inference: 100%|██████████| 37/37 [18:50<00:00, 30.56s/it]
+/home/namwoam/dl-final/llm/inference-lora.py:121: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:, "score"] = scores
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:468: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.60s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.57s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.53s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.02s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.22s/it]
+Inference:   0%|          | 0/47 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   2%|▏         | 1/47 [00:56<43:25, 56.64s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   4%|▍         | 2/47 [03:42<1:30:27, 120.61s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   6%|▋         | 3/47 [04:00<54:13, 73.94s/it]   Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   9%|▊         | 4/47 [04:15<36:14, 50.58s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  11%|█         | 5/47 [04:27<25:50, 36.91s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  13%|█▎        | 6/47 [04:37<18:46, 27.49s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  15%|█▍        | 7/47 [04:49<15:00, 22.52s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  17%|█▋        | 8/47 [08:29<55:25, 85.28s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  19%|█▉        | 9/47 [11:45<1:16:07, 120.19s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  21%|██▏       | 10/47 [12:03<54:39, 88.63s/it]  Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  23%|██▎       | 11/47 [12:24<40:36, 67.68s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  26%|██▌       | 12/47 [12:36<29:44, 50.98s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  28%|██▊       | 13/47 [13:05<25:01, 44.16s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  30%|██▉       | 14/47 [13:31<21:18, 38.74s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  32%|███▏      | 15/47 [13:43<16:21, 30.67s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  34%|███▍      | 16/47 [14:15<16:04, 31.10s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  36%|███▌      | 17/47 [14:37<14:12, 28.42s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  38%|███▊      | 18/47 [14:55<12:14, 25.32s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  40%|████      | 19/47 [15:14<10:55, 23.42s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  43%|████▎     | 20/47 [15:25<08:46, 19.50s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  45%|████▍     | 21/47 [15:50<09:11, 21.22s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  47%|████▋     | 22/47 [16:13<09:00, 21.64s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  49%|████▉     | 23/47 [16:23<07:17, 18.24s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  51%|█████     | 24/47 [17:41<13:54, 36.28s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  53%|█████▎    | 25/47 [18:15<13:02, 35.56s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  55%|█████▌    | 26/47 [18:38<11:06, 31.72s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  57%|█████▋    | 27/47 [18:47<08:21, 25.07s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  60%|█████▉    | 28/47 [19:03<07:03, 22.31s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  62%|██████▏   | 29/47 [19:14<05:36, 18.68s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  64%|██████▍   | 30/47 [19:25<04:41, 16.58s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  66%|██████▌   | 31/47 [19:54<05:22, 20.17s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  68%|██████▊   | 32/47 [20:10<04:45, 19.03s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  70%|███████   | 33/47 [20:29<04:27, 19.08s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  72%|███████▏  | 34/47 [20:38<03:25, 15.82s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  74%|███████▍  | 35/47 [27:16<26:07, 130.66s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  77%|███████▋  | 36/47 [27:31<17:36, 96.04s/it] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  79%|███████▊  | 37/47 [29:42<17:45, 106.52s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  81%|████████  | 38/47 [29:58<11:52, 79.20s/it] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  83%|████████▎ | 39/47 [30:11<07:55, 59.47s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  85%|████████▌ | 40/47 [30:29<05:28, 46.93s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  87%|████████▋ | 41/47 [30:56<04:05, 40.99s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  89%|████████▉ | 42/47 [31:15<02:52, 34.48s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  91%|█████████▏| 43/47 [32:40<03:18, 49.61s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  94%|█████████▎| 44/47 [32:48<01:51, 37.07s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  96%|█████████▌| 45/47 [32:55<00:56, 28.12s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  98%|█████████▊| 46/47 [33:08<00:23, 23.48s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference: 100%|██████████| 47/47 [33:18<00:00, 19.33s/it]Inference: 100%|██████████| 47/47 [33:18<00:00, 42.51s/it]
+/home/namwoam/dl-final/llm/inference-lora.py:121: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:, "score"] = scores
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You set `add_prefix_space`. The tokenizer needs to be converted from the slow tokenizers
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py:468: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.68s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.63s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.54s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.03s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.24s/it]
+Inference:   0%|          | 0/54 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+/home/namwoam/miniforge3/envs/dl-env/lib/python3.10/site-packages/bitsandbytes/autograd/_functions.py:316: UserWarning: MatMul8bitLt: inputs will be cast from torch.float32 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Inference:   2%|▏         | 1/54 [00:12<10:40, 12.08s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   4%|▎         | 2/54 [00:19<08:00,  9.23s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   6%|▌         | 3/54 [00:31<08:56, 10.52s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   7%|▋         | 4/54 [00:46<10:16, 12.34s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:   9%|▉         | 5/54 [00:59<10:17, 12.60s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  11%|█         | 6/54 [01:18<11:46, 14.72s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  13%|█▎        | 7/54 [01:30<10:55, 13.95s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  15%|█▍        | 8/54 [02:21<19:39, 25.64s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  17%|█▋        | 9/54 [02:29<15:01, 20.02s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  19%|█▊        | 10/54 [03:10<19:26, 26.51s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  20%|██        | 11/54 [03:25<16:39, 23.25s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  22%|██▏       | 12/54 [03:51<16:50, 24.07s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  24%|██▍       | 13/54 [05:39<33:42, 49.33s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  26%|██▌       | 14/54 [05:47<24:33, 36.83s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  28%|██▊       | 15/54 [06:21<23:19, 35.88s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  30%|██▉       | 16/54 [06:45<20:31, 32.41s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  31%|███▏      | 17/54 [07:08<18:16, 29.63s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  33%|███▎      | 18/54 [07:28<16:05, 26.81s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  35%|███▌      | 19/54 [07:51<14:56, 25.61s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  37%|███▋      | 20/54 [08:55<20:59, 37.05s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  39%|███▉      | 21/54 [09:10<16:42, 30.38s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  41%|████      | 22/54 [09:21<13:12, 24.78s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  43%|████▎     | 23/54 [10:08<16:08, 31.24s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  44%|████▍     | 24/54 [10:28<13:59, 27.99s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  46%|████▋     | 25/54 [10:36<10:39, 22.06s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  48%|████▊     | 26/54 [10:46<08:33, 18.34s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  50%|█████     | 27/54 [11:05<08:20, 18.52s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  52%|█████▏    | 28/54 [11:16<07:00, 16.17s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  54%|█████▎    | 29/54 [15:14<34:33, 82.94s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  56%|█████▌    | 30/54 [15:37<25:56, 64.86s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  57%|█████▋    | 31/54 [15:53<19:15, 50.22s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  59%|█████▉    | 32/54 [16:00<13:40, 37.29s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  61%|██████    | 33/54 [16:14<10:33, 30.17s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  63%|██████▎   | 34/54 [16:29<08:36, 25.80s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  65%|██████▍   | 35/54 [16:50<07:43, 24.39s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  67%|██████▋   | 36/54 [17:08<06:42, 22.37s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  69%|██████▊   | 37/54 [17:46<07:40, 27.12s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  70%|███████   | 38/54 [18:05<06:31, 24.48s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  72%|███████▏  | 39/54 [24:44<34:15, 137.00s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  74%|███████▍  | 40/54 [25:03<23:42, 101.59s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  76%|███████▌  | 41/54 [25:41<17:52, 82.49s/it] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  78%|███████▊  | 42/54 [26:03<12:50, 64.19s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  80%|███████▉  | 43/54 [26:25<09:28, 51.69s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  81%|████████▏ | 44/54 [26:44<06:58, 41.87s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  83%|████████▎ | 45/54 [26:56<04:56, 32.98s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  85%|████████▌ | 46/54 [27:09<03:36, 27.00s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  87%|████████▋ | 47/54 [27:34<03:04, 26.42s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  89%|████████▉ | 48/54 [27:47<02:13, 22.28s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  91%|█████████ | 49/54 [27:56<01:32, 18.43s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  93%|█████████▎| 50/54 [28:20<01:20, 20.04s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  94%|█████████▍| 51/54 [28:38<00:58, 19.43s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  96%|█████████▋| 52/54 [28:52<00:35, 17.72s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference:  98%|█████████▊| 53/54 [29:57<00:32, 32.00s/it]Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Inference: 100%|██████████| 54/54 [30:39<00:00, 34.80s/it]Inference: 100%|██████████| 54/54 [30:39<00:00, 34.06s/it]
+/home/namwoam/dl-final/llm/inference-lora.py:121: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  result_df.loc[:, "score"] = scores
+                                           model  ...                                lora_path
+0  MediaTek-Research/Breeze-7B-32k-Instruct-v1_0  ...  ../finetune/cp-all_textbook+is-all_gsat
+
+[1 rows x 6 columns]
+  dataset_name                             path  1_tile  ...  3_tile  4_tile  5_tile
+0       113-ch  ../dataset/gsat/113_chinese.csv   63.48  ...   52.90   42.32   37.03
+1       112-ch  ../dataset/gsat/112_chinese.csv   62.63  ...   52.19   41.75   36.54
+2       111-ch  ../dataset/gsat/111_chinese.csv   64.08  ...   48.06   42.72   32.04
+3       110-ch  ../dataset/gsat/110_chinese.csv   64.57  ...   53.81   43.05   37.67
+4       109-ch  ../dataset/gsat/109_chinese.csv   65.65  ...   54.71   43.77   38.30
+
+[5 rows x 7 columns]
+Running dataset:113-ch on model:breeze-7b-cp+is_gsat
+Running dataset:112-ch on model:breeze-7b-cp+is_gsat
+Running dataset:111-ch on model:breeze-7b-cp+is_gsat
+Running dataset:110-ch on model:breeze-7b-cp+is_gsat
+Running dataset:109-ch on model:breeze-7b-cp+is_gsat
+Running dataset:113-ns on model:breeze-7b-cp+is_gsat
+Running dataset:112-ns on model:breeze-7b-cp+is_gsat
+Running dataset:111-ns on model:breeze-7b-cp+is_gsat
+Running dataset:110-ns on model:breeze-7b-cp+is_gsat
+Running dataset:109-ns on model:breeze-7b-cp+is_gsat
+Running dataset:113-ss on model:breeze-7b-cp+is_gsat
+Running dataset:112-ss on model:breeze-7b-cp+is_gsat
+Running dataset:111-ss on model:breeze-7b-cp+is_gsat
+Running dataset:110-ss on model:breeze-7b-cp+is_gsat
+Running dataset:109-ss on model:breeze-7b-cp+is_gsat

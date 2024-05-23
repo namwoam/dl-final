@@ -2,8 +2,9 @@ import argparse
 import os
 from datasets import Dataset
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, TrainingArguments
-from peft import LoraConfig, prepare_model_for_kbit_training, get_peft_model
+from peft import LoraConfig, prepare_model_for_kbit_training, get_peft_model, load_peft_weights, set_peft_model_state_dict
 from trl import SFTTrainer
+import torch
 
 # check: https://huggingface.co/docs/trl/en/sft_trainer
 
@@ -22,7 +23,8 @@ def main(model_id: str, dataset_path: str, load_lora_path: str, store_lora_path:
         # Define the prompts based on the presence of input
         primer_prompt = ("Below is an instruction that describes a task, paired with an input "
                          "that provides further context. Write a response that appropriately completes the request.")
-        input_template = f"""###題目: 請針對以下問題，選出正確的選項，此題為{"單選題" if len(example['answer'])==1 else "多選題"}。請問"""+example["question"]+"？\n\n"
+        input_template = f"""###題目: 請針對以下問題，選出正確的選項，此題為{"單選題" if len(example['answer'])==1 else "多選題"}。請問""" + \
+            example["question"]+"？\n\n"
 
         instruction_template = f"""### 指令: 你是一個用於解決臺灣高中生升學考試選擇題的 AI 助理，請依據邏輯推理及高中程度的知識選出正確的答案。\n
                         輸出格式：\n
@@ -46,6 +48,7 @@ def main(model_id: str, dataset_path: str, load_lora_path: str, store_lora_path:
                                                           device_map=device_map,
                                                           quantization_config=bnb_config,
                                                           trust_remote_code=True,
+                                                          attn_implementation="flash_attention_2",
                                                           use_auth_token=True)
 
     original_model = prepare_model_for_kbit_training(original_model)
@@ -72,8 +75,13 @@ def main(model_id: str, dataset_path: str, load_lora_path: str, store_lora_path:
 
     peft_model = get_peft_model(original_model, config)
 
+    if load_lora_path is not None:
+        print(f"Loaded lora weight from: {load_lora_path}")
+        lora_weights = load_peft_weights(load_lora_path)
+        set_peft_model_state_dict(peft_model, lora_weights)
+
     max_seq_len = 512
-    
+
     train_args = TrainingArguments(
         output_dir=store_lora_path,
         num_train_epochs=20,
@@ -103,6 +111,7 @@ def main(model_id: str, dataset_path: str, load_lora_path: str, store_lora_path:
         formatting_func=format_row_as_instruction_prompt,
         args=train_args,
     )
+    torch.cuda.empty_cache()
     trainer.train()
     trainer.save_state()
     trainer.save_model()
@@ -117,8 +126,8 @@ if __name__ == "__main__":
                         nargs='?', default="MediaTek-Research/Breeze-7B-32k-Instruct-v1_0", help="model_id from huggingface")
     parser.add_argument('-i', '--dataset_paths', nargs='?',
                         default="../dataset/instruction/112_chinese.csv", help="path for the instruction dataset")
-    parser.add_argument('-ll', '--load_lora_path', nargs='?', default=os.path.join(os.path.dirname(__file__),
-                                                                                   "cp-all_textbook/"), help="path for the previous lora file")
+    parser.add_argument('-ll', '--load_lora_path', nargs='?',
+                        default=None, help="path for the previous lora file")
     parser.add_argument('-sl', '--store_lora_path', nargs='?', default=os.path.join(os.path.dirname(__file__),
                                                                                     "is-all_gsat/"), help="path for the saving lora file")
     args = parser.parse_args()
