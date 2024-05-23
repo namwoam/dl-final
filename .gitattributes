@@ -1,3 +1,4 @@
 finetune/cp-all_textbook/* filter=lfs diff=lfs merge=lfs -text
 finetune/is-all_gsat/* filter=lfs diff=lfs merge=lfs -text
 finetune/cp-all_textbook+is-all_gsat/* filter=lfs diff=lfs merge=lfs -text
+finetune/is-tmmlu_2k/* filter=lfs diff=lfs merge=lfs -text
