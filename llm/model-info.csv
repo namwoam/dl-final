@@ -1,2 +1,2 @@
 model,short_name,open,zh-tw,lora,lora_path
-"MediaTek-Research/Breeze-7B-32k-Instruct-v1_0","breeze-7b-cp+is_gsat",true,true,true,"../finetune/cp-all_textbook+is-all_gsat"
+"MediaTek-Research/Breeze-7B-32k-Instruct-v1_0","breeze-7b-is_tmmlu",true,true,true,"../finetune/is-tmmlu_2k"
