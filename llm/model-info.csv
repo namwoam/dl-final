@@ -1,2 +1,2 @@
 model,short_name,open,zh-tw,lora,lora_path,icl,icl_type
-"MediaTek-Research/Breeze-7B-32k-Instruct-v1_0","breeze-7b-icl_en",true,true,false,"",true,"translated_question"
+"MediaTek-Research/Breeze-7B-32k-Instruct-v1_0","breeze-7b-icl_reverse",true,true,false,"",true,"prompt_reverse"

@@ -26,7 +26,10 @@ for _, model_row in model_df.iterrows():
             elif model_row["icl"] is True:
                 if model_row["icl_type"] == "translated_question":
                     process = subprocess.run(['python', 'inference-translated.py', '-i', os.path.join(os.path.dirname(__file__), "../dataset/translate/", f'{dataset_row["dataset_name"]}-en.csv'),
-                                    '-d', f'./{dataset_row["dataset_name"]}-result-{model_row["short_name"]}.csv', '-m', f'{model_row["model"]}'])
+                                              '-d', f'./{dataset_row["dataset_name"]}-result-{model_row["short_name"]}.csv', '-m', f'{model_row["model"]}'])
+                elif model_row["icl_type"] == "prompt_reverse":
+                    subprocess.run(['python', 'inference-reverse.py', '-i', f'{os.path.join(os.path.dirname(__file__) ,dataset_row["path"] ) }',
+                               '-d', f'./{dataset_row["dataset_name"]}-result-{model_row["short_name"]}.csv', '-m', f'{model_row["model"]}'])
             else:
                 subprocess.run(['python', 'inference.py', '-i', f'{os.path.join(os.path.dirname(__file__) ,dataset_row["path"] ) }',
                                '-d', f'./{dataset_row["dataset_name"]}-result-{model_row["short_name"]}.csv', '-m', f'{model_row["model"]}'])
