@@ -23,6 +23,10 @@ for _, model_row in model_df.iterrows():
             if model_row["lora"] is True:
                 subprocess.run(['python', 'inference-lora.py', '-i', f'{os.path.join(os.path.dirname(__file__) ,dataset_row["path"] ) }', '-d',
                                f'./{dataset_row["dataset_name"]}-result-{model_row["short_name"]}.csv', '-m', f'{model_row["model"]}', "-l", f'{model_row["lora_path"]}'])
+            elif model_row["icl"] is True:
+                if model_row["icl_type"] == "translated_question":
+                    process = subprocess.run(['python', 'inference-translated.py', '-i', os.path.join(os.path.dirname(__file__), "../dataset/translate/", f'{dataset_row["dataset_name"]}-en.csv'),
+                                    '-d', f'./{dataset_row["dataset_name"]}-result-{model_row["short_name"]}.csv', '-m', f'{model_row["model"]}'])
             else:
                 subprocess.run(['python', 'inference.py', '-i', f'{os.path.join(os.path.dirname(__file__) ,dataset_row["path"] ) }',
                                '-d', f'./{dataset_row["dataset_name"]}-result-{model_row["short_name"]}.csv', '-m', f'{model_row["model"]}'])
